@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="4">
+  <cards>
+
+    <card>
+      <name>SWTG Draft Archetypes</name>
+      <set>SWTG</set>
+      <prop>
+        <colors></colors>
+        <type></type>
+        <maintype></maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>GWU JEDI ORDER Jedi have abilities that trigger when they enter or leave the battlefield. They recur these with the Meditate mechanic returning them to your hand.
+WUB SEPARATISTS The Separatist Droid army uses the Repair mechanic to allow you to eventually recast your Droids from the graveyard.
+UBR SITH EMPIRE Sith get stringer with the Hate mechanic, granting stronger effects or new abilities if an opponent has lost life from anything but combat damage.
+BRG BOUNTY HUNTERS Criminals and bounty hunters place bounty counters on opposing creatures and reward you when those creatures die.
+RGW THE WILDS Wookiees, Ewoks, and large beasts use the Monstrosity mechanic to get larger and have abilities that care about being monstrous.
+WUBRG TROOPER LEGION Every trooper has an ability that strengthens all your troopers.</text>
+      <token>1</token>
+    </card>
+
+  </cards>
+</cockatrice_carddatabase>
