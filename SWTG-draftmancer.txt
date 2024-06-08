@@ -2613,6 +2613,7 @@
 		4 Tri-Fighter
 		4 Wookiee Raidleader
 		4 Drone Holocron
+		4 Jedi Holocron
 		4 Lightsaber
 		4 Sith Holocron
 		4 Outlaw Holocron
@@ -2624,7 +2625,6 @@
 		4 Jungle Village
 		4 Jedi Inquirer
 	[BasicSlot(1)]
-		10 Jedi Holocron
 		10 Plains
 		10 Island.1
 		10 Swamp
