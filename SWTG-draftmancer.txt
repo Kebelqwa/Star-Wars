@@ -19,11 +19,23 @@
 	    },
 	    {
 	        "name": "The Battle of Hoth",
-	        "rarity": "mythic",
-	        "mana_cost": "{X}{X}{W}{W}{W}",
-	        "type": "Sorcery",
+	        "mana_cost": "{2}{W}",
+	        "type": "Legendary Battle — Siege ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Hoth.jpg"
+	        },
+	        "printed names": {
+	            "en": "The Battle of Hoth"
+	        },
+	        "back": {
+	            "name": "Echo Base",
+	            "printed_names": {
+	                "en": "Echo Base"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Echo Base.jpg"
+	            },
+	            "type": "Legendary Artifact"
 	        }
 	    },
 	    {
@@ -72,15 +84,6 @@
 	        }
 	    },
 	    {
-	        "name": "EMP Blast",
-	        "rarity": "uncommon",
-	        "mana_cost": "{2}{W}",
-	        "type": "Instant",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/EMP Blast.jpg"
-	        }
-	    },
-	    {
 	        "name": "Escape Pod",
 	        "rarity": "common",
 	        "mana_cost": "{W}",
@@ -109,7 +112,7 @@
 	    },
 	    {
 	        "name": "Gifted Initiate",
-	        "rarity": "rare",
+	        "rarity": "common",
 	        "mana_cost": "{1}{W}",
 	        "type": "Creature — Human Jedi ",
 	        "image_uris": {
@@ -127,7 +130,7 @@
 	    },
 	    {
 	        "name": "Jedi Battle Healer",
-	        "rarity": "uncommon",
+	        "rarity": "common",
 	        "mana_cost": "{2}{W}",
 	        "type": "Creature — Mirialan Jedi ",
 	        "image_uris": {
@@ -156,7 +159,7 @@
 	        "name": "LAAT Gunship",
 	        "rarity": "uncommon",
 	        "mana_cost": "{3}{W}",
-	        "type": "Artifact — Vehicle ",
+	        "type": "Kindred Artifact — Trooper Vehicle ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/LAAT Gunship.jpg"
 	        }
@@ -201,7 +204,7 @@
 	        "name": "Nebulon-B Frigate",
 	        "rarity": "common",
 	        "mana_cost": "{3}{W}{W}",
-	        "type": "Artifact — Vehicle ",
+	        "type": "Kindred Artifact — Rebel Vehicle ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Nebulon-B Frigate.jpg"
 	        }
@@ -298,11 +301,23 @@
 	    },
 	    {
 	        "name": "The Battle of Naboo",
-	        "rarity": "mythic",
 	        "mana_cost": "{X}{X}{U}{U}",
-	        "type": "Sorcery",
+	        "type": "Legendary Battle — Siege ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Naboo.jpg"
+	        },
+	        "printed names": {
+	            "en": "The Battle of Naboo"
+	        },
+	        "back": {
+	            "name": "Gungan Shield Array",
+	            "printed_names": {
+	                "en": "Gungan Shield Array"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Gungan Shield Array.jpg"
+	            },
+	            "type": "Legendary Artifact"
 	        }
 	    },
 	    {
@@ -399,7 +414,7 @@
 	        "name": "Mon Calamari Cruiser",
 	        "rarity": "uncommon",
 	        "mana_cost": "{3}{U}{U}",
-	        "type": "Artifact — Vehicle ",
+	        "type": "Kindred Artifact — Rebel Vehicle ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Mon Calamari Cruiser.jpg"
 	        }
@@ -443,7 +458,7 @@
 	    {
 	        "name": "Probe Droid",
 	        "rarity": "common",
-	        "mana_cost": "{1}{U}",
+	        "mana_cost": "{U}",
 	        "type": "Artifact Creature — Droid Scout ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Probe Droid.jpg"
@@ -453,7 +468,7 @@
 	        "name": "Republic Frigate",
 	        "rarity": "common",
 	        "mana_cost": "{3}{U}",
-	        "type": "Artifact — Vehicle ",
+	        "type": "Kindred Artifact — Trooper Vehicle ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Republic Frigate.jpg"
 	        }
@@ -465,15 +480,6 @@
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Rumination.jpg"
-	        }
-	    },
-	    {
-	        "name": "Sabacc Game",
-	        "rarity": "uncommon",
-	        "mana_cost": "{1}{U}",
-	        "type": "Sorcery",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Sabacc Game.jpg"
 	        }
 	    },
 	    {
@@ -522,12 +528,12 @@
 	        }
 	    },
 	    {
-	        "name": "Ugnaught Scrap Worker",
+	        "name": "Spider Droid",
 	        "rarity": "common",
 	        "mana_cost": "{1}{U}",
-	        "type": "Creature — Ugnaught Artificer ",
+	        "type": "Artifact Creature — Droid ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Ugnaught Scrap Worker.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Spider Droid.jpg"
 	        }
 	    },
 	    {
@@ -577,11 +583,23 @@
 	    },
 	    {
 	        "name": "The Battle of Yavin",
-	        "rarity": "mythic",
 	        "mana_cost": "{X}{B}{B}",
-	        "type": "Sorcery",
+	        "type": "Legendary Battle — Siege ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Yavin.jpg"
+	        },
+	        "printed names": {
+	            "en": "The Battle of Yavin"
+	        },
+	        "back": {
+	            "name": "Trench Run",
+	            "printed_names": {
+	                "en": "Trench Run"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Trench Run.jpg"
+	            },
+	            "type": "Instant"
 	        }
 	    },
 	    {
@@ -615,7 +633,7 @@
 	        "name": "Death Trooper",
 	        "rarity": "uncommon",
 	        "mana_cost": "{1}{B}",
-	        "type": "Creature — Zombie Trooper ",
+	        "type": "Creature — Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Death Trooper.jpg"
 	        }
@@ -694,9 +712,9 @@
 	    },
 	    {
 	        "name": "Insatiable Rakghoul",
-	        "rarity": "common",
+	        "rarity": "uncommon",
 	        "mana_cost": "{5}{B}",
-	        "type": "Creature — Zombie Mutant ",
+	        "type": "Creature — Zombie Mutant Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Insatiable Rakghoul.jpg"
 	        }
@@ -731,7 +749,7 @@
 	    {
 	        "name": "Order 66",
 	        "rarity": "rare",
-	        "mana_cost": "{7}{B}{B}",
+	        "mana_cost": "{6}{B}{B}",
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Order 66.jpg"
@@ -777,7 +795,7 @@
 	        "name": "Sith Inquisitor",
 	        "rarity": "common",
 	        "mana_cost": "{3}{B}",
-	        "type": "Creature — Human Sith ",
+	        "type": "Creature — Sith ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Sith Inquisitor.jpg"
 	        }
@@ -847,11 +865,23 @@
 	    },
 	    {
 	        "name": "The Battle of Geonosis",
-	        "rarity": "mythic",
 	        "mana_cost": "{X}{X}{R}{R}",
-	        "type": "Sorcery",
+	        "type": "Legendary Battle — Siege ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Geonosis.jpg"
+	        },
+	        "printed names": {
+	            "en": "The Battle of Geonosis"
+	        },
+	        "back": {
+	            "name": "Core Ship Obliteratation",
+	            "printed_names": {
+	                "en": "Core Ship Obliteratation"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Core Ship Obliteratation.jpg"
+	            },
+	            "type": "Instant"
 	        }
 	    },
 	    {
@@ -888,15 +918,6 @@
 	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Dark Apprenticeship.jpg"
-	        }
-	    },
-	    {
-	        "name": "Flames of Remembrance",
-	        "rarity": "rare",
-	        "mana_cost": "{R}",
-	        "type": "Enchantment",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Flames of Remembrance.jpg"
 	        }
 	    },
 	    {
@@ -937,7 +958,7 @@
 	    },
 	    {
 	        "name": "Gundark",
-	        "rarity": "uncommon",
+	        "rarity": "common",
 	        "mana_cost": "{R}",
 	        "type": "Creature — Beast ",
 	        "image_uris": {
@@ -957,18 +978,9 @@
 	        "name": "Imperial Gunner",
 	        "rarity": "common",
 	        "mana_cost": "{R}",
-	        "type": "Creature — Human Soldier ",
+	        "type": "Creature — Human Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Imperial Gunner.jpg"
-	        }
-	    },
-	    {
-	        "name": "Impulsive Wager",
-	        "rarity": "common",
-	        "mana_cost": "{R}",
-	        "type": "Sorcery",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Impulsive Wager.jpg"
 	        }
 	    },
 	    {
@@ -978,15 +990,6 @@
 	        "type": "Legendary Creature — Human Mercenary ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Jango Fett.jpg"
-	        }
-	    },
-	    {
-	        "name": "Jar'Kai Battle Stance",
-	        "rarity": "common",
-	        "mana_cost": "{1}{R}",
-	        "type": "Instant",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Jar'Kai Battle Stance.jpg"
 	        }
 	    },
 	    {
@@ -1037,7 +1040,7 @@
 	    {
 	        "name": "Rocket Trooper",
 	        "rarity": "rare",
-	        "mana_cost": "{1}{R}",
+	        "mana_cost": "{3}{R}",
 	        "type": "Creature — Human Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Rocket Trooper.jpg"
@@ -1110,7 +1113,7 @@
 	        "name": "V-Wing",
 	        "rarity": "common",
 	        "mana_cost": "{1}{R}",
-	        "type": "Artifact — Vehicle ",
+	        "type": "Kindred Artifact — Rebel  Vehicle ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/V-Wing.jpg"
 	        }
@@ -1144,11 +1147,23 @@
 	    },
 	    {
 	        "name": "The Battle of Endor",
-	        "rarity": "mythic",
-	        "mana_cost": "{X}{X}{G}{G}{G}",
-	        "type": "Sorcery",
+	        "mana_cost": "{X}{X}{2}{G}{G}",
+	        "type": "Legendary Battle — Siege ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Endor.jpg"
+	        },
+	        "printed names": {
+	            "en": "The Battle of Endor"
+	        },
+	        "back": {
+	            "name": "Planetary Shield-Generator",
+	            "printed_names": {
+	                "en": "Planetary Shield-Generator"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Planetary Shield-Generator.jpg"
+	            },
+	            "type": "Legendary Artifact"
 	        }
 	    },
 	    {
@@ -1171,9 +1186,9 @@
 	    },
 	    {
 	        "name": "Corellian Corvette",
-	        "rarity": "uncommon",
+	        "rarity": "common",
 	        "mana_cost": "{3}{G}",
-	        "type": "Artifact — Vehicle ",
+	        "type": "Kindred Artifact — Rebel Vehicle ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Corellian Corvette.jpg"
 	        }
@@ -1191,7 +1206,7 @@
 	        "name": "Ewok Firedancers",
 	        "rarity": "common",
 	        "mana_cost": "{3}{G}",
-	        "type": "Creature — Ewok Shaman ",
+	        "type": "Creature — Ewok Rebel Shaman ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Ewok Firedancers.jpg"
 	        }
@@ -1261,7 +1276,7 @@
 	    },
 	    {
 	        "name": "Legacy of the Beloved",
-	        "rarity": "rare",
+	        "rarity": "uncommon",
 	        "mana_cost": "{3}{G}{G}",
 	        "type": "Sorcery",
 	        "image_uris": {
@@ -1392,15 +1407,6 @@
 	        "type": "Creature — Human Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Trooper Commando.jpg"
-	        }
-	    },
-	    {
-	        "name": "Twi'lek Seductress",
-	        "rarity": "common",
-	        "mana_cost": "{1}{G}",
-	        "type": "Creature — Twi’lek Rogue ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Twi'lek Seductress.jpg"
 	        }
 	    },
 	    {
@@ -1536,7 +1542,7 @@
 	        "name": "Chief Chirpa",
 	        "rarity": "rare",
 	        "mana_cost": "{R}{G}{W}",
-	        "type": "Legendary Creature — Ewok Warrior ",
+	        "type": "Legendary Creature — Ewok Rebel Warrior ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Chief Chirpa.jpg"
 	        }
@@ -1554,7 +1560,7 @@
 	        "name": "Cruelty of the Sith",
 	        "rarity": "uncommon",
 	        "mana_cost": "{U}{B}{R}",
-	        "type": "Instant",
+	        "type": "Kindred Instant — Sith ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Cruelty of the Sith.jpg"
 	        }
@@ -1611,15 +1617,6 @@
 	        "type": "Legendary Planeswalker — Dooku ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Darth Tyranus, Count Dooku.jpg"
-	        }
-	    },
-	    {
-	        "name": "Echo Base Commando",
-	        "rarity": "rare",
-	        "mana_cost": "{1}{G}{W}",
-	        "type": "Creature — Human Rebel ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Echo Base Commando.jpg"
 	        }
 	    },
 	    {
@@ -1884,12 +1881,12 @@
 	        }
 	    },
 	    {
-	        "name": "Senator Onaconda Farr",
+	        "name": "Tarfful, Wookiee General",
 	        "rarity": "uncommon",
 	        "mana_cost": "{R}{G}",
-	        "type": "Legendary Creature — Rodian Advisor ",
+	        "type": "Legendary Creature — Wookiee Warrior ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Senator Onaconda Farr.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Tarfful, Wookiee General.jpg"
 	        }
 	    },
 	    {
@@ -1902,12 +1899,12 @@
 	        }
 	    },
 	    {
-	        "name": "Senator Passel Argente",
+	        "name": "Hondo Ohnaka",
 	        "rarity": "uncommon",
-	        "mana_cost": "{B}{R}",
-	        "type": "Legendary Creature — Koorivar Advisor ",
+	        "mana_cost": "{1}{B}{R}",
+	        "type": "Legendary Creature — Weequay Pirate ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Senator Passel Argente.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Hondo Ohnaka.jpg"
 	        }
 	    },
 	    {
@@ -1932,7 +1929,7 @@
 	        "name": "Slave I",
 	        "rarity": "rare",
 	        "mana_cost": "{B}{R}{G}",
-	        "type": "Legendary Artifact — Vehicle ",
+	        "type": "Legendary Kindred Artifact — Mercenary Vehicle ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Slave I.jpg"
 	        }
@@ -2003,7 +2000,7 @@
 	    {
 	        "name": "Fulfill Contract",
 	        "rarity": "common",
-	        "mana_cost": "{B/R}{B/R}",
+	        "mana_cost": "{1}{B/R}",
 	        "type": "Instant",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Fulfill Contract.jpg"
@@ -2012,7 +2009,7 @@
 	    {
 	        "name": "N-1 Starfighter",
 	        "rarity": "common",
-	        "mana_cost": "{1}{W/U}{W/U}",
+	        "mana_cost": "{2}{W/U}{W/U}",
 	        "type": "Artifact — Vehicle ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/N-1 Starfighter.jpg"
@@ -2020,8 +2017,8 @@
 	    },
 	    {
 	        "name": "Ravenous Wampa",
-	        "rarity": "uncommon",
-	        "mana_cost": "{2}{R/W}{R/W}",
+	        "rarity": "common",
+	        "mana_cost": "{2}{R}{R}",
 	        "type": "Creature — Beast ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Ravenous Wampa.jpg"
@@ -2353,7 +2350,7 @@
 	    },
 	    {
 	        "name": "Jedi Inquirer",
-	        "rarity": "common",
+	        "rarity": "uncommon",
 	        "mana_cost": "{2}{W}",
 	        "type": "Creature — Human Jedi ",
 	        "image_uris": {
@@ -2361,18 +2358,404 @@
 	        }
 	    },
 	    {
-	        "name": "SWTG Draft Archetypes",
+	        "name": "SWTG 3+Color Archetypes",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG Draft Archetypes.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
+	        }
+	    },
+	    {
+	        "name": "Tusken Raider",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Token Creature — Tusken ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Tusken Raider.jpg"
+	        }
+	    },
+	    {
+	        "name": "TIE Fighter",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Token Artifact — Vehicle ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/TIE Fighter.jpg"
+	        }
+	    },
+	    {
+	        "name": "Droid",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Token Artifact Creature — Droid ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Droid.jpg"
+	        }
+	    },
+	    {
+	        "name": "Trooper",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Token Creature — Trooper ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Trooper.jpg"
+	        }
+	    },
+	    {
+	        "name": "Royal Guard",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Token Creature — Trooper ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Royal Guard.jpg"
+	        }
+	    },
+	    {
+	        "name": "Rebel",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Token Creature — Rebel ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Rebel.jpg"
+	        }
+	    },
+	    {
+	        "name": "B-Wing",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Token Kindred Artifact — Rebel Vehicle ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/B-Wing.jpg"
+	        }
+	    },
+	    {
+	        "name": "Ewok Rebel",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Token Creature — Ewok Rebel ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Ewok Rebel.jpg"
+	        }
+	    },
+	    {
+	        "name": "Bounty Hunter",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Token Creature — Mercenary ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Bounty Hunter.jpg"
+	        }
+	    },
+	    {
+	        "name": "SWTG 2-Color Archetypes",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 2-Color Archetypes.jpg"
+	        }
+	    },
+	    {
+	        "name": "Trooper.1",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Token Creature — Trooper ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Trooper.1.jpg"
+	        }
+	    },
+	    {
+	        "name": "Obi-Wan Kenobi Emblem",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Emblem",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Obi-Wan Kenobi Emblem.jpg"
+	        }
+	    },
+	    {
+	        "name": "Yoda, Jedi Master Emblem",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Emblem",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Yoda, Jedi Master Emblem.jpg"
+	        }
+	    },
+	    {
+	        "name": "Aurra Sing, Bane of Jedi Emblem",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Emblem",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Aurra Sing, Bane of Jedi Emblem.jpg"
+	        }
+	    },
+	    {
+	        "name": "AT-AT",
+	        "rarity": "mythic",
+	        "mana_cost": "{3}{W}{W}",
+	        "type": "Artifact — Vehicle ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/AT-AT.jpg"
+	        }
+	    },
+	    {
+	        "name": "The Battle of Coruscant",
+	        "mana_cost": "{1}{R}",
+	        "type": "Legendary Battle — Siege ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Coruscant.jpg"
+	        },
+	        "printed names": {
+	            "en": "The Battle of Coruscant"
+	        },
+	        "back": {
+	            "name": "Do It!",
+	            "printed_names": {
+	                "en": "Do It!"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Do It!.jpg"
+	            },
+	            "type": "Instant"
+	        }
+	    },
+	    {
+	        "name": "The Battle of Heroes",
+	        "mana_cost": "{1}{R}",
+	        "type": "Legendary Battle — Siege ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Heroes.jpg"
+	        },
+	        "printed names": {
+	            "en": "The Battle of Heroes"
+	        },
+	        "back": {
+	            "name": "Banks of Mustafar",
+	            "printed_names": {
+	                "en": "Banks of Mustafar"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Banks of Mustafar.jpg"
+	            },
+	            "type": "Legendary Artifact"
+	        }
+	    },
+	    {
+	        "name": "The Battle of Kamino",
+	        "mana_cost": "{1}{U}",
+	        "type": "Legendary Battle — Siege ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Kamino.jpg"
+	        },
+	        "printed names": {
+	            "en": "The Battle of Kamino"
+	        },
+	        "back": {
+	            "name": "Sink the City",
+	            "printed_names": {
+	                "en": "Sink the City"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Sink the City.jpg"
+	            },
+	            "type": "Instant"
+	        }
+	    },
+	    {
+	        "name": "The Battle of Christophsis",
+	        "mana_cost": "{3}{U}",
+	        "type": "Legendary Battle — Siege ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Christophsis.jpg"
+	        },
+	        "printed names": {
+	            "en": "The Battle of Christophsis"
+	        },
+	        "back": {
+	            "name": "Arc Trooper",
+	            "printed_names": {
+	                "en": "Arc Trooper"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Arc Trooper.jpg"
+	            },
+	            "type": "Creature — Human Trooper "
+	        }
+	    },
+	    {
+	        "name": "The Battle of Scarif",
+	        "mana_cost": "{1}{W}",
+	        "type": "Legendary Battle — Siege ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Scarif.jpg"
+	        },
+	        "printed names": {
+	            "en": "The Battle of Scarif"
+	        },
+	        "back": {
+	            "name": "Citadel Landing Zone",
+	            "printed_names": {
+	                "en": "Citadel Landing Zone"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Citadel Landing Zone.jpg"
+	            },
+	            "type": "Legendary Artifact"
+	        }
+	    },
+	    {
+	        "name": "Duel of the Fates",
+	        "mana_cost": "{2}{R}{R}",
+	        "type": "Legendary Battle — Siege ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Duel of the Fates.jpg"
+	        },
+	        "printed names": {
+	            "en": "Duel of the Fates"
+	        },
+	        "back": {
+	            "name": "The Sith Revealed",
+	            "printed_names": {
+	                "en": "The Sith Revealed"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Sith Revealed.jpg"
+	            },
+	            "type": "Instant"
+	        }
+	    },
+	    {
+	        "name": "The Battle of Felucia",
+	        "mana_cost": "{2}{G}",
+	        "type": "Legendary Battle — Siege ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Felucia.jpg"
+	        },
+	        "printed names": {
+	            "en": "The Battle of Felucia"
+	        },
+	        "back": {
+	            "name": "HAVw A6 Juggernaut",
+	            "printed_names": {
+	                "en": "HAVw A6 Juggernaut"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/HAVw A6 Juggernaut.jpg"
+	            },
+	            "type": "Kindred Artifact — Trooper Vehicle "
+	        }
+	    },
+	    {
+	        "name": "Amidala, Queen of Naboo",
+	        "rarity": "rare",
+	        "mana_cost": "{1}{G}{W}",
+	        "type": "Legendary Creature — Human Noble ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Amidala, Queen of Naboo.jpg"
+	        }
+	    },
+	    {
+	        "name": "Bludgeoning Pain",
+	        "rarity": "common",
+	        "mana_cost": "{1}{B}",
+	        "type": "Instant",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Bludgeoning Pain.jpg"
+	        }
+	    },
+	    {
+	        "name": "Obi-Wan, Jedi Padawan",
+	        "rarity": "rare",
+	        "mana_cost": "{1}{G}{W}{U}",
+	        "type": "Legendary Creature — Human Jedi ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Obi-Wan, Jedi Padawan.jpg"
+	        }
+	    },
+	    {
+	        "name": "The Battle of Kashyyyk",
+	        "mana_cost": "{2}{G}",
+	        "type": "Legendary Battle — Siege ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Kashyyyk.jpg"
+	        },
+	        "printed names": {
+	            "en": "The Battle of Kashyyyk"
+	        },
+	        "back": {
+	            "name": "Orders Received",
+	            "printed_names": {
+	                "en": "Orders Received"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Orders Received.jpg"
+	            },
+	            "type": "Instant"
+	        }
+	    },
+	    {
+	        "name": "The Battle of Utapau",
+	        "mana_cost": "{2}{B}",
+	        "type": "Legendary Battle — Siege ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Utapau.jpg"
+	        },
+	        "printed names": {
+	            "en": "The Battle of Utapau"
+	        },
+	        "back": {
+	            "name": "TSMEU-6 Wheel Bike",
+	            "printed_names": {
+	                "en": "TSMEU-6 Wheel Bike"
+	            },
+	            "image_uris": {
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/TSMEU-6 Wheel Bike.jpg"
+	            },
+	            "type": "Artifact — Vehicle "
+	        }
+	    },
+	    {
+	        "name": "General Grievous SPG",
+	        "rarity": "masterpiece",
+	        "mana_cost": "{W}{U}{B}",
+	        "type": "Legendary Artifact Creature — Kaleesh ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/General Grievous SPG.jpg"
+	        }
+	    },
+	    {
+	        "name": "Amidala, Queen of Naboo SPG",
+	        "rarity": "masterpiece",
+	        "mana_cost": "{1}{G}{W}",
+	        "type": "Legendary Creature — Human Noble ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Amidala, Queen of Naboo SPG.jpg"
+	        }
+	    },
+	    {
+	        "name": "Boba Fett SPG",
+	        "rarity": "masterpiece",
+	        "mana_cost": "{2}{B}{R}{G}",
+	        "type": "Legendary Creature — Human Mercenary ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Boba Fett SPG.jpg"
+	        }
+	    },
+	    {
+	        "name": "Conscription",
+	        "rarity": "uncommon",
+	        "mana_cost": "{2}{U}{U}",
+	        "type": "Sorcery",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Conscription.jpg"
 	        }
 	    }
 	]
-	[RareSlot(1)]
+	[RareSlot(2)]
 		3 Bantha Herd
-		3 Gifted Initiate
 		3 Lando Calrissian
 		3 Maintenance Hangar
 		3 Orbital Bombardment
@@ -2387,7 +2770,6 @@
 		3 IG-88B
 		3 Order 66
 		3 Sith Lord
-		3 Flames of Remembrance
 		3 Force Lightning
 		3 Han Solo
 		3 Jango Fett
@@ -2396,7 +2778,6 @@
 		3 Bossk
 		3 Exogorth
 		3 Ki-Adi-Mundi
-		3 Legacy of the Beloved
 		3 Millennium Falcon
 		3 Acklay of the Arena
 		3 Asajj Ventress
@@ -2408,7 +2789,6 @@
 		3 Commander Cody
 		3 Cunning Abduction
 		3 Darth Maul
-		3 Echo Base Commando
 		3 Force Mastery
 		3 Greedo
 		3 Hot Pursuit
@@ -2427,7 +2807,14 @@
 		3 Tank Droid
 		3 Trade Federation Battleship
 		3 Kamino Cloning Facility
-		1 The Battle of Hoth
+		3 The Battle of Heroes
+		3 The Battle of Christophsis
+		3 The Battle of Scarif
+		3 Duel of the Fates
+		3 Amidala, Queen of Naboo
+		3 Obi-Wan, Jedi Padawan
+		3 The Battle of Kashyyyk
+		3 The Battle of Utapau
 		1 The Battle of Naboo
 		1 The Battle of Yavin
 		1 The Battle of Geonosis
@@ -2443,13 +2830,13 @@
 		1 Obi-Wan Kenobi
 		1 Yoda, Jedi Master
 		1 The Death Star
-	[UncommonSlot(3)]
+		1 AT-AT
+	[UncommonSlot(4)]
+		3 The Battle of Hoth
 		3 Battle Tactics
 		3 Condemn
 		3 Deploy The Troops
 		3 Droideka
-		3 EMP Blast
-		3 Jedi Battle Healer
 		3 Jedi Starfighter
 		3 LAAT Gunship
 		3 Miraculous Recovery
@@ -2462,7 +2849,6 @@
 		3 Jump Trooper
 		3 Mon Calamari Cruiser
 		3 Preordain
-		3 Sabacc Game
 		3 Sith Manipulator
 		3 Y-Wing
 		3 Black Market Dealer
@@ -2470,6 +2856,7 @@
 		3 Death Trooper
 		3 Doom Blade
 		3 Hazard Trooper
+		3 Insatiable Rakghoul
 		3 Open Season
 		3 Rule of Two
 		3 Sith Assassin
@@ -2480,16 +2867,15 @@
 		3 Dark Apprenticeship
 		3 Force Scream
 		3 Gamorrean Prison Guard
-		3 Gundark
 		3 Lightning Bolt
 		3 Shock Trooper
 		3 Sith Marauder
 		3 Smash to Smithereens
 		3 Weequay Beastmaster
 		3 Bounty Collector
-		3 Corellian Corvette
 		3 Hutt Crime Lord
 		3 Jedi Battle Sage
+		3 Legacy of the Beloved
 		3 Mantellian Savrip
 		3 Nerf Herder
 		3 Nexu Stalker
@@ -2505,14 +2891,13 @@
 		3 Rumor Monger
 		3 Senator Bail Organa
 		3 Senator Lott Dod
-		3 Senator Onaconda Farr
+		3 Tarfful, Wookiee General
 		3 Senator Padmé Amidala
-		3 Senator Passel Argente
+		3 Hondo Ohnaka
 		3 Sith Mindseer
 		3 Unity of the Droids
 		3 Wisdom of the Jedi
 		3 Wookiee Mystic
-		3 Ravenous Wampa
 		3 Ancient Holocron
 		3 Dark Trooper
 		3 Trooper Armor
@@ -2523,13 +2908,20 @@
 		3 Ewok Village
 		3 Rogues Passage
 		3 Moisture Farm
-	[CommonSlot(10)]
+		3 Jedi Inquirer
+		3 The Battle of Coruscant
+		3 The Battle of Kamino
+		3 The Battle of Felucia
+		3 Conscription
+	[CommonSlot(9)]
 		4 Arrest
 		4 Cantina Band
 		4 Escape Pod
 		4 Force Healing
 		4 Force Reflex
+		4 Gifted Initiate
 		4 Ion Cannon
+		4 Jedi Battle Healer
 		4 Jedi Instructor
 		4 Loyal Tauntaun
 		4 Nebulon-B Frigate
@@ -2550,7 +2942,7 @@
 		4 Sith Sorcerer
 		4 Super Battle Droid
 		4 Surprise Maneuver
-		4 Ugnaught Scrap Worker
+		4 Spider Droid
 		4 Vapor Snag
 		4 Acquire Target
 		4 Aqualish Bounty Hunter
@@ -2558,7 +2950,6 @@
 		4 Force Drain
 		4 Head Hunting
 		4 Heavy Trooper
-		4 Insatiable Rakghoul
 		4 Interrogation
 		4 Neophyte Hateflayer
 		4 Repurpose
@@ -2570,9 +2961,8 @@
 		4 Capture
 		4 Crossfire
 		4 Force Spark
+		4 Gundark
 		4 Imperial Gunner
-		4 Impulsive Wager
-		4 Jar'Kai Battle Stance
 		4 Novice Bounty Hunter
 		4 Raging Reek
 		4 Rallying Fire
@@ -2583,6 +2973,7 @@
 		4 Terentatek Cub
 		4 V-Wing
 		4 Bathe in Bacta
+		4 Corellian Corvette
 		4 Ewok Ambush
 		4 Ewok Firedancers
 		4 Force Pull
@@ -2595,7 +2986,6 @@
 		4 Scout the Perimeter
 		4 Scout Trooper
 		4 Shaak Herd
-		4 Twi'lek Seductress
 		4 Wookiee Bounty Hunter
 		4 Adroit Hateflayer
 		4 Dagobah Maw Slug
@@ -2609,6 +2999,7 @@
 		4 Salvage Squad
 		4 Fulfill Contract
 		4 N-1 Starfighter
+		4 Ravenous Wampa
 		4 Strike Team Commando
 		4 Tri-Fighter
 		4 Wookiee Raidleader
@@ -2623,7 +3014,7 @@
 		4 Sith Ruins
 		4 Underworld Slums
 		4 Jungle Village
-		4 Jedi Inquirer
+		4 Bludgeoning Pain
 	[BasicSlot(1)]
 		10 Plains
 		10 Island.1
