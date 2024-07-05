@@ -874,7 +874,7 @@
 	            "en": "The Battle of Geonosis"
 	        },
 	        "back": {
-	            "name": "Core Ship Obliteratation",
+	            "name": "Core Ship Obliteration",
 	            "printed_names": {
 	                "en": "Core Ship Obliteratation"
 	            },
