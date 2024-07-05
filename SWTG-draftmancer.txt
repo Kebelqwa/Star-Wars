@@ -876,10 +876,10 @@
 	        "back": {
 	            "name": "Core Ship Obliteration",
 	            "printed_names": {
-	                "en": "Core Ship Obliteratation"
+	                "en": "Core Ship Obliteration"
 	            },
 	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Core Ship Obliteratation.jpg"
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Core Ship Obliteration.jpg"
 	            },
 	            "type": "Instant"
 	        }
