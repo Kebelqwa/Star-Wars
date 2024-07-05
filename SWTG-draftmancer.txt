@@ -2718,33 +2718,6 @@
 	        }
 	    },
 	    {
-	        "name": "General Grievous SPG",
-	        "rarity": "masterpiece",
-	        "mana_cost": "{W}{U}{B}",
-	        "type": "Legendary Artifact Creature — Kaleesh ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/General Grievous SPG.jpg"
-	        }
-	    },
-	    {
-	        "name": "Amidala, Queen of Naboo SPG",
-	        "rarity": "masterpiece",
-	        "mana_cost": "{1}{G}{W}",
-	        "type": "Legendary Creature — Human Noble ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Amidala, Queen of Naboo SPG.jpg"
-	        }
-	    },
-	    {
-	        "name": "Boba Fett SPG",
-	        "rarity": "masterpiece",
-	        "mana_cost": "{2}{B}{R}{G}",
-	        "type": "Legendary Creature — Human Mercenary ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Boba Fett SPG.jpg"
-	        }
-	    },
-	    {
 	        "name": "Conscription",
 	        "rarity": "uncommon",
 	        "mana_cost": "{2}{U}{U}",
