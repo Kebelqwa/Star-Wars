@@ -633,7 +633,7 @@
 	        "name": "Death Trooper",
 	        "rarity": "uncommon",
 	        "mana_cost": "{1}{B}",
-	        "type": "Creature — Trooper ",
+	        "type": "Creature — Human Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Death Trooper.jpg"
 	        }
@@ -2677,7 +2677,7 @@
 	    },
 	    {
 	        "name": "The Battle of Kashyyyk",
-	        "mana_cost": "{2}{G}",
+	        "mana_cost": "{1}{G}",
 	        "type": "Legendary Battle — Siege ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Kashyyyk.jpg"
@@ -2718,6 +2718,33 @@
 	        }
 	    },
 	    {
+	        "name": "General Grievous SPG",
+	        "rarity": "masterpiece",
+	        "mana_cost": "{W}{U}{B}",
+	        "type": "Legendary Artifact Creature — Kaleesh ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/General Grievous SPG.jpg"
+	        }
+	    },
+	    {
+	        "name": "Amidala, Queen of Naboo SPG",
+	        "rarity": "masterpiece",
+	        "mana_cost": "{1}{G}{W}",
+	        "type": "Legendary Creature — Human Noble ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Amidala, Queen of Naboo SPG.jpg"
+	        }
+	    },
+	    {
+	        "name": "Boba Fett SPG",
+	        "rarity": "masterpiece",
+	        "mana_cost": "{2}{B}{R}{G}",
+	        "type": "Legendary Creature — Human Mercenary ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Boba Fett SPG.jpg"
+	        }
+	    },
+	    {
 	        "name": "Conscription",
 	        "rarity": "uncommon",
 	        "mana_cost": "{2}{U}{U}",
@@ -2728,66 +2755,66 @@
 	    }
 	]
 	[RareSlot(2)]
-		3 Bantha Herd
-		3 Lando Calrissian
-		3 Maintenance Hangar
-		3 Orbital Bombardment
-		3 Plo Koon
-		3 Admiral Ackbar
-		3 Jar Jar Binks
-		3 Jedi Mind Trick
-		3 Mace Windu
-		3 Zam Wesell
-		3 Bib Fortuna
-		3 Grand Moff Tarkin
-		3 IG-88B
-		3 Order 66
-		3 Sith Lord
-		3 Force Lightning
-		3 Han Solo
-		3 Jango Fett
-		3 Rocket Trooper
-		3 AT-ST
-		3 Bossk
-		3 Exogorth
-		3 Ki-Adi-Mundi
-		3 Millennium Falcon
-		3 Acklay of the Arena
-		3 Asajj Ventress
-		3 Blind Worship
-		3 Bull Rancor
-		3 C-3PO and R2D2
-		3 Chewbacca
-		3 Chief Chirpa
-		3 Commander Cody
-		3 Cunning Abduction
-		3 Darth Maul
-		3 Force Mastery
-		3 Greedo
-		3 Hot Pursuit
-		3 Hunt to Extinction
-		3 Iron Fist of the Empire
-		3 Jabba the Hutt
-		3 March of the Droids
-		3 Nute Gunray
-		3 Precipice of Mortis
-		3 Princess Leia
-		3 Qui-Gon Jinn
-		3 Sarlacc Pit
-		3 Sith Magic
-		3 Slave I
-		3 Star Destroyer
-		3 Tank Droid
-		3 Trade Federation Battleship
-		3 Kamino Cloning Facility
-		3 The Battle of Heroes
-		3 The Battle of Christophsis
-		3 The Battle of Scarif
-		3 Duel of the Fates
-		3 Amidala, Queen of Naboo
-		3 Obi-Wan, Jedi Padawan
-		3 The Battle of Kashyyyk
-		3 The Battle of Utapau
+		2 Bantha Herd
+		2 Lando Calrissian
+		2 Maintenance Hangar
+		2 Orbital Bombardment
+		2 Plo Koon
+		2 Admiral Ackbar
+		2 Jar Jar Binks
+		2 Jedi Mind Trick
+		2 Mace Windu
+		2 Zam Wesell
+		2 Bib Fortuna
+		2 Grand Moff Tarkin
+		2 IG-88B
+		2 Order 66
+		2 Sith Lord
+		2 Force Lightning
+		2 Han Solo
+		2 Jango Fett
+		2 Rocket Trooper
+		2 AT-ST
+		2 Bossk
+		2 Exogorth
+		2 Ki-Adi-Mundi
+		2 Millennium Falcon
+		2 Acklay of the Arena
+		2 Asajj Ventress
+		2 Blind Worship
+		2 Bull Rancor
+		2 C-3PO and R2D2
+		2 Chewbacca
+		2 Chief Chirpa
+		2 Commander Cody
+		2 Cunning Abduction
+		2 Darth Maul
+		2 Force Mastery
+		2 Greedo
+		2 Hot Pursuit
+		2 Hunt to Extinction
+		2 Iron Fist of the Empire
+		2 Jabba the Hutt
+		2 March of the Droids
+		2 Nute Gunray
+		2 Precipice of Mortis
+		2 Princess Leia
+		2 Qui-Gon Jinn
+		2 Sarlacc Pit
+		2 Sith Magic
+		2 Slave I
+		2 Star Destroyer
+		2 Tank Droid
+		2 Trade Federation Battleship
+		2 Kamino Cloning Facility
+		2 The Battle of Heroes
+		2 The Battle of Christophsis
+		2 The Battle of Scarif
+		2 Duel of the Fates
+		2 Amidala, Queen of Naboo
+		2 Obi-Wan, Jedi Padawan
+		2 The Battle of Kashyyyk
+		2 The Battle of Utapau
 		1 The Battle of Naboo
 		1 The Battle of Yavin
 		1 The Battle of Geonosis
