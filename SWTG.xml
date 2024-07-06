@@ -56,7 +56,6 @@ When The Battle of Hoth enters, create two 1/1 white Trooper creature tokens.
 (Back): Echo Base</text>
       <related attach="transform">Echo Base</related>
       <related count="2">Trooper1</related>
-      <related>Trooper</related>
     </card>
     <card>
       <name>Echo Base</name>
@@ -68,13 +67,11 @@ When The Battle of Hoth enters, create two 1/1 white Trooper creature tokens.
         <type>Legendary Artifact</type>
       </prop>
       <tablerow>1</tablerow>
-      <text>Echo Base enters tapped.
-2W, {T}: Create a token copy of target creature token you control that didn’t enter this turn.
+      <text>2W, {T}: Create a token copy of target creature token you control that didn’t enter this turn.
 ---
 (Front): The Battle of Hoth</text>
       <related attach="transform">The Battle of Hoth</related>
       <related count="2">Trooper1</related>
-      <related>Trooper</related>
     </card>
     <card>
       <name>Battle Tactics</name>
@@ -1034,7 +1031,7 @@ Whenever you complete a bounty counter dies, untap Bounty Spotter. (You complete
         <colors>B</colors>
         <manacost>1B</manacost>
         <cmc>2</cmc>
-        <type>Creature - Trooper </type>
+        <type>Creature - Human Trooper </type>
         <maintype>Creature</maintype>
         <pt>1/1</pt>
       </prop>
@@ -1416,12 +1413,12 @@ Crew 1</text>
       <text>(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, exile it, then cast it transformed.)
 When The Battle of Geonosis enters, it deals X damage to each opponent and each creature they control. Creatures you control get +X/+0 until end of turn.
 ---
-(Back): Core Ship Obliteratation</text>
-      <related attach="transform">Core Ship Obliteratation</related>
+(Back): Core Ship Obliteration</text>
+      <related attach="transform">Core Ship Obliteration</related>
     </card>
     <card>
-      <name>Core Ship Obliteratation</name>
-      <set rarity="mythic" splitterPath="/Core Ship Obliteratation.jpg" >SWTG</set>
+      <name>Core Ship Obliteration</name>
+      <set rarity="mythic" splitterPath="/Core Ship Obliteration.jpg" >SWTG</set>
       <prop>
         <colors>R</colors>
         <manacost></manacost>
@@ -1587,7 +1584,7 @@ At the beginning of combat on your turn, target Vehicle creature you control get
         <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>{1}, {T}: Imperial Gunner deals 1 damage to target player, planeswalker, or Vehicle creature.</text>
+      <text>{1}, {T}: Imperial Gunner deals 1 damage to any nonplayer target.</text>
     </card>
     <card>
       <name>Jango Fett</name>
@@ -2720,7 +2717,7 @@ When Greater Krayt Dragon becomes monstrous, draw a card for each +1/+1 counter 
       </prop>
       <tablerow>2</tablerow>
       <text>Creatures blocking or blocked by Greedo have first strike.
-When Greedo dies, you may search your library for an outlaw card, reveal it, and put it into your hand. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</text>
+When Greedo dies, you may search your library for an outlaw card, reveal it, and put it into your hand, then shuffle. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</text>
     </card>
     <card>
       <name>Hot Pursuit</name>
@@ -3929,8 +3926,7 @@ When The Battle of Heroes enters, up to one target creature you control fights u
         <type>Legendary Artifact</type>
       </prop>
       <tablerow>1</tablerow>
-      <text>Banks of Mustafar enters tapped.
-1RR, {T}, Sacrifice a land: Banks of Mustafar deals 2 damage to target opponent.
+      <text>1RR, {T}, Sacrifice a land: Banks of Mustafar deals 2 damage to target opponent.
 ---
 (Front): The Battle of Heroes</text>
       <related attach="transform">The Battle of Heroes</related>
@@ -4068,28 +4064,28 @@ Whenever one or more creatures you control deal combat damage to an opponent and
     </card>
     <card>
       <name>The Battle of Felucia</name>
-      <set rarity="uncommon" splitterPath="/The Battle of Felucia.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/The Battle of Felucia.jpg" >SWTG</set>
       <prop>
         <colors>G</colors>
-        <manacost>2G</manacost>
-        <cmc>3</cmc>
+        <manacost>3G</manacost>
+        <cmc>4</cmc>
         <type>Legendary Battle - Siege </type>
         <maintype>Battle</maintype>
       </prop>
       <tablerow>1</tablerow>
       <text>(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, exile it, then cast it transformed.)
-When The Battle of Felucia enters, search your library for a land card, put it onto the battlefield tapped, then shuffle.
+When The Battle of Felucia enters, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
 ---
 (Back): HAVw A6 Juggernaut</text>
       <related attach="transform">HAVw A6 Juggernaut</related>
     </card>
     <card>
       <name>HAVw A6 Juggernaut</name>
-      <set rarity="uncommon" splitterPath="/HAVw A6 Juggernaut.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/HAVw A6 Juggernaut.jpg" >SWTG</set>
       <prop>
         <colors>G</colors>
         <manacost></manacost>
-        <cmc>3</cmc>
+        <cmc>4</cmc>
         <type>Kindred Artifact - Trooper Vehicle </type>
       </prop>
       <tablerow>1</tablerow>
@@ -4145,33 +4141,32 @@ Meditate 1U (1U: Return this creature to its owner’s hand. Meditate only as a 
     </card>
     <card>
       <name>The Battle of Kashyyyk</name>
-      <set rarity="rare" splitterPath="/The Battle of Kashyyyk.jpg" >SWTG</set>
+      <set rarity="uncommon" splitterPath="/The Battle of Kashyyyk.jpg" >SWTG</set>
       <prop>
         <colors>G</colors>
-        <manacost>2G</manacost>
-        <cmc>3</cmc>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
         <type>Legendary Battle - Siege </type>
         <maintype>Battle</maintype>
       </prop>
       <tablerow>1</tablerow>
       <text>(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, exile it, then cast it transformed.)
-Whenever you defeat The Battle of Kashyyyk or another battle, draw a card. Then you may put a land card from your hand onto the battlefield tapped.
+Whenever you defeat The Battle of Kashyyyk, draw a card. Then you may put a land card from your hand onto the battlefield tapped.
 ---
 (Back): Orders Received</text>
       <related attach="transform">Orders Received</related>
     </card>
     <card>
       <name>Orders Received</name>
-      <set rarity="rare" splitterPath="/Orders Received.jpg" >SWTG</set>
+      <set rarity="uncommon" splitterPath="/Orders Received.jpg" >SWTG</set>
       <prop>
         <colors>G</colors>
         <manacost></manacost>
-        <cmc>3</cmc>
+        <cmc>2</cmc>
         <type>Instant</type>
       </prop>
       <tablerow>3</tablerow>
-      <text>As an additional cost to cast this spell, sacrifice a land.
-Search your library for a land card, put that card onto the battlefield, then shuffle.
+      <text>You may sacrifice a land. If you do, search your library for a land card, put that card onto the battlefield, then shuffle.
 ---
 (Front): The Battle of Kashyyyk</text>
       <related attach="transform">The Battle of Kashyyyk</related>
