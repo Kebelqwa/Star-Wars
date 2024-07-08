@@ -10,7 +10,7 @@
   <cards>
 
     <card>
-      <name>Arrest</name>
+      <name>Lockdown</name>
       <set rarity="common">SWTG</set>
       <prop>
         <colors>W</colors>
@@ -20,8 +20,8 @@
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchant creature
-Enchanted creature can’t attack or block, and its activated abilities can’t be activated.</text>
+      <text>Enchant artifact or creature
+Enchanted permanent can’t attack or block and its activated abilities can’t be activated.</text>
     </card>
     <card>
       <name>Bantha Herd</name>
@@ -35,8 +35,8 @@ Enchanted creature can’t attack or block, and its activated abilities can’t 
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>X2W: Monstrosity X. (If this creature isn’t monstrous, put X +1/+1 counters on it and it becomes monstrous.)
-When Bantha Herd becomes monstrous, create X 1/1 white Tusken creature tokens named Tusken Raider.</text>
+      <text>XXW: Monstrosity X. (If this creature isn’t monstrous, put X +1/+1 counters on it and it becomes monstrous.)
+When Bantha Herd becomes monstrous, create twice X 1/1 white Tusken creature tokens named Tusken Raider.</text>
       <related>Tusken Raider</related>
     </card>
     <card>
@@ -118,8 +118,8 @@ When The Battle of Hoth enters, create two 1/1 white Trooper creature tokens.
       <set rarity="uncommon">SWTG</set>
       <prop>
         <colors>W</colors>
-        <manacost>4W</manacost>
-        <cmc>5</cmc>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
         <type>Instant</type>
         <maintype>Instant</maintype>
       </prop>
@@ -137,7 +137,7 @@ When The Battle of Hoth enters, create two 1/1 white Trooper creature tokens.
         <cmc>5</cmc>
         <type>Artifact Creature - Droid </type>
         <maintype>Creature</maintype>
-        <pt>3/5</pt>
+        <pt>4/5</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>2U: Put a shield counter on Droideka if it doesn’t have one. Activate only once each turn and only if no counters were removed from Droideka this turn. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
@@ -180,7 +180,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Untap target creature. It gets +1/+0 and gains first strike until end of turn. Scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)</text>
+      <text>Untap target creature. It gets +2/+0 and gains first strike until end of turn. Scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)</text>
     </card>
     <card>
       <name>Gifted Initiate</name>
@@ -255,8 +255,7 @@ Meditate 1W (1W: Return this creature to its owner’s hand. Meditate only as a 
       </prop>
       <tablerow>1</tablerow>
       <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Whenever a creature that crewed Jedi Starfighter this turn leaves the battlefield, Jedi Starfighter gets +1/+0 until end of turn.
-Meditate 1W (1W: Return this creature to its owner’s hand. Meditate only as a sorcery.)
+Whenever a creature that crewed Jedi Starfighter this turn leaves the battlefield, Jedi Starfighter gets +1/+1 until end of turn.
 Crew 1</text>
     </card>
     <card>
@@ -295,22 +294,23 @@ At the beginning of combat on your turn, target Vehicle creature you control get
       <set rarity="common">SWTG</set>
       <prop>
         <colors>W</colors>
-        <manacost>3W</manacost>
-        <cmc>4</cmc>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
         <type>Creature - Beast </type>
         <maintype>Creature</maintype>
-        <pt>3/3</pt>
+        <pt>3/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>1G, Sacrifice Loyal Tauntaun: Target creature you control gains indestructible until end of turn.</text>
+      <text>2G: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
+When Loyal Tauntaun becomes monstrous, it gains indestructible until end of turn.</text>
     </card>
     <card>
       <name>Maintenance Hangar</name>
       <set rarity="rare">SWTG</set>
       <prop>
         <colors>W</colors>
-        <manacost>3W</manacost>
-        <cmc>4</cmc>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
       </prop>
@@ -386,8 +386,8 @@ Meditate 1W (1W: Return this creature to its owner’s hand. Meditate only as a 
         <pt>2/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>3WW: Monstrosity 2. (If this creature isn’t monstrous, put two +1/+1 counters on it and it becomes monstrous.)
-As long as Riding Ronto is monstrous, it has vigilance.</text>
+      <text>Vigilance
+3W: Monstrosity 2. (If this creature isn’t monstrous, put two +1/+1 counters on it and it becomes monstrous.)</text>
     </card>
     <card>
       <name>Sand Trooper</name>
@@ -438,15 +438,15 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
       <set rarity="common">SWTG</set>
       <prop>
         <colors>W</colors>
-        <manacost>2W</manacost>
-        <cmc>3</cmc>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
         <type>Creature - Rat Beast </type>
         <maintype>Creature</maintype>
-        <pt>3/2</pt>
+        <pt>3/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>4W: Monstrosity 1. (If this creature isn’t monstrous, put one +1/+1 counter on it and it becomes monstrous.) (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
-When Womp Rat becomes monstrous, you may exile target card from a graveyard.</text>
+      <text>1W: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
+When Womp Rat becomes monstrous, player’s can’t cast spells from exile this turn.</text>
     </card>
     <card>
       <name>X-Wing</name>
@@ -929,7 +929,7 @@ Crew 1</text>
       </prop>
       <tablerow>3</tablerow>
       <text>Target player draws two cards and loses 2 life.
-Put a bounty counter on up to one target creature an opponent controls.</text>
+Put a bounty counter on up to one target permanent an opponent controls.</text>
     </card>
     <card>
       <name>Aqualish Bounty Hunter</name>
@@ -943,7 +943,7 @@ Put a bounty counter on up to one target creature an opponent controls.</text>
         <pt>4/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Aqualish Bounty Hunter enters, put a bounty counter on target permanent
+      <text>When Aqualish Bounty Hunter enters, put a bounty counter on target permanent.
 Whenever you complete a bounty, target player discards a card. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
     </card>
     <card>
@@ -1005,7 +1005,7 @@ When Bib Fortuna dies, shuffle your library.</text>
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever an outlaw creature you control dies, put a bounty counter on target creature an opponent controls. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)
+      <text>Whenever an outlaw creature you control dies, put a bounty counter on target permanent. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)
 Whenever you complete a bounty, target player loses 1 life and draws a card. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
     </card>
     <card>
@@ -1021,8 +1021,8 @@ Whenever you complete a bounty, target player loses 1 life and draws a card. (Yo
       </prop>
       <tablerow>2</tablerow>
       <text>Bounty Spotter doesn’t untap during your untap step.
-{T}: Put a bounty counter on target creature an opponent controls.
-Whenever you complete a bounty counter dies, untap Bounty Spotter. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+{T}: Put a bounty counter on target permanent.
+Whenever you complete a bounty, untap Bounty Spotter. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Death Trooper</name>
@@ -1120,7 +1120,7 @@ Scry 1.</text>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Put a bounty counter on up to one target creature an opponent controls.
+      <text>Put a bounty counter on up to one target permanent.
 Each opponent loses 1 life.
 Draw a card.</text>
     </card>
@@ -1206,9 +1206,8 @@ Repair 3</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Open Season enters, put a bounty counter up to one target creature.
-Activated abilities of creatures your opponents control with a bounty counter can’t be activated.
-Creatures with a bounty counter can’t crew Vehicles.
+      <text>When Open Season enters, put a bounty counter on target permanent.
+Activated abilities of nonland permanents your opponents control with a bounty counter can’t be activated.
 Whenever you complete a bounty, that creature’s controller loses 2 life. Each other player gains 2 life. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
     </card>
     <card>
@@ -1244,13 +1243,13 @@ Return up to one target creature or Vehicle card from your graveyard to your han
       <set rarity="uncommon">SWTG</set>
       <prop>
         <colors>B</colors>
-        <manacost>3BB</manacost>
-        <cmc>5</cmc>
+        <manacost>2BB</manacost>
+        <cmc>4</cmc>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>As long as you control exactly two creatures, those creatures get +2/+0 and have deathtouch and lifelink.</text>
+      <text>As long as you control exactly two creatures, those creatures have deathtouch and lifelink.</text>
     </card>
     <card>
       <name>Sith Assassin</name>
@@ -1506,13 +1505,13 @@ Whenever you complete a bounty, untap Bounty Sniper. (You complete a bounty when
       <set rarity="uncommon">SWTG</set>
       <prop>
         <colors>R</colors>
-        <manacost>2R</manacost>
+        <manacost>1RR</manacost>
         <cmc>3</cmc>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Force Scream deals 2 damage to each creature without spaceflight and each player. Scry 1.</text>
+      <text>Force Scream deals 3 damage to each player and each creature without spaceflight. Scry 1.</text>
     </card>
     <card>
       <name>Force Spark</name>
@@ -1553,9 +1552,8 @@ Whenever you complete a bounty, untap Bounty Sniper. (You complete a bounty when
         <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Haste
-3RR: Monstrosity 3. (If this creature isn’t monstrous, put three +1/+1 counters on it and it becomes monstrous.)
-When Gundark becomes monstrous, it gets +2/+2 until end of turn.</text>
+      <text>2R: Monstrosity 2. (If this creature isn’t monstrous, put two +1/+1 counters on it and it becomes monstrous.)
+When Gundark becomes monstrous, it gains menace until end of turn.</text>
     </card>
     <card>
       <name>Han Solo</name>
@@ -1642,7 +1640,7 @@ Whenever Jango Fett attacks, it gets +X/+0, where X is the number of creatures d
       </prop>
       <tablerow>2</tablerow>
       <text>Raging Reek attacks each turn if able.
-5R: Monstrosity 2. (If this creature isn’t monstrous, put two +1/+1 counters on it and it becomes monstrous.)</text>
+5R: Monstrosity 3. (If this creature isn’t monstrous, put three +1/+1 counters on it and it becomes monstrous.)</text>
     </card>
     <card>
       <name>Rallying Fire</name>
@@ -1838,7 +1836,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or greater: T
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>You gain 5 life. If you lost life from a source other than combat damage this turn, draw a card.</text>
+      <text>Put a +1/+1 counter on up to one target creature. You gain life equal to that creatures power. Then if you lost life from a source other than combat damage this turn, draw a card.</text>
     </card>
     <card>
       <name>The Battle of Endor</name>
@@ -1918,8 +1916,8 @@ Whenever you complete a bounty, untap Bounty Collector. (You complete a bounty w
       </prop>
       <tablerow>1</tablerow>
       <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-You may have Corellian Corvette assign its combat damage as though it weren’t blocked.
-Crew 1</text>
+Whenever one or more +1/+1 counters are put on one or more other creatures you control, put a +1/+1 counter on Corellian Corvette. This ability triggers only once each turn.
+Crew 3</text>
     </card>
     <card>
       <name>Ewok Ambush</name>
@@ -1948,7 +1946,7 @@ Crew 1</text>
       </prop>
       <tablerow>2</tablerow>
       <text>Trample
-1R: Ewok Firedancers gets +1/+0 until end of turn.</text>
+Whenever Ewok Firedancers and at least two other creatures you control attack, monstrosity 2. (If this creature isn’t monstrous, put two +1/+1 counters on it and it becomes monstrous.)</text>
     </card>
     <card>
       <name>Exogorth</name>
@@ -1971,16 +1969,16 @@ Exogorth can’t block creatures without spaceflight.</text>
       <set rarity="common">SWTG</set>
       <prop>
         <colors>G</colors>
-        <manacost>2G</manacost>
-        <cmc>3</cmc>
-        <type>Sorcery</type>
-        <maintype>Sorcery</maintype>
+        <manacost>3G</manacost>
+        <cmc>4</cmc>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
       <text>Choose one—
-• Destroy target artifact.
-• Destroy target creature with spaceflight.
-Then scry 3.</text>
+• Destroy target artifact creature.
+• Destroy target noncreature permanent.
+Scry 3. (To scry 3, look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</text>
     </card>
     <card>
       <name>Hungry Dragonsnake</name>
@@ -2021,10 +2019,10 @@ Whenever Hutt Crime Lord attacks, put a stun counter on it and a bounty counter 
         <cmc>3</cmc>
         <type>Creature - Ithorian Jedi </type>
         <maintype>Creature</maintype>
-        <pt>2/1</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Ithorian Initiate enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+      <text>When Ithorian Initiate enters, you may search your library for a land card, reveal it, put it into your hand, then shuffle.
 Meditate 1G (1G: Return this creature to its owner’s hand. Meditate only as a sorcery.)</text>
     </card>
     <card>
@@ -2096,10 +2094,10 @@ Creatures with power less than Mantellian Savrip’s power can’t block it.</te
         <cmc>3</cmc>
         <type>Creature - Crocodile Beast </type>
         <maintype>Creature</maintype>
-        <pt>3/3</pt>
+        <pt>3/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>5G: Monstrosity 3. (If this creature isn’t monstrous, put three +1/+1 counters on it and it becomes monstrous.)</text>
+      <text>1G: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)</text>
     </card>
     <card>
       <name>Millennium Falcon</name>
@@ -2114,7 +2112,7 @@ Creatures with power less than Mantellian Savrip’s power can’t block it.</te
       <tablerow>1</tablerow>
       <text>Flash
 Spaceflight
-When Millennium Falcon enters, creatures you control gain hexproof until end of turn.
+When Millennium Falcon enters, it becomes an artifact creature until end of turn. Then creatures you control gain hexproof until end of turn.
 Crew 2</text>
     </card>
     <card>
@@ -2122,15 +2120,15 @@ Crew 2</text>
       <set rarity="uncommon">SWTG</set>
       <prop>
         <colors>G</colors>
-        <manacost>2G</manacost>
-        <cmc>3</cmc>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
         <type>Creature - Human </type>
         <maintype>Creature</maintype>
         <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Monstrosity abilities you activate cost {1} less to activate.
-Each creature you control with a +1/+1 counter on it has trample.</text>
+      <text>Whenever one or more +1/+1 are placed on a creature you control, you may pay {2}. If you do, draw a card. Do this only once each turn.
+Monstrous creatures you control have trample.</text>
     </card>
     <card>
       <name>Nexu Stalker</name>
@@ -2141,12 +2139,12 @@ Each creature you control with a +1/+1 counter on it has trample.</text>
         <cmc>3</cmc>
         <type>Creature - Beast </type>
         <maintype>Creature</maintype>
-        <pt>1/2</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Hexproof, deathtouch
-2G: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
-When Nexu Stalker becomes monstrous, target creature blocks it this turn if able.</text>
+      <text>Hexproof
+3G: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
+At the beginning of combat on your turn, if Nexu Stalker is monstrous, put a +1/+1 counter on it.</text>
     </card>
     <card>
       <name>Nightspider</name>
@@ -2167,36 +2165,37 @@ When Nexu Stalker becomes monstrous, target creature blocks it this turn if able
       <set rarity="common">SWTG</set>
       <prop>
         <colors>G</colors>
-        <manacost>G</manacost>
-        <cmc>1</cmc>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
         <type>Instant</type>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target creature you control fights target creature with power less than its power.</text>
+      <text>Target creature you control fights target creature you don’t control. If the creature you control is monstrous, excess damage is dealt to that creature’s controller instead.</text>
     </card>
     <card>
-      <name>Predator&apos;s Strike</name>
+      <name>Rancor</name>
+      <set rarity="uncommon">SWTG</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>G</manacost>
+        <cmc>1</cmc>
+        <type>Enchantment - Aura </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Enchanted creature gets +2/+0 and has trample.
+When Rancor is put into a graveyard from the battlefield, return Rancor to its owner’s hand.</text>
+    </card>
+    <card>
+      <name>Regression</name>
       <set rarity="common">SWTG</set>
       <prop>
         <colors>G</colors>
         <manacost>1G</manacost>
         <cmc>2</cmc>
-        <type>Instant</type>
-        <maintype>Instant</maintype>
-      </prop>
-      <tablerow>3</tablerow>
-      <text>Target creature gets +3/+3 and gains trample until end of turn.</text>
-    </card>
-    <card>
-      <name>Regression</name>
-      <set rarity="uncommon">SWTG</set>
-      <prop>
-        <colors>G</colors>
-        <manacost>1G</manacost>
-        <cmc>2</cmc>
-        <type>Instant</type>
-        <maintype>Instant</maintype>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
       <text>The owner of target artifact or enchantment shuffles it into their library.</text>
@@ -2208,12 +2207,12 @@ When Nexu Stalker becomes monstrous, target creature blocks it this turn if able
         <colors>G</colors>
         <manacost>2G</manacost>
         <cmc>3</cmc>
-        <type>Sorcery</type>
-        <maintype>Sorcery</maintype>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
       </prop>
-      <tablerow>3</tablerow>
-      <text>Search your library for a land card, put it onto the battlefield tapped, then shuffle.
-Put a bounty counter on up to one target creature an opponent controls.</text>
+      <tablerow>1</tablerow>
+      <text>When Scout the Perimeter enters, draw a card and put a bounty counter on up to one target creature or planeswalker.
+Whenever you complete a bounty, you may put a land card from your hand onto the battlefield tapped. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Scout Trooper</name>
@@ -2234,14 +2233,15 @@ Put a bounty counter on up to one target creature an opponent controls.</text>
       <set rarity="common">SWTG</set>
       <prop>
         <colors>G</colors>
-        <manacost>1G</manacost>
-        <cmc>2</cmc>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
         <type>Creature - Beast </type>
         <maintype>Creature</maintype>
-        <pt>1/2</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Shaak Herd dies, you may return another target creature card from your graveyard to your hand.</text>
+      <text>1G: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
+Whenever a monstrous creature you control dies, put a +1/+1 counter on target creature you control.</text>
     </card>
     <card>
       <name>Show of Dominance</name>
@@ -2265,7 +2265,7 @@ Put a bounty counter on up to one target creature an opponent controls.</text>
         <cmc>4</cmc>
         <type>Creature - Human Trooper </type>
         <maintype>Creature</maintype>
-        <pt>3/3</pt>
+        <pt>4/4</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Trooper creatures you control have trample.</text>
@@ -2435,16 +2435,16 @@ Whenever you complete a bounty, you may draw two cards. If you do, discard two c
       <set rarity="rare">SWTG</set>
       <prop>
         <colors>WRG</colors>
-        <manacost>3RGGW</manacost>
-        <cmc>7</cmc>
+        <manacost>2RGW</manacost>
+        <cmc>5</cmc>
         <type>Creature - Beast </type>
         <maintype>Creature</maintype>
-        <pt>7/7</pt>
+        <pt>5/5</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Trample
-3RGGW: Monstrosity 3. (If this creature isn’t monstrous, put three +1/+1 counters on it and it becomes monstrous.)
-As long as Bull Rancor is monstrous, creatures you control have menace.</text>
+1RGW: Monstrosity 2. (If this creature isn’t monstrous, put two +1/+1 counters on it and it becomes monstrous.)
+Whenever a creature you control becomes monstrous, it gains hexproof until end of turn.</text>
     </card>
     <card>
       <name>C-3PO and R2D2</name>
@@ -2459,7 +2459,7 @@ As long as Bull Rancor is monstrous, creatures you control have menace.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>When C-3PO and R2D2 leaves the battlefield, you gain 4 life and draw a card.
-Repair 2 (When this creature dies, you may exile it with two time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)</text>
+Repair 3 (When this creature dies, you may exile it with three time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)</text>
     </card>
     <card>
       <name>Carbonite Chamber</name>
@@ -2500,12 +2500,12 @@ Whenever Chewbacca attacks or blocks, another target creature you control gets +
         <cmc>3</cmc>
         <type>Legendary Creature - Ewok Rebel Warrior </type>
         <maintype>Creature</maintype>
-        <pt>2/2</pt>
+        <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>2RGW: Monstrosity 2.
 Whenever a green creature you control dies, you may put a +1/+1 counter on another target Ewok Rebel creature you control.
-When Chief Chirpa becomes monstrous, create three 1/1 green Ewok Rebel creature tokens.</text>
+When one or more +1/+1 counters are placed on Chief Chirpa, create that many 1/1 green Ewok Rebel creature tokens.</text>
       <related count="3">Ewok Rebel</related>
       <related>Naya</related>
     </card>
@@ -2539,7 +2539,7 @@ When Chief Chirpa becomes monstrous, create three 1/1 green Ewok Rebel creature 
       <text>Choose one —
 • Counter target noncreature spell.
 • Target player sacrifices a creature.
-• Cruelty of the Sith deals 3 damage to target player or planeswalker. That player or that permanents controller discards a card.</text>
+• Cruelty of the Sith deals 3 damage to target player or target permanent an opponent protects. That player or that permanents protector discards a card. (Players protect permanents that can be attacked.)</text>
     </card>
     <card>
       <name>Cunning Abduction</name>
@@ -2563,10 +2563,10 @@ When Chief Chirpa becomes monstrous, create three 1/1 green Ewok Rebel creature 
         <cmc>3</cmc>
         <type>Creature - Slug </type>
         <maintype>Creature</maintype>
-        <pt>4/2</pt>
+        <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>3RGW: Monstrosity 2. (If this creature isn’t monstrous, put two +1/+1 counters on it and it becomes monstrous.)
+      <text>2RGW: Monstrosity 2. (If this creature isn’t monstrous, put two +1/+1 counters on it and it becomes monstrous.)
 As long as Dagobah Maw Slug is monstrous, it has menace.</text>
     </card>
     <card>
@@ -2697,10 +2697,10 @@ Remove two +1/+1 counters from General Grievous: Return General Grievous to its 
         <cmc>6</cmc>
         <type>Creature - Dragon </type>
         <maintype>Creature</maintype>
-        <pt>6/7</pt>
+        <pt>7/7</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Trample
+      <text>Greater Krayt Dragon can’t be blocked by more than one creature.
 XXRGW: Monstrosity X. (If this creature isn’t monstrous, put X +1/+1 counters on it and it becomes monstrous.)
 When Greater Krayt Dragon becomes monstrous, draw a card for each +1/+1 counter among creatures you control.</text>
     </card>
@@ -2995,23 +2995,23 @@ Other Rebel creatures you control get +1/+1.</text>
       <tablerow>2</tablerow>
       <text>Vigilance
 Whenever Qui-Gon Jinn attacks alone, he gets +2/+2 and gains lifelink until end of turn.
-When Qui-Gon Jinn leaves the battlefield, you may exile target card from a graveyard.
-Meditate 1W (1W: Return this creature to its owner’s hand. Meditate only as a sorcery.)</text>
+When Qui-Gon Jinn leaves the battlefield, until your next turn, player’s can’t cast spells from exile.
+Meditate 1W</text>
     </card>
     <card>
       <name>Rumor Monger</name>
       <set rarity="uncommon">SWTG</set>
       <prop>
         <colors>BRG</colors>
-        <manacost>1BRG</manacost>
-        <cmc>4</cmc>
+        <manacost>BRG</manacost>
+        <cmc>3</cmc>
         <type>Creature - Arcona Mercenary </type>
         <maintype>Creature</maintype>
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Rumor Monger enters, put a bounty counter on up to two target creatures your opponents control.
-Whenever you complete a bounty, you may put its counters on another target creature an opponent controls. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+      <text>When Rumor Monger enters, put a bounty counter on up to one target creature or planeswalker.
+Whenever you complete a bounty, put any number of that permanents counters onto another target creature an opponent controls. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Salvage Squad</name>
@@ -3243,9 +3243,9 @@ Crew 3</text>
       </prop>
       <tablerow>3</tablerow>
       <text>Choose one —
-• Prevent all damage that would be dealt to players this turn.
-• Target creature you control gets +1/+1 and gains protection from the color of your choice until end of turn.
-• Counter target spell with mana value 3 or less.</text>
+• Reveal the top four cards of your library. An opponent separates those cards into two piles. Put one of those piles into your hand, then shuffle.
+• Target creature you control gets +2/+2 and gains protection from the color of your choice until end of turn.
+• Counter target permanent spell.</text>
     </card>
     <card>
       <name>Wookiee Mystic</name>
@@ -3291,21 +3291,21 @@ Crew 3</text>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy target creature with a bounty counter. When a creature is destroyed this way, you may put a +1/+1 counter on up to one target outlaw creature you control. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</text>
+      <text>Destroy target creature with a bounty counter. Put a +1/+1 counter on up to one target outlaw creature you control. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</text>
     </card>
     <card>
       <name>N-1 Starfighter</name>
       <set rarity="common">SWTG</set>
       <prop>
         <colors>WU</colors>
-        <manacost>2W/UW/U</manacost>
-        <cmc>4</cmc>
+        <manacost>1W/UW/U</manacost>
+        <cmc>3</cmc>
         <type>Artifact - Vehicle </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
       <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Whenever N-1 Starfighter deals combat damage to an opponent or a permanent they protect, you may pay 1W/U. If you do, exile up to one target creature you control, then return that card to the battlefield under its owner’s control. (Players protect permanents that can be attacked.)
+Whenever N-1 Starfighter deals combat damage to an opponent or a permanent they protect, you may pay 2W/U. If you do, exile target creature you control, then return that card to the battlefield under its owner’s control. (Players protect permanents that can be attacked.)
 Crew 1</text>
     </card>
     <card>
@@ -3364,7 +3364,8 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
         <pt>3/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever Wookiee Raidleader attacks, another target creature gains trample until end of turn.</text>
+      <text>Trample
+Whenever Wookiee Raidleader attacks, put a +1/+1 counter on target creature you control that already has one.</text>
     </card>
     <card>
       <name>Ancient Holocron</name>
@@ -3505,15 +3506,15 @@ Equip Jedi or Sith {2}</text>
       <set rarity="uncommon">SWTG</set>
       <prop>
         <colors></colors>
-        <manacost>2</manacost>
-        <cmc>2</cmc>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
         <type>Artifact - Equipment </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
       <text>Equipped creature gets +1/+1 and is a Trooper in addition to its other types.
-Whenever a Trooper enters under your control, you may attach Trooper Armor to it.
-Equip {2}</text>
+Whenever a creature enters under your control, attach Trooper Armor to it.
+Equip {3}</text>
     </card>
     <card>
       <name>Jedi Enclave</name>
@@ -3841,11 +3842,11 @@ When Ewok Village enters, add {G}.
       <set rarity="uncommon">SWTG</set>
       <prop>
         <colors>W</colors>
-        <manacost>2W</manacost>
-        <cmc>3</cmc>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
         <type>Creature - Human Jedi </type>
         <maintype>Creature</maintype>
-        <pt>3/2</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>When Jedi Inquirer enters, exile up to one target battle or enchantment.
@@ -3879,7 +3880,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or greater: T
       <tablerow>1</tablerow>
       <text>(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, exile it, then cast it transformed.)
 When The Battle of Coruscant enters, you may discard a card or sacrifice a land. When you do, draw two cards.
-Vehicles you control that are attacking The Battle of Coruscant can’t be blocked.
+Creatures with spaceflight that are attacking The Battle of Coruscant can’t be blocked.
 ---
 (Back): Do It!</text>
       <related attach="transform">Do It!</related>
@@ -4151,7 +4152,7 @@ Meditate 1U (1U: Return this creature to its owner’s hand. Meditate only as a 
       </prop>
       <tablerow>1</tablerow>
       <text>(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, exile it, then cast it transformed.)
-Whenever you defeat The Battle of Kashyyyk, draw a card. Then you may put a land card from your hand onto the battlefield tapped.
+When The Battle of Kashyyyk enters, draw a card. You may put a land card from your hand onto the battlefield tapped.
 ---
 (Back): Orders Received</text>
       <related attach="transform">Orders Received</related>
@@ -4166,7 +4167,7 @@ Whenever you defeat The Battle of Kashyyyk, draw a card. Then you may put a land
         <type>Instant</type>
       </prop>
       <tablerow>3</tablerow>
-      <text>You may sacrifice a land. If you do, search your library for a land card, put that card onto the battlefield, then shuffle.
+      <text>Put a +1/+1 counter on each creature you control.
 ---
 (Front): The Battle of Kashyyyk</text>
       <related attach="transform">The Battle of Kashyyyk</related>
@@ -4176,8 +4177,8 @@ Whenever you defeat The Battle of Kashyyyk, draw a card. Then you may put a land
       <set rarity="rare" splitterPath="/The Battle of Utapau.jpg" >SWTG</set>
       <prop>
         <colors>B</colors>
-        <manacost>2B</manacost>
-        <cmc>3</cmc>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
         <type>Legendary Battle - Siege </type>
         <maintype>Battle</maintype>
       </prop>
@@ -4193,7 +4194,7 @@ Whenever you defeat The Battle of Kashyyyk, draw a card. Then you may put a land
       <prop>
         <colors>B</colors>
         <manacost></manacost>
-        <cmc>3</cmc>
+        <cmc>2</cmc>
         <type>Artifact - Vehicle </type>
       </prop>
       <tablerow>1</tablerow>

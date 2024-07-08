@@ -1,16 +1,16 @@
 [CustomCards]
 	[    {
-	        "name": "Arrest",
+	        "name": "Lockdown",
 	        "rarity": "common",
 	        "mana_cost": "{2}{W}",
 	        "type": "Enchantment — Aura ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Arrest.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Lockdown.jpg"
 	        }
 	    },
 	    {
 	        "name": "Bantha Herd",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{1}{W}{W}",
 	        "type": "Creature — Beast ",
 	        "image_uris": {
@@ -68,7 +68,7 @@
 	    {
 	        "name": "Deploy The Troops",
 	        "rarity": "uncommon",
-	        "mana_cost": "{4}{W}",
+	        "mana_cost": "{3}{W}",
 	        "type": "Instant",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Deploy The Troops.jpg"
@@ -166,7 +166,7 @@
 	    },
 	    {
 	        "name": "Lando Calrissian",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{W}",
 	        "type": "Legendary Creature — Human Rogue ",
 	        "image_uris": {
@@ -176,7 +176,7 @@
 	    {
 	        "name": "Loyal Tauntaun",
 	        "rarity": "common",
-	        "mana_cost": "{3}{W}",
+	        "mana_cost": "{2}{W}",
 	        "type": "Creature — Beast ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Loyal Tauntaun.jpg"
@@ -184,8 +184,8 @@
 	    },
 	    {
 	        "name": "Maintenance Hangar",
-	        "rarity": "rare", 
-	        "mana_cost": "{3}{W}",
+	        "rarity": "rare",
+	        "mana_cost": "{2}{W}",
 	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Maintenance Hangar.jpg"
@@ -211,7 +211,7 @@
 	    },
 	    {
 	        "name": "Orbital Bombardment",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{W}{W}",
 	        "type": "Sorcery",
 	        "image_uris": {
@@ -220,7 +220,7 @@
 	    },
 	    {
 	        "name": "Plo Koon",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{W}{W}",
 	        "type": "Legendary Creature — KelDor Jedi ",
 	        "image_uris": {
@@ -266,7 +266,7 @@
 	    {
 	        "name": "Womp Rat",
 	        "rarity": "common",
-	        "mana_cost": "{2}{W}",
+	        "mana_cost": "{3}{W}",
 	        "type": "Creature — Rat Beast ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Womp Rat.jpg"
@@ -283,7 +283,7 @@
 	    },
 	    {
 	        "name": "Admiral Ackbar",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{4}{U}{U}",
 	        "type": "Legendary Creature — Calamari Rebel ",
 	        "image_uris": {
@@ -303,7 +303,6 @@
 	        "name": "The Battle of Naboo",
 	        "mana_cost": "{X}{X}{U}{U}",
 	        "type": "Legendary Battle — Siege ",
-		
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Naboo.jpg"
 	        },
@@ -359,7 +358,7 @@
 	    },
 	    {
 	        "name": "Jar Jar Binks",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{2}{U}",
 	        "type": "Legendary Creature — Gungan ",
 	        "image_uris": {
@@ -377,7 +376,7 @@
 	    },
 	    {
 	        "name": "Jedi Mind Trick",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{6}{U}",
 	        "type": "Sorcery",
 	        "image_uris": {
@@ -404,7 +403,7 @@
 	    },
 	    {
 	        "name": "Mace Windu",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{U}{U}",
 	        "type": "Legendary Creature — Human Jedi ",
 	        "image_uris": {
@@ -557,7 +556,7 @@
 	    },
 	    {
 	        "name": "Zam Wesell",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{2}{U}{U}",
 	        "type": "Legendary Creature — Shapeshifter Mercenary ",
 	        "image_uris": {
@@ -586,7 +585,6 @@
 	        "name": "The Battle of Yavin",
 	        "mana_cost": "{X}{B}{B}",
 	        "type": "Legendary Battle — Siege ",
-		
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Yavin.jpg"
 	        },
@@ -606,7 +604,7 @@
 	    },
 	    {
 	        "name": "Bib Fortuna",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{1}{B}",
 	        "type": "Legendary Creature — Twi’lek Advisor ",
 	        "image_uris": {
@@ -669,7 +667,7 @@
 	    },
 	    {
 	        "name": "Grand Moff Tarkin",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{B}",
 	        "type": "Legendary Creature — Human Advisor ",
 	        "image_uris": {
@@ -705,7 +703,7 @@
 	    },
 	    {
 	        "name": "IG-88B",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{1}{B}{B}",
 	        "type": "Legendary Artifact Creature — Droid Mercenary ",
 	        "image_uris": {
@@ -750,7 +748,7 @@
 	    },
 	    {
 	        "name": "Order 66",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{6}{B}{B}",
 	        "type": "Sorcery",
 	        "image_uris": {
@@ -769,7 +767,7 @@
 	    {
 	        "name": "Rule of Two",
 	        "rarity": "uncommon",
-	        "mana_cost": "{3}{B}{B}",
+	        "mana_cost": "{2}{B}{B}",
 	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Rule of Two.jpg"
@@ -804,7 +802,7 @@
 	    },
 	    {
 	        "name": "Sith Lord",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{2}{B}{B}",
 	        "type": "Creature — Human Sith ",
 	        "image_uris": {
@@ -869,7 +867,6 @@
 	        "name": "The Battle of Geonosis",
 	        "mana_cost": "{X}{X}{R}{R}",
 	        "type": "Legendary Battle — Siege ",
-		
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Geonosis.jpg"
 	        },
@@ -925,7 +922,7 @@
 	    },
 	    {
 	        "name": "Force Lightning",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{X}{R}{R}",
 	        "type": "Sorcery",
 	        "image_uris": {
@@ -935,7 +932,7 @@
 	    {
 	        "name": "Force Scream",
 	        "rarity": "uncommon",
-	        "mana_cost": "{2}{R}",
+	        "mana_cost": "{1}{R}{R}",
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Force Scream.jpg"
@@ -970,7 +967,7 @@
 	    },
 	    {
 	        "name": "Han Solo",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{R}",
 	        "type": "Legendary Creature — Human Rogue ",
 	        "image_uris": {
@@ -988,7 +985,7 @@
 	    },
 	    {
 	        "name": "Jango Fett",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{1}{R}{R}",
 	        "type": "Legendary Creature — Human Mercenary ",
 	        "image_uris": {
@@ -1042,7 +1039,7 @@
 	    },
 	    {
 	        "name": "Rocket Trooper",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{R}",
 	        "type": "Creature — Human Trooper ",
 	        "image_uris": {
@@ -1132,7 +1129,7 @@
 	    },
 	    {
 	        "name": "AT-ST",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{5}{G}",
 	        "type": "Kindred Artifact — Trooper Vehicle ",
 	        "image_uris": {
@@ -1152,7 +1149,6 @@
 	        "name": "The Battle of Endor",
 	        "mana_cost": "{X}{X}{2}{G}{G}",
 	        "type": "Legendary Battle — Siege ",
-		
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Endor.jpg"
 	        },
@@ -1172,7 +1168,7 @@
 	    },
 	    {
 	        "name": "Bossk",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{1}{G}{G}",
 	        "type": "Legendary Creature — Trandoshan Mercenary ",
 	        "image_uris": {
@@ -1217,7 +1213,7 @@
 	    },
 	    {
 	        "name": "Exogorth",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{5}{G}{G}",
 	        "type": "Creature — Slug ",
 	        "image_uris": {
@@ -1227,8 +1223,8 @@
 	    {
 	        "name": "Force Pull",
 	        "rarity": "common",
-	        "mana_cost": "{2}{G}",
-	        "type": "Sorcery",
+	        "mana_cost": "{3}{G}",
+	        "type": "Instant",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Force Pull.jpg"
 	        }
@@ -1271,7 +1267,7 @@
 	    },
 	    {
 	        "name": "Ki-Adi-Mundi",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{G}{G}",
 	        "type": "Legendary Creature — Cerean Jedi ",
 	        "image_uris": {
@@ -1307,7 +1303,7 @@
 	    },
 	    {
 	        "name": "Millennium Falcon",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{G}{G}",
 	        "type": "Legendary Artifact — Vehicle ",
 	        "image_uris": {
@@ -1317,7 +1313,7 @@
 	    {
 	        "name": "Nerf Herder",
 	        "rarity": "uncommon",
-	        "mana_cost": "{2}{G}",
+	        "mana_cost": "{1}{G}",
 	        "type": "Creature — Human ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Nerf Herder.jpg"
@@ -1344,26 +1340,26 @@
 	    {
 	        "name": "No Contest",
 	        "rarity": "common",
-	        "mana_cost": "{G}",
+	        "mana_cost": "{1}{G}",
 	        "type": "Instant",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/No Contest.jpg"
 	        }
 	    },
 	    {
-	        "name": "Predator's Strike",
-	        "rarity": "common",
-	        "mana_cost": "{1}{G}",
-	        "type": "Instant",
+	        "name": "Rancor",
+	        "rarity": "uncommon",
+	        "mana_cost": "{G}",
+	        "type": "Enchantment — Aura ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Predator's Strike.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Rancor.jpg"
 	        }
 	    },
 	    {
 	        "name": "Regression",
-	        "rarity": "uncommon",
+	        "rarity": "common",
 	        "mana_cost": "{1}{G}",
-	        "type": "Instant",
+	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Regression.jpg"
 	        }
@@ -1372,7 +1368,7 @@
 	        "name": "Scout the Perimeter",
 	        "rarity": "common",
 	        "mana_cost": "{2}{G}",
-	        "type": "Sorcery",
+	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Scout the Perimeter.jpg"
 	        }
@@ -1389,7 +1385,7 @@
 	    {
 	        "name": "Shaak Herd",
 	        "rarity": "common",
-	        "mana_cost": "{1}{G}",
+	        "mana_cost": "{2}{G}",
 	        "type": "Creature — Beast ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Shaak Herd.jpg"
@@ -1433,7 +1429,7 @@
 	    },
 	    {
 	        "name": "Acklay of the Arena",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{1}{R}{G}{W}",
 	        "type": "Creature — Insect Beast ",
 	        "image_uris": {
@@ -1472,7 +1468,7 @@
 	    },
 	    {
 	        "name": "Asajj Ventress",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{1}{U}{B}{R}",
 	        "type": "Legendary Creature — Dathomirian Sith ",
 	        "image_uris": {
@@ -1481,7 +1477,7 @@
 	    },
 	    {
 	        "name": "Aurra Sing, Bane of Jedi",
-	        "rarity": "mythic", 
+	        "rarity": "mythic",
 	        "mana_cost": "{2}{B}{R}",
 	        "type": "Legendary Planeswalker — Aurra ",
 	        "image_uris": {
@@ -1490,7 +1486,7 @@
 	    },
 	    {
 	        "name": "Blind Worship",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{2}{R}{G}{W}",
 	        "type": "Enchantment — Aura ",
 	        "image_uris": {
@@ -1499,7 +1495,7 @@
 	    },
 	    {
 	        "name": "Boba Fett",
-	        "rarity": "mythic", 
+	        "rarity": "mythic",
 	        "mana_cost": "{2}{B}{R}{G}",
 	        "type": "Legendary Creature — Human Mercenary ",
 	        "image_uris": {
@@ -1508,8 +1504,8 @@
 	    },
 	    {
 	        "name": "Bull Rancor",
-	        "rarity": "rare", 
-	        "mana_cost": "{3}{R}{G}{G}{W}",
+	        "rarity": "rare",
+	        "mana_cost": "{2}{R}{G}{W}",
 	        "type": "Creature — Beast ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Bull Rancor.jpg"
@@ -1517,7 +1513,7 @@
 	    },
 	    {
 	        "name": "C-3PO and R2D2",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{2}{W}{U}",
 	        "type": "Legendary Artifact Creature — Droid ",
 	        "image_uris": {
@@ -1535,7 +1531,7 @@
 	    },
 	    {
 	        "name": "Chewbacca",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{2}{R}{G}{W}",
 	        "type": "Legendary Creature — Wookiee Warrior ",
 	        "image_uris": {
@@ -1544,7 +1540,7 @@
 	    },
 	    {
 	        "name": "Chief Chirpa",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{R}{G}{W}",
 	        "type": "Legendary Creature — Ewok Rebel Warrior ",
 	        "image_uris": {
@@ -1553,7 +1549,7 @@
 	    },
 	    {
 	        "name": "Commander Cody",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{W}{U}{B}{R}{G}",
 	        "type": "Legendary Creature — Human Trooper ",
 	        "image_uris": {
@@ -1571,7 +1567,7 @@
 	    },
 	    {
 	        "name": "Cunning Abduction",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{1}{U}{B}",
 	        "type": "Sorcery",
 	        "image_uris": {
@@ -1598,7 +1594,7 @@
 	    },
 	    {
 	        "name": "Darth Maul",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{1}{B}{R}",
 	        "type": "Legendary Creature — Zabrak Sith ",
 	        "image_uris": {
@@ -1607,7 +1603,7 @@
 	    },
 	    {
 	        "name": "Darth Sidious, Sith Lord",
-	        "rarity": "mythic", 
+	        "rarity": "mythic",
 	        "mana_cost": "{4}{U}{B}{B}{R}",
 	        "type": "Legendary Planeswalker — Sidious ",
 	        "image_uris": {
@@ -1616,7 +1612,7 @@
 	    },
 	    {
 	        "name": "Darth Tyranus, Count Dooku",
-	        "rarity": "mythic", 
+	        "rarity": "mythic",
 	        "mana_cost": "{1}{W}{U}{B}",
 	        "type": "Legendary Planeswalker — Dooku ",
 	        "image_uris": {
@@ -1643,7 +1639,7 @@
 	    },
 	    {
 	        "name": "Force Mastery",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{G}{W}{U}",
 	        "type": "Enchantment",
 	        "image_uris": {
@@ -1652,7 +1648,7 @@
 	    },
 	    {
 	        "name": "General Grievous",
-	        "rarity": "mythic", 
+	        "rarity": "mythic",
 	        "mana_cost": "{W}{U}{B}",
 	        "type": "Legendary Artifact Creature — Kaleesh ",
 	        "image_uris": {
@@ -1661,7 +1657,7 @@
 	    },
 	    {
 	        "name": "Greater Krayt Dragon",
-	        "rarity": "mythic", 
+	        "rarity": "mythic",
 	        "mana_cost": "{3}{R}{G}{W}",
 	        "type": "Creature — Dragon ",
 	        "image_uris": {
@@ -1670,7 +1666,7 @@
 	    },
 	    {
 	        "name": "Greedo",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{B}{R}{G}",
 	        "type": "Legendary Creature — Rodian Mercenary ",
 	        "image_uris": {
@@ -1679,7 +1675,7 @@
 	    },
 	    {
 	        "name": "Hot Pursuit",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{B}{R}{G}",
 	        "type": "Enchantment",
 	        "image_uris": {
@@ -1688,7 +1684,7 @@
 	    },
 	    {
 	        "name": "Hunt to Extinction",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{X}{B}{R}{G}",
 	        "type": "Sorcery",
 	        "image_uris": {
@@ -1706,7 +1702,7 @@
 	    },
 	    {
 	        "name": "Iron Fist of the Empire",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{U}{B}{R}",
 	        "type": "Enchantment",
 	        "image_uris": {
@@ -1715,7 +1711,7 @@
 	    },
 	    {
 	        "name": "Jabba the Hutt",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{B}{R}{G}",
 	        "type": "Legendary Creature — Hutt Rogue ",
 	        "image_uris": {
@@ -1742,7 +1738,7 @@
 	    },
 	    {
 	        "name": "Luke Skywalker",
-	        "rarity": "mythic", 
+	        "rarity": "mythic",
 	        "mana_cost": "{G}{W}{U}",
 	        "type": "Legendary Creature — Human Jedi ",
 	        "image_uris": {
@@ -1760,7 +1756,7 @@
 	    },
 	    {
 	        "name": "March of the Droids",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{2}{W}{U}{B}",
 	        "type": "Sorcery",
 	        "image_uris": {
@@ -1778,7 +1774,7 @@
 	    },
 	    {
 	        "name": "Nute Gunray",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{W}{U}{B}",
 	        "type": "Legendary Creature — Neimoidian Advisor ",
 	        "image_uris": {
@@ -1787,7 +1783,7 @@
 	    },
 	    {
 	        "name": "Obi-Wan Kenobi",
-	        "rarity": "mythic", 
+	        "rarity": "mythic",
 	        "mana_cost": "{3}{W}{U}",
 	        "type": "Legendary Planeswalker — Obi-Wan ",
 	        "image_uris": {
@@ -1805,7 +1801,7 @@
 	    },
 	    {
 	        "name": "Precipice of Mortis",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{G}{W}{U}",
 	        "type": "Enchantment",
 	        "image_uris": {
@@ -1823,7 +1819,7 @@
 	    },
 	    {
 	        "name": "Princess Leia",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{G}{W}{U}",
 	        "type": "Legendary Creature — Human Rebel ",
 	        "image_uris": {
@@ -1832,7 +1828,7 @@
 	    },
 	    {
 	        "name": "Qui-Gon Jinn",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{2}{G}{W}{U}",
 	        "type": "Legendary Creature — Human Jedi ",
 	        "image_uris": {
@@ -1842,7 +1838,7 @@
 	    {
 	        "name": "Rumor Monger",
 	        "rarity": "uncommon",
-	        "mana_cost": "{1}{B}{R}{G}",
+	        "mana_cost": "{B}{R}{G}",
 	        "type": "Creature — Arcona Mercenary ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Rumor Monger.jpg"
@@ -1859,7 +1855,7 @@
 	    },
 	    {
 	        "name": "Sarlacc Pit",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{R}{G}",
 	        "type": "Creature — Beast ",
 	        "image_uris": {
@@ -1913,7 +1909,7 @@
 	    },
 	    {
 	        "name": "Sith Magic",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{U}{B}{R}",
 	        "type": "Enchantment",
 	        "image_uris": {
@@ -1931,7 +1927,7 @@
 	    },
 	    {
 	        "name": "Slave I",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{B}{R}{G}",
 	        "type": "Legendary Kindred Artifact — Mercenary Vehicle ",
 	        "image_uris": {
@@ -1940,7 +1936,7 @@
 	    },
 	    {
 	        "name": "Star Destroyer",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{U}{B}{R}",
 	        "type": "Artifact — Vehicle ",
 	        "image_uris": {
@@ -1949,7 +1945,7 @@
 	    },
 	    {
 	        "name": "Tank Droid",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{4}{W}{U}{B}",
 	        "type": "Artifact Creature — Droid ",
 	        "image_uris": {
@@ -1958,7 +1954,7 @@
 	    },
 	    {
 	        "name": "Trade Federation Battleship",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{3}{W}{U}{B}",
 	        "type": "Kindred Artifact — Droid Vehicle ",
 	        "image_uris": {
@@ -1994,7 +1990,7 @@
 	    },
 	    {
 	        "name": "Yoda, Jedi Master",
-	        "rarity": "mythic", 
+	        "rarity": "mythic",
 	        "mana_cost": "{1}{G}{U}",
 	        "type": "Legendary Planeswalker — Yoda ",
 	        "image_uris": {
@@ -2013,7 +2009,7 @@
 	    {
 	        "name": "N-1 Starfighter",
 	        "rarity": "common",
-	        "mana_cost": "{2}{W/U}{W/U}",
+	        "mana_cost": "{1}{W/U}{W/U}",
 	        "type": "Artifact — Vehicle ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/N-1 Starfighter.jpg"
@@ -2102,7 +2098,7 @@
 	    },
 	    {
 	        "name": "The Death Star",
-	        "rarity": "mythic", 
+	        "rarity": "mythic",
 	        "mana_cost": "",
 	        "type": "Legendary Land",
 	        "image_uris": {
@@ -2139,7 +2135,7 @@
 	    {
 	        "name": "Trooper Armor",
 	        "rarity": "uncommon",
-	        "mana_cost": "{2}",
+	        "mana_cost": "{3}",
 	        "type": "Artifact — Equipment ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Trooper Armor.jpg"
@@ -2255,7 +2251,7 @@
 	    },
 	    {
 	        "name": "Kamino Cloning Facility",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "",
 	        "type": "Land",
 	        "image_uris": {
@@ -2355,7 +2351,7 @@
 	    {
 	        "name": "Jedi Inquirer",
 	        "rarity": "uncommon",
-	        "mana_cost": "{2}{W}",
+	        "mana_cost": "{1}{W}",
 	        "type": "Creature — Human Jedi ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Jedi Inquirer.jpg"
@@ -2498,7 +2494,7 @@
 	    },
 	    {
 	        "name": "AT-AT",
-	        "rarity": "mythic", 
+	        "rarity": "mythic",
 	        "mana_cost": "{3}{W}{W}",
 	        "type": "Artifact — Vehicle ",
 	        "image_uris": {
@@ -2530,7 +2526,6 @@
 	        "name": "The Battle of Heroes",
 	        "mana_cost": "{1}{R}",
 	        "type": "Legendary Battle — Siege ",
-		
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Heroes.jpg"
 	        },
@@ -2573,7 +2568,6 @@
 	        "name": "The Battle of Christophsis",
 	        "mana_cost": "{3}{U}",
 	        "type": "Legendary Battle — Siege ",
-		
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Christophsis.jpg"
 	        },
@@ -2595,7 +2589,6 @@
 	        "name": "The Battle of Scarif",
 	        "mana_cost": "{1}{W}",
 	        "type": "Legendary Battle — Siege ",
-		
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Scarif.jpg"
 	        },
@@ -2617,7 +2610,6 @@
 	        "name": "Duel of the Fates",
 	        "mana_cost": "{2}{R}{R}",
 	        "type": "Legendary Battle — Siege ",
-		
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Duel of the Fates.jpg"
 	        },
@@ -2639,7 +2631,6 @@
 	        "name": "The Battle of Felucia",
 	        "mana_cost": "{3}{G}",
 	        "type": "Legendary Battle — Siege ",
-		
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Felucia.jpg"
 	        },
@@ -2659,7 +2650,7 @@
 	    },
 	    {
 	        "name": "Amidala, Queen of Naboo",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{1}{G}{W}",
 	        "type": "Legendary Creature — Human Noble ",
 	        "image_uris": {
@@ -2677,7 +2668,7 @@
 	    },
 	    {
 	        "name": "Obi-Wan, Jedi Padawan",
-	        "rarity": "rare", 
+	        "rarity": "rare",
 	        "mana_cost": "{1}{G}{W}{U}",
 	        "type": "Legendary Creature — Human Jedi ",
 	        "image_uris": {
@@ -2707,9 +2698,8 @@
 	    },
 	    {
 	        "name": "The Battle of Utapau",
-	        "mana_cost": "{2}{B}",
+	        "mana_cost": "{1}{B}",
 	        "type": "Legendary Battle — Siege ",
-		
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Battle of Utapau.jpg"
 	        },
@@ -2862,7 +2852,7 @@
 		3 Mantellian Savrip
 		3 Nerf Herder
 		3 Nexu Stalker
-		3 Regression
+		3 Rancor
 		3 Show of Dominance
 		3 Trooper Commando
 		3 AAT-1
@@ -2896,8 +2886,8 @@
 		3 The Battle of Kamino
 		3 The Battle of Kashyyyk
 		3 Conscription
-	[CommonSlot(9)]
-		4 Arrest
+	[CommonSlot(8)]
+		4 Lockdown
 		4 Cantina Band
 		4 Escape Pod
 		4 Force Healing
@@ -2965,7 +2955,7 @@
 		4 Massiff Swarm
 		4 Nightspider
 		4 No Contest
-		4 Predator's Strike
+		4 Regression
 		4 Scout the Perimeter
 		4 Scout Trooper
 		4 Shaak Herd
