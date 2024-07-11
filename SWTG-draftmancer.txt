@@ -120,12 +120,12 @@
 	        }
 	    },
 	    {
-	        "name": "Ion Cannon",
+	        "name": "Gonk Droid",
 	        "rarity": "common",
-	        "mana_cost": "{3}{W}",
-	        "type": "Artifact Creature — Construct ",
+	        "mana_cost": "{1}{W}",
+	        "type": "Artifact Creature — Droid ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Ion Cannon.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Gonk Droid.jpg"
 	        }
 	    },
 	    {
@@ -186,7 +186,7 @@
 	        "name": "Maintenance Hangar",
 	        "rarity": "rare",
 	        "mana_cost": "{2}{W}",
-	        "type": "Enchantment",
+	        "type": "Kindred Enchantment — Droid ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Maintenance Hangar.jpg"
 	        }
@@ -239,7 +239,7 @@
 	    {
 	        "name": "Sand Trooper",
 	        "rarity": "common",
-	        "mana_cost": "{1}{W}",
+	        "mana_cost": "{3}{W}",
 	        "type": "Creature — Human Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Sand Trooper.jpg"
@@ -677,7 +677,7 @@
 	    {
 	        "name": "Hazard Trooper",
 	        "rarity": "uncommon",
-	        "mana_cost": "{4}{B}",
+	        "mana_cost": "{5}{B}",
 	        "type": "Creature — Human Cyborg Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Hazard Trooper.jpg"
@@ -708,15 +708,6 @@
 	        "type": "Legendary Artifact Creature — Droid Mercenary ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/IG-88B.jpg"
-	        }
-	    },
-	    {
-	        "name": "Insatiable Rakghoul",
-	        "rarity": "uncommon",
-	        "mana_cost": "{5}{B}",
-	        "type": "Creature — Zombie Mutant Trooper ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Insatiable Rakghoul.jpg"
 	        }
 	    },
 	    {
@@ -857,7 +848,7 @@
 	    {
 	        "name": "A-Wing",
 	        "rarity": "uncommon",
-	        "mana_cost": "{2}{R}",
+	        "mana_cost": "{3}{R}",
 	        "type": "Kindred Artifact — Rebel Vehicle ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/A-Wing.jpg"
@@ -896,7 +887,7 @@
 	    {
 	        "name": "Capture",
 	        "rarity": "common",
-	        "mana_cost": "{2}{R}",
+	        "mana_cost": "{3}{R}",
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Capture.jpg"
@@ -1223,8 +1214,8 @@
 	    {
 	        "name": "Force Pull",
 	        "rarity": "common",
-	        "mana_cost": "{3}{G}",
-	        "type": "Instant",
+	        "mana_cost": "{2}{G}{G}",
+	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Force Pull.jpg"
 	        }
@@ -1359,7 +1350,7 @@
 	        "name": "Regression",
 	        "rarity": "common",
 	        "mana_cost": "{1}{G}",
-	        "type": "Sorcery",
+	        "type": "Instant",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Regression.jpg"
 	        }
@@ -1367,7 +1358,7 @@
 	    {
 	        "name": "Scout the Perimeter",
 	        "rarity": "common",
-	        "mana_cost": "{2}{G}",
+	        "mana_cost": "{1}{G}",
 	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Scout the Perimeter.jpg"
@@ -1376,7 +1367,7 @@
 	    {
 	        "name": "Scout Trooper",
 	        "rarity": "common",
-	        "mana_cost": "{1}{G}",
+	        "mana_cost": "{2}{G}",
 	        "type": "Creature — Human Trooper Scout ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Scout Trooper.jpg"
@@ -1403,7 +1394,7 @@
 	    {
 	        "name": "Trooper Commando",
 	        "rarity": "uncommon",
-	        "mana_cost": "{3}{G}",
+	        "mana_cost": "{4}{G}",
 	        "type": "Creature — Human Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Trooper Commando.jpg"
@@ -1685,7 +1676,7 @@
 	    {
 	        "name": "Hunt to Extinction",
 	        "rarity": "rare",
-	        "mana_cost": "{X}{B}{R}{G}",
+	        "mana_cost": "{X}{X}{B}{R}{G}",
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Hunt to Extinction.jpg"
@@ -1703,7 +1694,7 @@
 	    {
 	        "name": "Iron Fist of the Empire",
 	        "rarity": "rare",
-	        "mana_cost": "{U}{B}{R}",
+	        "mana_cost": "{1}{U}{B}{R}",
 	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Iron Fist of the Empire.jpg"
@@ -1829,7 +1820,7 @@
 	    {
 	        "name": "Qui-Gon Jinn",
 	        "rarity": "rare",
-	        "mana_cost": "{2}{G}{W}{U}",
+	        "mana_cost": "{1}{G}{W}{U}",
 	        "type": "Legendary Creature — Human Jedi ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Qui-Gon Jinn.jpg"
@@ -1838,7 +1829,7 @@
 	    {
 	        "name": "Rumor Monger",
 	        "rarity": "uncommon",
-	        "mana_cost": "{B}{R}{G}",
+	        "mana_cost": "{1}{B}{R}{G}",
 	        "type": "Creature — Arcona Mercenary ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Rumor Monger.jpg"
@@ -2608,7 +2599,7 @@
 	    },
 	    {
 	        "name": "Duel of the Fates",
-	        "mana_cost": "{2}{R}{R}",
+	        "mana_cost": "{3}{R}",
 	        "type": "Legendary Battle — Siege ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Duel of the Fates.jpg"
@@ -2669,7 +2660,7 @@
 	    {
 	        "name": "Obi-Wan, Jedi Padawan",
 	        "rarity": "rare",
-	        "mana_cost": "{1}{G}{W}{U}",
+	        "mana_cost": "{2}{G}{W}{U}",
 	        "type": "Legendary Creature — Human Jedi ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Obi-Wan, Jedi Padawan.jpg"
@@ -2724,6 +2715,15 @@
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Conscription.jpg"
+	        }
+	    },
+	    {
+	        "name": "Dengar",
+	        "rarity": "uncommon",
+	        "mana_cost": "{5}{B}",
+	        "type": "Legendary Creature — Human Mercenary ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Dengar.jpg"
 	        }
 	    }
 	]
@@ -2829,7 +2829,6 @@
 		3 Death Trooper
 		3 Doom Blade
 		3 Hazard Trooper
-		3 Insatiable Rakghoul
 		3 Open Season
 		3 Rule of Two
 		3 Sith Assassin
@@ -2886,6 +2885,7 @@
 		3 The Battle of Kamino
 		3 The Battle of Kashyyyk
 		3 Conscription
+		3 Dengar
 	[CommonSlot(8)]
 		4 Lockdown
 		4 Cantina Band
@@ -2893,7 +2893,7 @@
 		4 Force Healing
 		4 Force Reflex
 		4 Gifted Initiate
-		4 Ion Cannon
+		4 Gonk Droid
 		4 Jedi Battle Healer
 		4 Jedi Instructor
 		4 Loyal Tauntaun
