@@ -221,7 +221,7 @@
 	    {
 	        "name": "Plo Koon",
 	        "rarity": "rare",
-	        "mana_cost": "{3}{W}{W}",
+	        "mana_cost": "{4}{W}{W}",
 	        "type": "Legendary Creature — KelDor Jedi ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Plo Koon.jpg"
@@ -812,7 +812,7 @@
 	    {
 	        "name": "Swarm the Skies",
 	        "rarity": "common",
-	        "mana_cost": "{3}{B}",
+	        "mana_cost": "{2}{B}",
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Swarm the Skies.jpg"
@@ -1376,7 +1376,7 @@
 	    {
 	        "name": "Shaak Herd",
 	        "rarity": "common",
-	        "mana_cost": "{2}{G}",
+	        "mana_cost": "{1}{G}",
 	        "type": "Creature — Beast ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Shaak Herd.jpg"
@@ -1496,7 +1496,7 @@
 	    {
 	        "name": "Bull Rancor",
 	        "rarity": "rare",
-	        "mana_cost": "{2}{R}{G}{W}",
+	        "mana_cost": "{3}{R}{G}{W}",
 	        "type": "Creature — Beast ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Bull Rancor.jpg"
@@ -2223,15 +2223,6 @@
 	        }
 	    },
 	    {
-	        "name": "Rogues Passage",
-	        "rarity": "uncommon",
-	        "mana_cost": "",
-	        "type": "Land",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Rogues Passage.jpg"
-	        }
-	    },
-	    {
 	        "name": "Moisture Farm",
 	        "rarity": "uncommon",
 	        "mana_cost": "",
@@ -2242,7 +2233,7 @@
 	    },
 	    {
 	        "name": "Kamino Cloning Facility",
-	        "rarity": "rare",
+	        "rarity": "uncommon",
 	        "mana_cost": "",
 	        "type": "Land",
 	        "image_uris": {
@@ -2259,12 +2250,12 @@
 	        }
 	    },
 	    {
-	        "name": "Island.1",
+	        "name": "Island1",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Island ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Island.1.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Island1.jpg"
 	        }
 	    },
 	    {
@@ -2295,12 +2286,12 @@
 	        }
 	    },
 	    {
-	        "name": "Plains.1",
+	        "name": "Plains1",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Plains ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Plains.1.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Plains1.jpg"
 	        }
 	    },
 	    {
@@ -2313,30 +2304,30 @@
 	        }
 	    },
 	    {
-	        "name": "Mountain.1",
+	        "name": "Mountain1",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Mountain ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Mountain.1.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Mountain1.jpg"
 	        }
 	    },
 	    {
-	        "name": "Swamp.1",
+	        "name": "Swamp1",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Swamp ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Swamp.1.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Swamp1.jpg"
 	        }
 	    },
 	    {
-	        "name": "Forest.1",
+	        "name": "Forest1",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Forest ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Forest.1.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Forest1.jpg"
 	        }
 	    },
 	    {
@@ -2448,12 +2439,12 @@
 	        }
 	    },
 	    {
-	        "name": "Trooper.1",
+	        "name": "Trooper1",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Token Creature — Trooper ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Trooper.1.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Trooper1.jpg"
 	        }
 	    },
 	    {
@@ -2487,7 +2478,7 @@
 	        "name": "AT-AT",
 	        "rarity": "mythic",
 	        "mana_cost": "{3}{W}{W}",
-	        "type": "Artifact — Vehicle ",
+	        "type": "Kindred Artifact — Trooper Vehicle ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/AT-AT.jpg"
 	        }
@@ -2725,6 +2716,15 @@
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Dengar.jpg"
 	        }
+	    },
+	    {
+	        "name": "The Tomb of Miktrull",
+	        "rarity": "rare",
+	        "mana_cost": "",
+	        "type": "Legendary Land",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Tomb of Miktrull.jpg"
+	        }
 	    }
 	]
 	[RareSlot(2)]
@@ -2779,7 +2779,6 @@
 		2 Star Destroyer
 		2 Tank Droid
 		2 Trade Federation Battleship
-		2 Kamino Cloning Facility
 		2 The Battle of Heroes
 		2 The Battle of Christophsis
 		2 The Battle of Scarif
@@ -2788,6 +2787,7 @@
 		2 Amidala, Queen of Naboo
 		2 Obi-Wan, Jedi Padawan
 		2 The Battle of Utapau
+		2 The Tomb of Miktrull
 		1 The Battle of Naboo
 		1 The Battle of Yavin
 		1 The Battle of Geonosis
@@ -2878,8 +2878,8 @@
 		3 Sith Citadel
 		3 Hutt Palace
 		3 Ewok Village
-		3 Rogues Passage
 		3 Moisture Farm
+		3 Kamino Cloning Facility
 		3 Jedi Inquirer
 		3 The Battle of Coruscant
 		3 The Battle of Kamino
@@ -2990,13 +2990,13 @@
 		4 Bludgeoning Pain
 	[BasicSlot(1)]
 		10 Plains
-		10 Island.1
+		10 Island1
 		10 Swamp
 		10 Mountain
 		10 Forest
-		10 Plains.1
+		10 Plains1
 		10 Island
-		10 Mountain.1
-		10 Swamp.1
-		10 Forest.1
+		10 Mountain1
+		10 Swamp1
+		10 Forest1
 	

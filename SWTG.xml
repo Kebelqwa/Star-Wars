@@ -56,6 +56,7 @@ When The Battle of Hoth enters, create a 1/1 white Rebel creature token and a 1/
 (Back): Echo Base</text>
       <related attach="transform">Echo Base</related>
       <related count="2">Trooper1</related>
+      <related>Trooper</related>
     </card>
     <card>
       <name>Echo Base</name>
@@ -72,6 +73,7 @@ When The Battle of Hoth enters, create a 1/1 white Rebel creature token and a 1/
 (Front): The Battle of Hoth</text>
       <related attach="transform">The Battle of Hoth</related>
       <related count="2">Trooper1</related>
+      <related>Trooper</related>
     </card>
     <card>
       <name>Battle Tactics</name>
@@ -364,14 +366,15 @@ Crew 1</text>
       <set rarity="rare">SWTG</set>
       <prop>
         <colors>W</colors>
-        <manacost>3WW</manacost>
-        <cmc>5</cmc>
+        <manacost>4WW</manacost>
+        <cmc>6</cmc>
         <type>Legendary Creature - KelDor Jedi </type>
         <maintype>Creature</maintype>
-        <pt>4/4</pt>
+        <pt>5/6</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>You may activate meditate abilities any time you could cast an instant.
+      <text>Flash
+You may activate meditate abilities any time you could cast an instant.
 Meditate 1W (1W: Return this creature to its owner’s hand. Meditate only as a sorcery.)</text>
     </card>
     <card>
@@ -584,7 +587,8 @@ Scry 1.</text>
         <pt>1/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever Gungan Captain deals damage to a creature, tap that creature. That creature doesn’t untap during its controller’s next untap step.</text>
+      <text>Vigilance
+Whenever Gungan Captain deals damage to a creature, put a stun counter on that creature and tap it.</text>
     </card>
     <card>
       <name>Jar Jar Binks</name>
@@ -813,7 +817,7 @@ You may cast Trooper spells as though they had flash.</text>
         <cmc>4</cmc>
         <type>Creature - Human Sith </type>
         <maintype>Creature</maintype>
-        <pt>2/2</pt>
+        <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Hate — When Sith Manipulator enters, return target artifact or creature to its owner’s hand. If an opponent lost life from a source other than combat damage this turn, instead that creature’s controller puts it on the top or bottom of their library instead.</text>
@@ -931,7 +935,7 @@ Crew 1</text>
       </prop>
       <tablerow>3</tablerow>
       <text>Target player draws two cards and loses 2 life.
-Put a bounty counter on up to one target permanent an opponent controls.</text>
+Put a bounty counter on up to one target permanent.</text>
     </card>
     <card>
       <name>Aqualish Bounty Hunter</name>
@@ -946,7 +950,7 @@ Put a bounty counter on up to one target permanent an opponent controls.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>When Aqualish Bounty Hunter enters, put a bounty counter on target permanent.
-Whenever you complete a bounty, target player discards a card. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+Whenever you complete a bounty, target player discards a card. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>The Battle of Yavin</name>
@@ -1008,7 +1012,7 @@ When Bib Fortuna dies, shuffle your library.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>Whenever Black Market Dealer or another outlaw creature you control dies, put a bounty counter on target permanent. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)
-Whenever you complete a bounty, you lose 1 life and draw a card. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+Whenever you complete a bounty, you lose 1 life and draw a card. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Bounty Spotter</name>
@@ -1023,8 +1027,8 @@ Whenever you complete a bounty, you lose 1 life and draw a card. (You complete a
       </prop>
       <tablerow>2</tablerow>
       <text>Bounty Spotter doesn’t untap during your untap step.
-{T}: Put a bounty counter on target permanent.
-Whenever you complete a bounty, untap Bounty Spotter. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+{T}: Put a bounty counter on target creature or Vehicle.
+Whenever you complete a bounty, untap Bounty Spotter. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Death Trooper</name>
@@ -1096,7 +1100,7 @@ Scry 1.</text>
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>At the beginning of each opponent’s upkeep, destroy target creature that player controls unless they pay 2 life and discard a card.</text>
+      <text>At the beginning of each opponent’s upkeep, choose target creature that player controls. That player may discard a card. If they can’t, they may pay 2 life. If they don’t do either, destroy the chosen creature.</text>
     </card>
     <card>
       <name>Hazard Trooper</name>
@@ -1140,7 +1144,7 @@ Draw a card.</text>
         <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever one or more Troopers you control attack, each opponent loses 1 life.</text>
+      <text>Whenever one or more Troopers you control attack, each opponent loses 1 life. You gain 1 life.</text>
     </card>
     <card>
       <name>IG-88B</name>
@@ -1198,7 +1202,7 @@ Repair 3</text>
       <tablerow>1</tablerow>
       <text>When Open Season enters, put a bounty counter on target permanent.
 Activated abilities of nonland permanents your opponents control with a bounty counter can’t be activated.
-Whenever you complete a bounty, that creature’s controller loses 2 life. Each other player gains 2 life. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+Whenever you complete a bounty, each opponent loses 2 life. You gain 2 life. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Order 66</name>
@@ -1268,7 +1272,7 @@ Return up to one target creature or Vehicle card from your graveyard to your han
       </prop>
       <tablerow>2</tablerow>
       <text>Lifelink
-Hate — When Sith Evoker enters, if an opponent lose life from a source other than combat damage this turn, return target creature card with from your graveyard to your hand.</text>
+Hate — When Sith Evoker enters, if an opponent lose life from a source other than combat damage this turn, return target creature card from your graveyard to your hand.</text>
     </card>
     <card>
       <name>Sith Inquisitor</name>
@@ -1318,13 +1322,13 @@ Sith Lord enters with X +1/+1 counters, where X is the total amount of life lost
       <set rarity="common">SWTG</set>
       <prop>
         <colors>B</colors>
-        <manacost>3B</manacost>
-        <cmc>4</cmc>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Create two TIE Fighters, they’re 2/1 black Vehicle artifact tokens with spaceflight and crew 1.</text>
+      <text>Create a 1/1 white Trooper creature token and a 2/1 black Vehicle artifact tokens with spaceflight and crew 1 named TIE Fighter.</text>
       <related>TIE Fighter</related>
     </card>
     <card>
@@ -1434,7 +1438,7 @@ When The Battle of Geonosis enters, it deals X damage to each opponent and each 
       </prop>
       <tablerow>2</tablerow>
       <text>{T}: Bounty Sniper deals 1 damage to any target.
-Whenever you complete a bounty, untap Bounty Sniper. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+Whenever you complete a bounty, untap Bounty Sniper. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Capture</name>
@@ -1617,7 +1621,7 @@ Whenever Jango Fett attacks, it gets +X/+0, where X is the number of creatures d
         <pt>2/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever you complete a bounty, Novice Bounty Hunter deals 2 damage to target player or planeswalker. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+      <text>Whenever you complete a bounty, Novice Bounty Hunter deals 2 damage to target player or planeswalker. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Raging Reek</name>
@@ -1814,7 +1818,7 @@ Whenever a creature you control becomes monstrous, put a +1/+1 counter on it.</t
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Trooper creatures you control get +2/+2.
+      <text>Other Trooper creatures you control get +2/+2.
 Crew 2 (Tap any number of creatures you control with total power 2 or greater: This Trooper Vehicle becomes an artifact creature until end of turn.)</text>
     </card>
     <card>
@@ -1894,7 +1898,7 @@ Whenever you complete a bounty, you may search your library for a basic land car
       </prop>
       <tablerow>2</tablerow>
       <text>{T}: Untap target land.
-Whenever you complete a bounty, untap Bounty Collector. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+Whenever you complete a bounty, untap Bounty Collector. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Corellian Corvette</name>
@@ -1954,7 +1958,8 @@ Whenever Ewok Firedancers and at least two other creatures you control attack, m
       <tablerow>2</tablerow>
       <text>Flash
 Trample, spaceflight
-Whenever Exogorth deals combat damage to an opponent or a permanent they protect, that player sacrifices an artifact.</text>
+Whenever a creature dealt damage by Exogorth this turn dies, monstrosity 1.
+Whenever one or more monstrous creatures you control deal combat damage to an opponent and/or a permanent they protect, that player sacrifices an artifact.</text>
     </card>
     <card>
       <name>Force Pull</name>
@@ -2203,7 +2208,7 @@ When Rancor is put into a graveyard from the battlefield, return Rancor to its o
       </prop>
       <tablerow>1</tablerow>
       <text>When Scout the Perimeter enters, draw a card and put a bounty counter on up to one target permanent.
-Whenever you complete a bounty, you may put a land card from your hand onto the battlefield tapped. This ability triggers only once each turn. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+Whenever you complete a bounty, you may put a land card from your hand onto the battlefield tapped. This ability triggers only once each turn. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Scout Trooper</name>
@@ -2225,11 +2230,11 @@ Other Troopers you control get +1/+1 and have “{T}: Add {C}.”</text>
       <set rarity="common">SWTG</set>
       <prop>
         <colors>G</colors>
-        <manacost>2G</manacost>
-        <cmc>3</cmc>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
         <type>Creature - Beast </type>
         <maintype>Creature</maintype>
-        <pt>2/2</pt>
+        <pt>1/2</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>1G: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
@@ -2275,7 +2280,7 @@ Whenever one or more Trooper creatures you control attack, put a +1/+1 counter o
         <pt>4/5</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever you complete a bounty, you gain 3 life. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+      <text>Whenever you complete a bounty, you gain 3 life. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>AAT-1</name>
@@ -2428,15 +2433,15 @@ Whenever you complete a bounty, you may draw two cards. If you do, discard two c
       <set rarity="rare">SWTG</set>
       <prop>
         <colors>WRG</colors>
-        <manacost>2RGW</manacost>
-        <cmc>5</cmc>
+        <manacost>3RGW</manacost>
+        <cmc>6</cmc>
         <type>Creature - Beast </type>
         <maintype>Creature</maintype>
-        <pt>5/5</pt>
+        <pt>6/6</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Trample
-1RGW: Monstrosity 2. (If this creature isn’t monstrous, put two +1/+1 counters on it and it becomes monstrous.)
+1RGW: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
 Whenever a creature you control becomes monstrous, it gains hexproof until end of turn.</text>
     </card>
     <card>
@@ -2724,7 +2729,7 @@ When Greedo dies, you may search your library for an outlaw card, reveal it, and
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Hot Pursuit enters, put a bounty counter on up to one target nonland permanent.
+      <text>When Hot Pursuit enters, put a bounty counter on up to one target permanent.
 Creatures your opponents control get -1/-1 for each bounty counter on them.
 Whenever you complete a bounty, put a bounty counter on up to one target creature.</text>
     </card>
@@ -2784,7 +2789,7 @@ Hunt to Extinction deals X damage to target opponent and each creature they cont
       </prop>
       <tablerow>2</tablerow>
       <text>Defender
-{T}: Put a bounty counter on target nonland permanent.
+{T}: Put a bounty counter on target permanent.
 2R, {T}: Create a tapped 4/4 red Mercenary creature token named Bounty Hunter. It fights target creature an opponent controls with a bounty counter. Activate only as a sorcery.</text>
       <related>Bounty Hunter</related>
       <related>Jund</related>
@@ -3004,7 +3009,7 @@ Meditate 1W</text>
       </prop>
       <tablerow>2</tablerow>
       <text>When Rumor Monger enters, put a bounty counter on up to one target permanent.
-Whenever you complete a bounty, distribute two bounty counters among up to two target permanents. This ability triggers only once each turn. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+Whenever you complete a bounty, distribute two bounty counters among up to two target permanents. This ability triggers only once each turn. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Salvage Squad</name>
@@ -3109,7 +3114,7 @@ Senator Lott Dod and other creatures you control have ward {1}. (Whenever this c
       </prop>
       <tablerow>2</tablerow>
       <text>{1}, {T}: Put a bounty counter on target nonland permanent an opponent controls.
-Whenever you complete a bounty, exile the top card of your library. You may play that card until the end of your next turn. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+Whenever you complete a bounty, exile the top card of your library. You may play that card until the end of your next turn. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Sith Magic</name>
@@ -3655,20 +3660,6 @@ When Ewok Village enters, add {G}.
 {T}: Add {R} or {W}.</text>
     </card>
     <card>
-      <name>Rogues Passage</name>
-      <set rarity="uncommon">SWTG</set>
-      <prop>
-        <colors></colors>
-        <manacost></manacost>
-        <cmc>0</cmc>
-        <type>Land</type>
-        <maintype>Land</maintype>
-      </prop>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{4}, {T}: Target creature can’t be blocked this turn.</text>
-    </card>
-    <card>
       <name>Moisture Farm</name>
       <set rarity="uncommon">SWTG</set>
       <prop>
@@ -3685,7 +3676,7 @@ When Ewok Village enters, add {G}.
     </card>
     <card>
       <name>Kamino Cloning Facility</name>
-      <set rarity="rare">SWTG</set>
+      <set rarity="uncommon">SWTG</set>
       <prop>
         <colors></colors>
         <manacost></manacost>
@@ -3852,14 +3843,15 @@ Meditate 3W (3W: Return this creature to its owner’s hand. Meditate only as a 
         <colors>W</colors>
         <manacost>3WW</manacost>
         <cmc>5</cmc>
-        <type>Artifact - Vehicle </type>
+        <type>Kindred Artifact - Trooper Vehicle </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
       <text>Vigilance
-When AT-AT enters, create two white Trooper creature tokens.
+When AT-AT enters, create two 1/1 white Trooper creature tokens.
 As long as it’s your turn, your opponents can’t cast spells.
-Crew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)</text>
+Crew 2</text>
+      <related count="2">Trooper1</related>
     </card>
     <card>
       <name>The Battle of Coruscant</name>
@@ -3942,6 +3934,9 @@ When The Battle of Kamino enters, reveal cards from the top of your library unti
 ---
 (Back): Sink the City</text>
       <related attach="transform">Sink the City</related>
+      <related>Trooper</related>
+      <related>lore innacurate</related>
+      <related>Trooper</related>
     </card>
     <card>
       <name>Sink the City</name>
@@ -3957,6 +3952,9 @@ When The Battle of Kamino enters, reveal cards from the top of your library unti
 ---
 (Front): The Battle of Kamino</text>
       <related attach="transform">The Battle of Kamino</related>
+      <related>Trooper</related>
+      <related>lore innacurate</related>
+      <related>Trooper</related>
     </card>
     <card>
       <name>The Battle of Christophsis</name>
@@ -4200,53 +4198,6 @@ Crew 1 (Tap any number of creatures you control with total power 1 or greater: T
       <related attach="transform">The Battle of Utapau</related>
     </card>
     <card>
-      <name>General Grievous SPG</name>
-      <set rarity="">SWTG</set>
-      <prop>
-        <colors>WUB</colors>
-        <manacost>WUB</manacost>
-        <cmc>3</cmc>
-        <type>Legendary Artifact Creature - Kaleesh </type>
-        <maintype>Creature</maintype>
-        <pt>2/2</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Double strike
-A Fine Addition — Whenever a creature an opponent controls dies, you may put a +1/+1 counter on General Grievous.
-Remove two +1/+1 counters from General Grievous: Return General Grievous to its owner’s hand.</text>
-    </card>
-    <card>
-      <name>Amidala, Queen of Naboo SPG</name>
-      <set rarity="">SWTG</set>
-      <prop>
-        <colors>WG</colors>
-        <manacost>1GW</manacost>
-        <cmc>3</cmc>
-        <type>Legendary Creature - Human Noble </type>
-        <maintype>Creature</maintype>
-        <pt>2/3</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Whenever Amidala, Queen of Naboo or another creature enters under your control, you gain 1 life.
-At the beginning of your end step, if you’ve gained 5 or more life this turn, destroy up to one target artifact or enchantment.</text>
-    </card>
-    <card>
-      <name>Boba Fett SPG</name>
-      <set rarity="">SWTG</set>
-      <prop>
-        <colors>BRG</colors>
-        <manacost>2BRG</manacost>
-        <cmc>5</cmc>
-        <type>Legendary Creature - Human Mercenary </type>
-        <maintype>Creature</maintype>
-        <pt>4/4</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Menace, deathtouch, haste
-When Boba Fett enters, put a bounty counter on up to one target nonland permanent an opponent controls.
-Whenever you complete a bounty, you may draw two cards. If you do, discard two cards.</text>
-    </card>
-    <card>
       <name>Conscription</name>
       <set rarity="uncommon">SWTG</set>
       <prop>
@@ -4272,5 +4223,19 @@ Whenever you complete a bounty, you may draw two cards. If you do, discard two c
       </prop>
       <tablerow>2</tablerow>
       <text>When Dengar enters, put a bounty counter on target permanent.
-Whenever you complete a bounty, return up to one target creature card from your graveyard to your hand unless an opponent pays 3 life. (You complete a bounty when a permanent an opponent controls with a bounty counter is put into their graveyard from the battlefield.)</text>
+Whenever you complete a bounty, return up to one target creature card from your graveyard to your hand unless an opponent pays 3 life. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
+    </card>
+    <card>
+      <name>The Tomb of Miktrull</name>
+      <set rarity="rare">SWTG</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Legendary Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>{T}: Add {C}.
+{T}, Pay 1 life: Add one mana of any color an artifact you control could produce.</text>
     </card>
