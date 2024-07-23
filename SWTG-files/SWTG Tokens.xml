@@ -42,7 +42,7 @@ WUBRG TROOPER LEGION Every trooper has an ability that strengthens all your troo
       </prop>
       <tablerow>1</tablerow>
       <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Crew 1 (Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)</text>
+Crew 1</text>
       <token>1</token>
     </card>
     <card>
@@ -107,7 +107,7 @@ Crew 1 (Tap any number of creatures you control with total power 1 or greater: T
       </prop>
       <tablerow>1</tablerow>
       <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Crew 1 (Tap any number of creatures you control with total power 1 or greater: This Rebel Vehicle becomes an artifact creature until end of turn.)</text>
+Crew 1</text>
       <token>1</token>
     </card>
     <card>
@@ -151,7 +151,7 @@ UB DARK SIDE Dark side themed instant and sorcery cards power this control arche
 BR HATEFUL BOUNTY Complete bounties that deal damage to use your hatred and punish all who stand in your way.
 RG MONSTERS AND HUNTERS Use counters to amp up your threats and put bounties on your opponents threats,
 GU JEDI ORDER Jedi have abilities that trigger when they enter or leave the battlefield. They recur these with the Meditate mechanic returning them to your hand.
-WB SEPARATISTS The Separatist Droid army uses the Repair mechanic to allow you to eventually recast your Droids from the graveyard.
+WB SEPARATISTS The Separatist Droid army uses the Repair mechanic to allow you to eventually recast your Droids.
 UR SITH EMPIRE Sith get stronger with the Hate mechanic, granting stronger effects or new abilities if an opponent has lost life from anything but combat damage.
 BG BOUNTY HUNTERS Criminals and bounty hunters place bounty counters on opposing creatures and reward you when those creatures die.
 RW THE WILDS Wookiees, Ewoks, and large beasts use the Monstrosity mechanic to get larger and have abilities that care about being monstrous.</text>

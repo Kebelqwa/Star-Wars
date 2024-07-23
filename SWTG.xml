@@ -296,14 +296,14 @@ At the beginning of combat on your turn, target Vehicle creature you control get
       <set rarity="common">SWTG</set>
       <prop>
         <colors>W</colors>
-        <manacost>2W</manacost>
-        <cmc>3</cmc>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
         <type>Creature - Beast </type>
         <maintype>Creature</maintype>
-        <pt>3/2</pt>
+        <pt>3/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>2G: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
+      <text>1G: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
 When Loyal Tauntaun becomes monstrous, it gains indestructible until end of turn.</text>
     </card>
     <card>
@@ -311,8 +311,8 @@ When Loyal Tauntaun becomes monstrous, it gains indestructible until end of turn
       <set rarity="rare">SWTG</set>
       <prop>
         <colors>W</colors>
-        <manacost>2W</manacost>
-        <cmc>3</cmc>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
         <type>Kindred Enchantment - Droid </type>
         <maintype>Enchantment</maintype>
       </prop>
@@ -397,11 +397,11 @@ Meditate 1W (1W: Return this creature to its owner’s hand. Meditate only as a 
       <set rarity="common">SWTG</set>
       <prop>
         <colors>W</colors>
-        <manacost>3W</manacost>
-        <cmc>4</cmc>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
         <type>Creature - Human Trooper </type>
         <maintype>Creature</maintype>
-        <pt>3/4</pt>
+        <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Vigilance
@@ -435,7 +435,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever one or more Troopers you control attack a player and/or a permanent a player protects, tap up to one target creature that player controls. (Players protect permanents that can be attacked.)</text>
+      <text>Whenever one or more Troopers you control attack a player and/or a permanent that player protects, tap up to one target creature that player controls. (Players protect permanents that can be attacked.)</text>
     </card>
     <card>
       <name>Womp Rat</name>
@@ -465,7 +465,7 @@ When Womp Rat becomes monstrous, it gains lifelink and vigilance until end of tu
       <tablerow>1</tablerow>
       <text>Vigilance
 Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Crew 1 (Tap any number of creatures you control with total power 1 or greater: This Rebel Vehicle becomes an artifact creature until end of turn.)</text>
+Crew 1</text>
     </card>
     <card>
       <name>Admiral Ackbar</name>
@@ -497,7 +497,7 @@ Whenever two or more Vehicles you control attack, draw a card.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>Flash
-When Armed Protocol Droid enters, target nonartifact creature gets -6/-0 until end of turn.
+When Armed Protocol Droid enters, target creature gets -6/-0 until end of turn.
 Repair 3 (When this creature dies, you may exile it with three time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)</text>
     </card>
     <card>
@@ -777,7 +777,7 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
       </prop>
       <tablerow>1</tablerow>
       <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Whenever a Trooper enters under your control, untap Republic Frigate.
+Whenever a Trooper creature you control enters, untap Republic Frigate.
 Crew 1</text>
     </card>
     <card>
@@ -862,8 +862,8 @@ Hate — When Sith Sorcerer dies, if an opponent lost life from a source other t
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Untap up to two target nonland permanents you control. You may have one of those permanents that’s a Vehicle, becomes an artifact creature until end of turn.
-Creatures your opponents control get -1/-0 until end of turn.</text>
+      <text>Untap up to one target nonland permanents you control. You may have one of those permanents that’s a Vehicle, becomes an artifact creature until end of turn.
+Draw a card.</text>
     </card>
     <card>
       <name>Spider Droid</name>
@@ -877,7 +877,7 @@ Creatures your opponents control get -1/-0 until end of turn.</text>
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Repair 6 (When this creature dies, you may exile it with six time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)
+      <text>Repair 5 (When this creature dies, you may exile it with five time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)
 Whenever one or more nontoken creatures you control leave the battlefield, if Spider Droid is in exile, you may remove up to that many time counters from Spider Droid.</text>
     </card>
     <card>
@@ -1035,8 +1035,8 @@ Whenever you complete a bounty, untap Bounty Spotter. (You complete a bounty whe
       <set rarity="uncommon">SWTG</set>
       <prop>
         <colors>B</colors>
-        <manacost>1B</manacost>
-        <cmc>2</cmc>
+        <manacost>B</manacost>
+        <cmc>1</cmc>
         <type>Creature - Human Trooper </type>
         <maintype>Creature</maintype>
         <pt>1/1</pt>
@@ -1272,7 +1272,7 @@ Return up to one target creature or Vehicle card from your graveyard to your han
       </prop>
       <tablerow>2</tablerow>
       <text>Lifelink
-Hate — When Sith Evoker enters, if an opponent lose life from a source other than combat damage this turn, return target creature card from your graveyard to your hand.</text>
+Hate — When Sith Evoker enters, if an opponent lose life from a source other than combat damage this turn, return target creature or planeswalker card from your graveyard to your hand.</text>
     </card>
     <card>
       <name>Sith Inquisitor</name>
@@ -1328,8 +1328,9 @@ Sith Lord enters with X +1/+1 counters, where X is the total amount of life lost
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Create a 1/1 white Trooper creature token and a 2/1 black Vehicle artifact tokens with spaceflight and crew 1 named TIE Fighter.</text>
-      <related>TIE Fighter</related>
+      <text>Create a 1/1 white Trooper creature token and a 2/1 black Vehicle artifact token with spaceflight and crew 1 named TIE Fighter.</text>
+      <related>Trooper</related>
+      <related> TIE Fighter</related>
     </card>
     <card>
       <name>TIE Bomber</name>
@@ -1451,7 +1452,7 @@ Whenever you complete a bounty, untap Bounty Sniper. (You complete a bounty when
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. At the beginning of the next upkeep, if that creature is modified, its controller sacrifices it. (Equipment, Auras you control, and counters are modifications.)</text>
+      <text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. At the beginning of the next upkeep, if that creature has a bounty counter, its controller sacrifices it.</text>
     </card>
     <card>
       <name>Crossfire</name>
@@ -1533,23 +1534,23 @@ Whenever you complete a bounty, untap Bounty Sniper. (You complete a bounty when
         <pt>2/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever a creature enters under an opponent’s control, if Gamorrean Prison Guard is untapped, it fights that creature.</text>
+      <text>Whenever a creature an opponent controls enters, if Gamorrean Prison Guard is untapped, it fights that creature.</text>
     </card>
     <card>
-      <name>Gundark</name>
+      <name>Geonosian Warrior</name>
       <set rarity="common">SWTG</set>
       <prop>
         <colors>R</colors>
         <manacost>R</manacost>
         <cmc>1</cmc>
-        <type>Creature - Beast </type>
+        <type>Creature - Insect Warrior </type>
         <maintype>Creature</maintype>
         <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Haste
-2R: Monstrosity 2. (If this creature isn’t monstrous, put two +1/+1 counters on it and it becomes monstrous.)
-When Gundark becomes monstrous, it gains menace until end of turn.</text>
+2R: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
+When Geonosian Warrior becomes monstrous, it gains flying until end of turn.</text>
     </card>
     <card>
       <name>Han Solo</name>
@@ -1621,7 +1622,7 @@ Whenever Jango Fett attacks, it gets +X/+0, where X is the number of creatures d
         <pt>2/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever you complete a bounty, Novice Bounty Hunter deals 2 damage to target player or planeswalker. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
+      <text>Whenever you complete a bounty, Novice Bounty Hunter deals 2 damage to any noncreature target. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Raging Reek</name>
@@ -1649,7 +1650,7 @@ Whenever Jango Fett attacks, it gets +X/+0, where X is the number of creatures d
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Rallying Fire deals X damage to any target, where X is the number of creatures you control plus one.</text>
+      <text>Rallying Fire deals X damage to any target, where X is the number of creatures you control plus 2.</text>
     </card>
     <card>
       <name>Revenge</name>
@@ -1676,7 +1677,7 @@ Whenever Jango Fett attacks, it gets +X/+0, where X is the number of creatures d
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever one or more Troopers enter under your control, you may have Rocket Trooper deal that much damage to any target.</text>
+      <text>Whenever one or more Trooper creatures you control enter, you may have Rocket Trooper deal that much damage to any target.</text>
     </card>
     <card>
       <name>Shock Trooper</name>
@@ -1790,7 +1791,7 @@ Whenever a bounty counter is placed on a creature an opponent controls, that cre
       <tablerow>1</tablerow>
       <text>Haste
 Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Crew 1 (Tap any number of creatures you control with total power 1 or greater: This Rebel  Vehicle becomes an artifact creature until end of turn.)</text>
+Crew 1</text>
     </card>
     <card>
       <name>Weequay Beastmaster</name>
@@ -1819,7 +1820,7 @@ Whenever a creature you control becomes monstrous, put a +1/+1 counter on it.</t
       </prop>
       <tablerow>1</tablerow>
       <text>Other Trooper creatures you control get +2/+2.
-Crew 2 (Tap any number of creatures you control with total power 2 or greater: This Trooper Vehicle becomes an artifact creature until end of turn.)</text>
+Crew 2</text>
     </card>
     <card>
       <name>Bathe in Bacta</name>
@@ -1882,7 +1883,7 @@ You may play an additional land on each of your turns.
       </prop>
       <tablerow>2</tablerow>
       <text>Deathtouch
-Whenever a land enters under your control, put a bounty counter on up to one target creature.
+Whenever a land you control enters, put a bounty counter on up to one target creature.
 Whenever you complete a bounty, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.</text>
     </card>
     <card>
@@ -1912,7 +1913,7 @@ Whenever you complete a bounty, untap Bounty Collector. (You complete a bounty w
       </prop>
       <tablerow>1</tablerow>
       <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Whenever one or more +1/+1 counters are put on one or more other creatures you control, put a +1/+1 counter on Corellian Corvette. This ability triggers only once each turn.
+Whenever a +1/+1 counter is put on another creature you control, put a +1/+1 counter on Corellian Corvette. This ability triggers only once each turn.
 Crew 2</text>
     </card>
     <card>
@@ -1990,7 +1991,7 @@ Scry 2. (To scry 2, look at the top two cards of your library, then put any numb
       </prop>
       <tablerow>2</tablerow>
       <text>Trample
-Whenever a creature enters under an opponent’s control, put a +1/+1 counter on Hungry Dragonsnake.</text>
+Whenever a creature an opponent controls enters, put a +1/+1 counter on Hungry Dragonsnake.</text>
     </card>
     <card>
       <name>Hutt Crime Lord</name>
@@ -2154,7 +2155,8 @@ XXG: Nexu Stalker gets +X/+X until end of turn. Activate only if Nexu Stalker is
         <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Deathtouch</text>
+      <text>Deathtouch
+4G: Monstrosity 2. Activate only if a creature died this turn. (If this creature isn’t monstrous, put two +1/+1 counters on it and it becomes monstrous.)</text>
     </card>
     <card>
       <name>No Contest</name>
@@ -2188,13 +2190,13 @@ When Rancor is put into a graveyard from the battlefield, return Rancor to its o
       <set rarity="common">SWTG</set>
       <prop>
         <colors>G</colors>
-        <manacost>1G</manacost>
-        <cmc>2</cmc>
+        <manacost>G</manacost>
+        <cmc>1</cmc>
         <type>Instant</type>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>The owner of target artifact or enchantment shuffles it into their library.</text>
+      <text>The owner of target artifact, battle, or enchantment shuffles it into their library and gains life equal to its mana value.</text>
     </card>
     <card>
       <name>Scout the Perimeter</name>
@@ -2223,7 +2225,7 @@ Whenever you complete a bounty, you may put a land card from your hand onto the 
       </prop>
       <tablerow>2</tablerow>
       <text>{T}: Add {C}.
-Other Troopers you control get +1/+1 and have “{T}: Add {C}.”</text>
+Other Troopers you control have “{T}: Add {C}.”</text>
     </card>
     <card>
       <name>Shaak Herd</name>
@@ -2234,11 +2236,11 @@ Other Troopers you control get +1/+1 and have “{T}: Add {C}.”</text>
         <cmc>2</cmc>
         <type>Creature - Beast </type>
         <maintype>Creature</maintype>
-        <pt>1/2</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>1G: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
-Whenever a monstrous creature you control dies, put a +1/+1 counter on target creature you control.</text>
+Whenever Shaak Herd dies, you may put any of its counters on target creature you control.</text>
     </card>
     <card>
       <name>Show of Dominance</name>
@@ -2293,9 +2295,9 @@ Whenever one or more Trooper creatures you control attack, put a +1/+1 counter o
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever one or more repair counters are removed from a card you own in exile, target player loses 1 life and you gain 1 life.
+      <text>Whenever you remove one or more time counters from a card you own in exile, target opponent loses 1 life and you gain 1 life.
 Repair 4 (When this creature dies, you may exile it with four time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)
-Crew 1 (Tap any number of creatures you control with total power 1 or greater: This Droid Vehicle becomes an artifact creature until end of turn.)</text>
+Crew 1</text>
     </card>
     <card>
       <name>Acklay of the Arena</name>
@@ -2410,7 +2412,7 @@ Hate — Whenever Asajj Ventress attacks, if an opponent lost life from a source
       </prop>
       <tablerow>1</tablerow>
       <text>Enchant creature
-Enchanted creature has “Whenever this creature attacks, each other creature you control gets +X/+X until end of turn, where X is this creature’s power.”</text>
+Whenever enchanted creature attacks, each other attacking creature gets +X/+X until end of turn, where X is enchanted creature’s power.</text>
     </card>
     <card>
       <name>Boba Fett</name>
@@ -2716,7 +2718,7 @@ When Greater Krayt Dragon becomes monstrous, draw a card for each +1/+1 counter 
       </prop>
       <tablerow>2</tablerow>
       <text>Creatures blocking or blocked by Greedo have first strike.
-When Greedo dies, you may search your library for an outlaw card, reveal it, and put it into your hand, then shuffle. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</text>
+When Greedo dies, you may search your library for an outlaw card, reveal it, put it into your hand, then shuffle. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</text>
     </card>
     <card>
       <name>Hot Pursuit</name>
@@ -2837,7 +2839,7 @@ When Jedi Sentinel enters, you may return another target creature you control an
       </prop>
       <tablerow>2</tablerow>
       <text>Lifelink, vigilance
-Whenever another creature enters under your control, put a +1/+1 counter on Luke Skywalker.
+Whenever another creature you control enters, put a +1/+1 counter on Luke Skywalker.
 Remove all +1/+1 counters from Luke Skywalker: Luke Skywalker gains hexproof until end of turn. Activate this ability only if at least one +1/+1 counter is removed this way.</text>
     </card>
     <card>
@@ -2853,7 +2855,7 @@ Remove all +1/+1 counters from Luke Skywalker: Luke Skywalker gains hexproof unt
       </prop>
       <tablerow>2</tablerow>
       <text>Droid spells you cast cost {1} less to cast.
-{1}, {T}: Remove a repair counter from a card you own in exile.
+{1}, {T}: Remove a time counter from a card you own in exile.
 Repair 4 (When this creature dies, you may exile it with four time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)</text>
     </card>
     <card>
@@ -2867,7 +2869,7 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Remove all repair counters from cards you own in exile. Put each card that had a repair counter removed this way from exile onto the battlefield. Then create a 1/1 colorless Droid artifact creature token for each Droid you control.</text>
+      <text>Remove all time counters from cards you own in exile. Put each card that had a counter removed this way from exile onto the battlefield. Then create a 1/1 colorless Droid artifact creature token for each Droid you control.</text>
       <related>Droid</related>
       <related>Esper</related>
     </card>
@@ -2899,7 +2901,7 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
         <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever an artifact enters under your control, you may pay {1}. If you do, draw a card. This ability triggers only once each turn.
+      <text>Whenever an artifact you control enters, you may pay {1}. If you do, draw a card. Do this only once each turn.
 {1}, {T}, Sacrifice a nontoken artifact: Create a 1/1 colorless Droid artifact creature token.</text>
       <related>Droid</related>
       <related>Esper</related>
@@ -3066,11 +3068,11 @@ As long as you control four or more creatures, Senator Bail Organa gets +2/+2.</
         <cmc>2</cmc>
         <type>Legendary Creature - Neimoidian Advisor </type>
         <maintype>Creature</maintype>
-        <pt>2/3</pt>
+        <pt>1/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Spells your opponents cast that target you cost {2} more to cast.
-Senator Lott Dod and other creatures you control have ward {1}. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)</text>
+      <text>Whenever one or more artifacts you control enter, each opponent loses 1 life.
+{2}, {T}, Sacrifice Senator Lott Dod: Copy target activated or triggered ability you control. You may choose new targets for the copy.</text>
     </card>
     <card>
       <name>Tarfful, Wookiee General</name>
@@ -3099,18 +3101,19 @@ Senator Lott Dod and other creatures you control have ward {1}. (Whenever this c
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever you draw one or more cards, you gain that much life.</text>
+      <text>Whenever you draw one or more cards, you gain that much life.
+Whenever an opponent casts a spell, you gain 1 life unless that player pays {1}.</text>
     </card>
     <card>
       <name>Hondo Ohnaka</name>
       <set rarity="uncommon">SWTG</set>
       <prop>
         <colors>BR</colors>
-        <manacost>1BR</manacost>
-        <cmc>3</cmc>
+        <manacost>2BR</manacost>
+        <cmc>4</cmc>
         <type>Legendary Creature - Weequay Pirate </type>
         <maintype>Creature</maintype>
-        <pt>2/2</pt>
+        <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>{1}, {T}: Put a bounty counter on target nonland permanent an opponent controls.
@@ -3318,8 +3321,8 @@ Crew 1</text>
         <pt>4/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>1R, Sacrifice another creature: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
-When Ravenous Wampa becomes monstrous, it deals 1 damage to any target.</text>
+      <text>2R, Sacrifice a creature: Monstrosity 2. (If this creature isn’t monstrous, put two +1/+1 counters on it and it becomes monstrous.)
+When Ravenous Wampa becomes monstrous, it deals 2 damage to any target.</text>
     </card>
     <card>
       <name>Strike Team Commando</name>
@@ -3511,7 +3514,7 @@ Equip Jedi or Sith {2}</text>
       </prop>
       <tablerow>1</tablerow>
       <text>Equipped creature gets +1/+1 and is a Trooper in addition to its other types.
-Whenever a creature enters under your control, attach Trooper Armor to it.
+Whenever a creature you control enters, attach Trooper Armor to it.
 Equip {3}</text>
     </card>
     <card>
@@ -3898,7 +3901,7 @@ Creatures with spaceflight that are attacking The Battle of Coruscant can’t be
       </prop>
       <tablerow>1</tablerow>
       <text>(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, exile it, then cast it transformed.)
-When The Battle of Heroes enters, up to one target creature you control fights up to one other target creature.
+When The Battle of Heroes enters, you may have target creature you control deal damage equal to its power to target creature an opponent controls.
 ---
 (Back): Banks of Mustafar</text>
       <related attach="transform">Banks of Mustafar</related>
@@ -4084,7 +4087,7 @@ When The Battle of Felucia enters, search your library for up to two basic land 
       <tablerow>1</tablerow>
       <text>Trample
 Whenever one or more +1/+1 counters are placed on another creature you control, put a +1/+1 counter on HAVw A6 Juggernaut. This ability triggers only once each turn.
-Crew 2 (Tap any number of creatures you control with total power 2 or greater: This Siege becomes an artifact creature until end of turn.)
+Crew 2
 ---
 (Front): The Battle of Felucia</text>
       <related attach="transform">The Battle of Felucia</related>
@@ -4101,7 +4104,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or greater: T
         <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever Amidala, Queen of Naboo or another creature enters under your control, you gain 1 life.
+      <text>Whenever Amidala, Queen of Naboo or another creature you control enters, you gain 1 life.
 At the beginning of your end step, if you’ve gained 5 or more life this turn, destroy up to one target artifact or enchantment.</text>
     </card>
     <card>
@@ -4192,7 +4195,7 @@ When The Battle of Kashyyyk enters, draw a card. You may put a land card from yo
       <tablerow>1</tablerow>
       <text>Menace
 Whenever TSMEU-6 Wheel Bike attacks, defending player loses 1 life for each creature that crewed TSMEU-6 Wheel Bike this turn.
-Crew 1 (Tap any number of creatures you control with total power 1 or greater: This Siege becomes an artifact creature until end of turn.)
+Crew 1
 ---
 (Front): The Battle of Utapau</text>
       <related attach="transform">The Battle of Utapau</related>
