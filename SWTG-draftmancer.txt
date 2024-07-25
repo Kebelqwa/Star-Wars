@@ -393,12 +393,12 @@
 	        }
 	    },
 	    {
-	        "name": "Jump Trooper",
+	        "name": "Shore Trooper",
 	        "rarity": "uncommon",
 	        "mana_cost": "{1}{U}",
 	        "type": "Creature — Human Trooper ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Jump Trooper.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Shore Trooper.jpg"
 	        }
 	    },
 	    {
@@ -1020,12 +1020,12 @@
 	        }
 	    },
 	    {
-	        "name": "Revenge",
+	        "name": "Shoot First",
 	        "rarity": "common",
 	        "mana_cost": "{1}{R}",
 	        "type": "Instant",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Revenge.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Shoot First.jpg"
 	        }
 	    },
 	    {
@@ -1187,7 +1187,7 @@
 	    {
 	        "name": "Ewok Ambush",
 	        "rarity": "common",
-	        "mana_cost": "{2}{G}",
+	        "mana_cost": "{1}{G}",
 	        "type": "Instant",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Ewok Ambush.jpg"
@@ -1376,7 +1376,7 @@
 	    {
 	        "name": "Shaak Herd",
 	        "rarity": "common",
-	        "mana_cost": "{1}{G}",
+	        "mana_cost": "{2}{G}",
 	        "type": "Creature — Beast ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Shaak Herd.jpg"
@@ -1820,7 +1820,7 @@
 	    {
 	        "name": "Qui-Gon Jinn",
 	        "rarity": "rare",
-	        "mana_cost": "{1}{G}{W}{U}",
+	        "mana_cost": "{2}{G}{W}{U}",
 	        "type": "Legendary Creature — Human Jedi ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Qui-Gon Jinn.jpg"
@@ -2649,12 +2649,12 @@
 	        }
 	    },
 	    {
-	        "name": "Obi-Wan, Jedi Padawan",
+	        "name": "Kit Fisto",
 	        "rarity": "rare",
-	        "mana_cost": "{2}{G}{W}{U}",
+	        "mana_cost": "{1}{G}{W}{U}",
 	        "type": "Legendary Creature — Human Jedi ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Obi-Wan, Jedi Padawan.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Kit Fisto.jpg"
 	        }
 	    },
 	    {
@@ -2785,7 +2785,7 @@
 		2 Duel of the Fates
 		2 The Battle of Felucia
 		2 Amidala, Queen of Naboo
-		2 Obi-Wan, Jedi Padawan
+		2 Kit Fisto
 		2 The Battle of Utapau
 		2 The Tomb of Miktrull
 		1 The Battle of Naboo
@@ -2819,7 +2819,7 @@
 		3 Force Push
 		3 Jedi Battle Mage
 		3 Jedi Training
-		3 Jump Trooper
+		3 Shore Trooper
 		3 Mon Calamari Cruiser
 		3 Preordain
 		3 Sith Manipulator
@@ -2939,7 +2939,7 @@
 		4 Novice Bounty Hunter
 		4 Raging Reek
 		4 Rallying Fire
-		4 Revenge
+		4 Shoot First
 		4 Sith Ravager
 		4 Speeder Trooper
 		4 Syndicate Enforcer

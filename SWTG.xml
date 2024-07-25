@@ -271,7 +271,9 @@ Crew 1</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever LAAT Gunship attacks, you may pay {W}. If you do, LAAT Gunship gains spaceflight until end of turn. Otherwise, create a 1/1 white Trooper creature token. (This creature can only block or be blocked by creatures with spaceflight.)
+      <text>Whenever LAAT Gunship attacks, choose one—
+• Create a 1/1 white Trooper creature token.
+• LAAT Gunship gains spaceflight until end of turn.  (This creature can only block or be blocked by creatures with spaceflight.)
 Crew 1</text>
       <related>Trooper</related>
       <related>Trooper</related>
@@ -405,7 +407,7 @@ Meditate 1W (1W: Return this creature to its owner’s hand. Meditate only as a 
       </prop>
       <tablerow>2</tablerow>
       <text>Vigilance
-Whenever one or more Troopers you control attack, you gain that much life.</text>
+Whenever one or more Troopers you control attack, scry 1.</text>
     </card>
     <card>
       <name>Security Droid</name>
@@ -435,7 +437,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever one or more Troopers you control attack a player and/or a permanent that player protects, tap up to one target creature that player controls. (Players protect permanents that can be attacked.)</text>
+      <text>Whenever one or more Troopers you control attack, for each defending player, tap up to one target creature that player controls. (The protector of an attacked permanent is a defending player.)</text>
     </card>
     <card>
       <name>Womp Rat</name>
@@ -512,7 +514,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
       </prop>
       <tablerow>1</tablerow>
       <text>(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, exile it, then cast it transformed.)
-When The Battle of Naboo enters, return up to X target creatures to their owners’ hands. Draw twice that many cards.
+When The Battle of Naboo enters, return up to X target creatures to their owners’ hands. Draw twice X cards.
 ---
 (Back): Gungan Shield Array</text>
       <related attach="transform">Gungan Shield Array</related>
@@ -546,7 +548,7 @@ Creatures can’t attack you unless their controller pays {2} for each creature 
       <tablerow>1</tablerow>
       <text>Enchant creature or Vehicle
 Enchanted creature can’t be blocked.
-Whenever enchanted creature attacks, defending player loses 1 life.</text>
+Whenever enchanted creature attacks, defending player loses 1 life. (The protector of an attacked permanent is a defending player.)</text>
     </card>
     <card>
       <name>Force Denial</name>
@@ -649,7 +651,7 @@ Meditate 1U (1U: Return this creature to its owner’s hand. Meditate only as a 
 Whenever a Jedi creature you control meditates, scry 1.</text>
     </card>
     <card>
-      <name>Jump Trooper</name>
+      <name>Shore Trooper</name>
       <set rarity="uncommon">SWTG</set>
       <prop>
         <colors>U</colors>
@@ -905,8 +907,7 @@ Whenever one or more nontoken creatures you control leave the battlefield, if Sp
       </prop>
       <tablerow>1</tablerow>
       <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Y-Wing can’t block.
-Whenever Y-Wing deals combat damage to an opponent or a permanent they protect, you may pay {1}. If you do, put a stun counter on target creature defending player controls. Tap that creature. (Players protect permanents that can be attacked.)
+Whenever Y-Wing deals combat damage to an opponent or a permanent an opponent protects, you may pay {1}. If you do, put a stun counter on target creature defending player controls. Tap that creature. (Players protect permanents that can be attacked. The protector of an attacked permanent is a defending player.)
 Crew 1</text>
     </card>
     <card>
@@ -1043,7 +1044,7 @@ Whenever you complete a bounty, untap Bounty Spotter. (You complete a bounty whe
       </prop>
       <tablerow>2</tablerow>
       <text>Deathtouch
-Attacking Troopers you control have deathtouch.</text>
+2B: Target Trooper you control gains deathtouch until end of turn.</text>
     </card>
     <card>
       <name>Doom Blade</name>
@@ -1115,7 +1116,7 @@ Scry 1.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>Menace
-Whenever one or more Troopers you control attack, up to one target creature gets -1/-1 until end of turn for each of those creatures.</text>
+When Hazard Trooper enters, up to one target creature gets -1/-1 for each Trooper you control until end of turn.</text>
     </card>
     <card>
       <name>Head Hunting</name>
@@ -1141,7 +1142,7 @@ Draw a card.</text>
         <cmc>3</cmc>
         <type>Creature - Human Trooper </type>
         <maintype>Creature</maintype>
-        <pt>2/3</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Whenever one or more Troopers you control attack, each opponent loses 1 life. You gain 1 life.</text>
@@ -1215,7 +1216,7 @@ Whenever you complete a bounty, each opponent loses 2 life. You gain 2 life. (Yo
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Order 66 costs {1} less to cast for each creature your opponents control with a bounty counter.
+      <text>Order 66 costs {1} less to cast for each creature with a bounty counter your opponents control.
 Put a bounty counter on each creature you don’t control, then destroy all creatures you don’t control.</text>
     </card>
     <card>
@@ -1315,7 +1316,7 @@ Sith Lord enters with X +1/+1 counters, where X is the total amount of life lost
         <pt>2/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Hate — 2U: Draw a card. Activate this ability only if an opponent lost life from a source other than combat damage this turn.</text>
+      <text>Hate — 1U, Pay 1 life: Draw a card. Activate only if an opponent lost life from a source other than combat damage this turn and only once each turn.</text>
     </card>
     <card>
       <name>Swarm the Skies</name>
@@ -1344,7 +1345,7 @@ Sith Lord enters with X +1/+1 counters, where X is the total amount of life lost
       </prop>
       <tablerow>1</tablerow>
       <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Whenever TIE Bomber deals combat damage to a player or a permanent they protect, you may sacrifice TIE Bomber. If you do, destroy target creature defending player controls. (Players protect permanents that can be attacked.)
+Whenever TIE Bomber deals combat damage to a player or a permanent an opponent protects, you may sacrifice TIE Bomber. If you do, destroy target creature defending player controls. (Players protect permanents that can be attacked. The protector of an attacked permanent is a defending player.)
 Crew 1</text>
     </card>
     <card>
@@ -1520,7 +1521,7 @@ Whenever you complete a bounty, untap Bounty Sniper. (You complete a bounty when
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Force Spark deals 1 damage to any target. Scry 1.</text>
+      <text>Force Spark deals 2 damage divided among up to two targets. Scry 1.</text>
     </card>
     <card>
       <name>Gamorrean Prison Guard</name>
@@ -1531,7 +1532,7 @@ Whenever you complete a bounty, untap Bounty Sniper. (You complete a bounty when
         <cmc>1</cmc>
         <type>Creature - Gamorrean Warrior </type>
         <maintype>Creature</maintype>
-        <pt>2/1</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Whenever a creature an opponent controls enters, if Gamorrean Prison Guard is untapped, it fights that creature.</text>
@@ -1549,8 +1550,8 @@ Whenever you complete a bounty, untap Bounty Sniper. (You complete a bounty when
       </prop>
       <tablerow>2</tablerow>
       <text>Haste
-2R: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
-When Geonosian Warrior becomes monstrous, it gains flying until end of turn.</text>
+2R: Monstrosity 2. (If this creature isn’t monstrous, put two +1/+1 counters on it and it becomes monstrous.)
+When Geonosian Warrior becomes monstrous, it gains menace until end of turn.</text>
     </card>
     <card>
       <name>Han Solo</name>
@@ -1653,7 +1654,7 @@ Whenever Jango Fett attacks, it gets +X/+0, where X is the number of creatures d
       <text>Rallying Fire deals X damage to any target, where X is the number of creatures you control plus 2.</text>
     </card>
     <card>
-      <name>Revenge</name>
+      <name>Shoot First</name>
       <set rarity="common">SWTG</set>
       <prop>
         <colors>R</colors>
@@ -1663,7 +1664,7 @@ Whenever Jango Fett attacks, it gets +X/+0, where X is the number of creatures d
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Hate — Target creature you control gets +2/+0 until end of turn if an opponent lost life from a source other than combat damage this turn. That creature deals damage equal to its power to any nonplayer target.</text>
+      <text>Target creature you control gains first strike until end of turn. That creature deals damage equal to its power to any nonplayer target.</text>
     </card>
     <card>
       <name>Rocket Trooper</name>
@@ -1677,7 +1678,7 @@ Whenever Jango Fett attacks, it gets +X/+0, where X is the number of creatures d
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever one or more Trooper creatures you control enter, you may have Rocket Trooper deal that much damage to any target.</text>
+      <text>Whenever Rocket Trooper or another Trooper you control enter, you may have Rocket Trooper deal 1 damage to any target.</text>
     </card>
     <card>
       <name>Shock Trooper</name>
@@ -1688,10 +1689,10 @@ Whenever Jango Fett attacks, it gets +X/+0, where X is the number of creatures d
         <cmc>4</cmc>
         <type>Creature - Human Trooper </type>
         <maintype>Creature</maintype>
-        <pt>2/2</pt>
+        <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Attacking Troopers you control get +2/+0.</text>
+      <text>Attacking Troopers you control get +1/+0.</text>
     </card>
     <card>
       <name>Sith Marauder</name>
@@ -1743,11 +1744,11 @@ Whenever Jango Fett attacks, it gets +X/+0, where X is the number of creatures d
         <cmc>3</cmc>
         <type>Creature - Human Trooper </type>
         <maintype>Creature</maintype>
-        <pt>2/1</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Haste
-Attacking Troopers you control have first strike.</text>
+When Speeder Trooper enters, you may discard a card. If you do, draw a card.</text>
     </card>
     <card>
       <name>Syndicate Enforcer</name>
@@ -1819,7 +1820,7 @@ Whenever a creature you control becomes monstrous, put a +1/+1 counter on it.</t
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Other Trooper creatures you control get +2/+2.
+      <text>Attacking Troopers you control get +2/+2.
 Crew 2</text>
     </card>
     <card>
@@ -1921,13 +1922,13 @@ Crew 2</text>
       <set rarity="common">SWTG</set>
       <prop>
         <colors>G</colors>
-        <manacost>2G</manacost>
-        <cmc>3</cmc>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
         <type>Instant</type>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Create two 1/1 green Ewok Rebel creature tokens. They gain haste until end of turn.</text>
+      <text>Create two 1/1 green Ewok Rebel creature tokens.</text>
       <related count="2">Ewok Rebel</related>
     </card>
     <card>
@@ -2006,7 +2007,7 @@ Whenever a creature an opponent controls enters, put a +1/+1 counter on Hungry D
       </prop>
       <tablerow>2</tablerow>
       <text>Hutt Crime Lord enters with a bounty counter.
-Whenever Hutt Crime Lord attacks, put a stun counter on it and a bounty counter on target creature defending player controls. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+Whenever Hutt Crime Lord attacks, put a stun counter on it and a bounty counter on target creature defending player controls. (If a permanent with a stun counter would become untapped, remove one from it instead. The protector of an attacked permanent is a defending player.)</text>
     </card>
     <card>
       <name>Ithorian Initiate</name>
@@ -2232,11 +2233,11 @@ Other Troopers you control have “{T}: Add {C}.”</text>
       <set rarity="common">SWTG</set>
       <prop>
         <colors>G</colors>
-        <manacost>1G</manacost>
-        <cmc>2</cmc>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
         <type>Creature - Beast </type>
         <maintype>Creature</maintype>
-        <pt>2/2</pt>
+        <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>1G: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
@@ -2360,7 +2361,7 @@ If Anakin Skywalker would die, instead remove all damage from him, remove him fr
       </prop>
       <tablerow>2</tablerow>
       <text>Menace, Lifelink
-Whenever Darth Vader attacks, creatures defending player controls get -1/-1 until end of turn for each +1/+1 counter on Darth Vader.
+Whenever Darth Vader attacks, creatures defending player controls get -1/-1 until end of turn for each +1/+1 counter on Darth Vader. (The protector of an attacked permanent is a defending player.)
 ---
 (Front): Anakin Skywalker</text>
       <related attach="transform">Anakin Skywalker</related>
@@ -2473,8 +2474,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
       </prop>
       <tablerow>1</tablerow>
       <text>Enchant creature
-When Carbonite Chamber enters, you may remove a bounty counter from up to one target creature.
-You control enchanted creature. It can’t attack or block, and its activated abilities can’t be activated.</text>
+You control enchanted creature. It can’t attack or block, its activated abilities can’t be activated, and it’s an artifact in addition to its other types.</text>
     </card>
     <card>
       <name>Chewbacca</name>
@@ -2522,7 +2522,7 @@ When one or more +1/+1 counters are placed on Chief Chirpa, create that many 1/1
         <pt>5/5</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever one or more nontoken Trooper creatures you control attack, create that many 1/1 white Trooper creature tokens that are tapped and attacking.</text>
+      <text>Whenever one or more nontoken Troopers you control attack, create that many 1/1 white Trooper creature tokens that are tapped and attacking.</text>
       <related>Trooper</related>
       <related>WUBRG Trooper</related>
     </card>
@@ -2987,11 +2987,11 @@ Other Rebel creatures you control get +1/+1.</text>
       <set rarity="rare">SWTG</set>
       <prop>
         <colors>WUG</colors>
-        <manacost>1GWU</manacost>
-        <cmc>4</cmc>
+        <manacost>2GWU</manacost>
+        <cmc>5</cmc>
         <type>Legendary Creature - Human Jedi </type>
         <maintype>Creature</maintype>
-        <pt>3/5</pt>
+        <pt>4/4</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Vigilance, lifelink
@@ -3101,8 +3101,8 @@ As long as you control four or more creatures, Senator Bail Organa gets +2/+2.</
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever you draw one or more cards, you gain that much life.
-Whenever an opponent casts a spell, you gain 1 life unless that player pays {1}.</text>
+      <text>Lifelink
+At the beginning of your upkeep, you may return another creature you control to its owner’s. If you do, the next spell you cast this turn costs {1} less to cast.</text>
     </card>
     <card>
       <name>Hondo Ohnaka</name>
@@ -3178,6 +3178,7 @@ Crew 2</text>
 3R: Star Destroyer deals 2 damage to any target without spaceflight.
 Crew 3</text>
       <related>TIE Fighter</related>
+      <related> Trooper</related>
       <related>Grixis</related>
       <related>Trooper</related>
     </card>
@@ -3833,11 +3834,11 @@ When Ewok Village enters, add {G}.
         <cmc>2</cmc>
         <type>Creature - Human Jedi </type>
         <maintype>Creature</maintype>
-        <pt>2/2</pt>
+        <pt>3/1</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>When Jedi Inquirer enters, exile up to one target battle or enchantment.
-Meditate 3W (3W: Return this creature to its owner’s hand. Meditate only as a sorcery.)</text>
+Meditate 2W (2W: Return this creature to its owner’s hand. Meditate only as a sorcery.)</text>
     </card>
     <card>
       <name>AT-AT</name>
@@ -4121,18 +4122,18 @@ At the beginning of your end step, if you’ve gained 5 or more life this turn, 
       <text>Target creature gets -3/-3 until end of turn. Tap that creature.</text>
     </card>
     <card>
-      <name>Obi-Wan, Jedi Padawan</name>
+      <name>Kit Fisto</name>
       <set rarity="rare">SWTG</set>
       <prop>
         <colors>WUG</colors>
-        <manacost>2GWU</manacost>
-        <cmc>5</cmc>
+        <manacost>1GWU</manacost>
+        <cmc>4</cmc>
         <type>Legendary Creature - Human Jedi </type>
         <maintype>Creature</maintype>
-        <pt>4/5</pt>
+        <pt>4/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Obi-Wan, Jedi Padawan enters, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
+      <text>When Kit Fisto enters, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 Meditate 1U (1U: Return this creature to its owner’s hand. Meditate only as a sorcery.)</text>
     </card>
     <card>
