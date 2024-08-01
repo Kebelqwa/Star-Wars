@@ -12,7 +12,7 @@
       </prop>
       <tablerow>1</tablerow>
       <text>GWU JEDI ORDER Jedi have abilities that trigger when they enter or leave the battlefield. They recur these with the Meditate mechanic returning them to your hand.
-WUB SEPARATISTS The Separatist Droid army uses the Repair mechanic to allow you to eventually recast your Droids from the graveyard.
+WUB SEPARATISTS The Separatist Droid army uses the Repair mechanic to recast your Droids from exile.
 UBR SITH EMPIRE Sith get stronger with the Hate mechanic, granting stronger effects or new abilities if an opponent has lost life from anything but combat damage.
 BRG BOUNTY HUNTERS Criminals and bounty hunters place bounty counters on opposing creatures and reward you when those creatures die.
 RGW THE WILDS Wookiees, Ewoks, and large beasts use the Monstrosity mechanic to get larger and have abilities that care about being monstrous.
@@ -26,7 +26,7 @@ WUBRG KINDRED TROOPER Go big with trooper creature and vehicle cards.</text>
         <colors>W</colors>
         <type>Token Creature - Tusken </type>
         <maintype>Creature</maintype>
-        <pt></pt>
+        <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
       <text></text>
@@ -204,6 +204,18 @@ RW THE WILDS Wookiees, Ewoks, and large beasts use the Monstrosity mechanic to g
       </prop>
       <tablerow>1</tablerow>
       <text>Whenever a nontoken creature you control leaves the battlefield, discard a card.</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Darth Sidious, Sith Lord Emblem SWTG</name>
+      <set>SWTG</set>
+      <prop>
+        <colors></colors>
+        <type>Emblem</type>
+        <maintype>Emblem</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>If a source you control would deal noncombat damage, it deals that much damage plus 3 instead.</text>
       <token>1</token>
     </card>
 

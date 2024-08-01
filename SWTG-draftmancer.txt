@@ -69,7 +69,7 @@
 	        "name": "Deploy The Troops",
 	        "rarity": "uncommon",
 	        "mana_cost": "{3}{W}",
-	        "type": "Instant",
+	        "type": "Kindred Instant — Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Deploy The Troops.jpg"
 	        }
@@ -239,7 +239,7 @@
 	    {
 	        "name": "Sand Trooper",
 	        "rarity": "common",
-	        "mana_cost": "{2}{W}",
+	        "mana_cost": "{1}{W}",
 	        "type": "Creature — Human Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Sand Trooper.jpg"
@@ -332,7 +332,7 @@
 	    {
 	        "name": "Force Denial",
 	        "rarity": "common",
-	        "mana_cost": "{1}{U}",
+	        "mana_cost": "{2}{U}",
 	        "type": "Instant",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Force Denial.jpg"
@@ -350,7 +350,7 @@
 	    {
 	        "name": "Gungan Captain",
 	        "rarity": "common",
-	        "mana_cost": "{2}{U}",
+	        "mana_cost": "{1}{U}",
 	        "type": "Creature — Gungan Warrior ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Gungan Captain.jpg"
@@ -422,7 +422,7 @@
 	    {
 	        "name": "Mon Calamari Initiate",
 	        "rarity": "common",
-	        "mana_cost": "{2}{U}{U}",
+	        "mana_cost": "{3}{U}",
 	        "type": "Creature — Calamari Jedi ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Mon Calamari Initiate.jpg"
@@ -447,12 +447,12 @@
 	        }
 	    },
 	    {
-	        "name": "Preordain",
+	        "name": "Ponder",
 	        "rarity": "uncommon",
 	        "mana_cost": "{U}",
 	        "type": "Sorcery",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Preordain.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Ponder.jpg"
 	        }
 	    },
 	    {
@@ -521,7 +521,7 @@
 	    {
 	        "name": "Surprise Maneuver",
 	        "rarity": "common",
-	        "mana_cost": "{1}{U}",
+	        "mana_cost": "{U}",
 	        "type": "Instant",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Surprise Maneuver.jpg"
@@ -749,7 +749,7 @@
 	    {
 	        "name": "Repurpose",
 	        "rarity": "common",
-	        "mana_cost": "{3}{B}{B}",
+	        "mana_cost": "{4}{B}",
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Repurpose.jpg"
@@ -887,7 +887,7 @@
 	    {
 	        "name": "Capture",
 	        "rarity": "common",
-	        "mana_cost": "{3}{R}",
+	        "mana_cost": "{2}{R}",
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Capture.jpg"
@@ -1332,7 +1332,7 @@
 	        "name": "No Contest",
 	        "rarity": "common",
 	        "mana_cost": "{1}{G}",
-	        "type": "Instant",
+	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/No Contest.jpg"
 	        }
@@ -1595,7 +1595,7 @@
 	    {
 	        "name": "Darth Sidious, Sith Lord",
 	        "rarity": "mythic",
-	        "mana_cost": "{4}{U}{B}{B}{R}",
+	        "mana_cost": "{4}{U}{B}{R}",
 	        "type": "Legendary Planeswalker — Sidious ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Darth Sidious, Sith Lord.jpg"
@@ -1604,7 +1604,7 @@
 	    {
 	        "name": "Darth Tyranus, Count Dooku",
 	        "rarity": "mythic",
-	        "mana_cost": "{1}{W}{U}{B}",
+	        "mana_cost": "{1}{U}{B}",
 	        "type": "Legendary Planeswalker — Dooku ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Darth Tyranus, Count Dooku.jpg"
@@ -2355,19 +2355,6 @@
 	        "type": "Token Creature — Tusken ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Tusken Raider.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2377,19 +2364,6 @@
 	        "type": "Token Artifact — Vehicle ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/TIE Fighter.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2399,19 +2373,6 @@
 	        "type": "Token Artifact Creature — Droid ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Droid.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2421,19 +2382,6 @@
 	        "type": "Token Creature — Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Trooper.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2443,19 +2391,6 @@
 	        "type": "Token Creature — Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Royal Guard.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2465,19 +2400,6 @@
 	        "type": "Token Creature — Rebel ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Rebel.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2487,19 +2409,6 @@
 	        "type": "Token Kindred Artifact — Rebel Vehicle ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/B-Wing.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2509,19 +2418,6 @@
 	        "type": "Token Creature — Ewok Rebel ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Ewok Rebel.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2531,19 +2427,6 @@
 	        "type": "Token Creature — Mercenary ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Bounty Hunter.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2553,19 +2436,6 @@
 	        "type": "",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 2-Color Archetypes.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2575,19 +2445,6 @@
 	        "type": "Token Creature — Trooper ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Trooper1.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2597,19 +2454,6 @@
 	        "type": "Emblem",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Obi-Wan Kenobi Emblem.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2619,19 +2463,6 @@
 	        "type": "Emblem",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Yoda, Jedi Master Emblem.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2641,19 +2472,6 @@
 	        "type": "Emblem",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Aurra Sing, Bane of Jedi Emblem.jpg"
-	        },
-	        "printed names": {
-	            "en": "Tusken Raider"
-	        },
-	        "back": {
-	            "name": "SWTG 3+Color Archetypes",
-	            "printed_names": {
-	                "en": "SWTG 3+Color Archetypes"
-	            },
-	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG 3+Color Archetypes.jpg"
-	            },
-	            "type": "Token"
 	        }
 	    },
 	    {
@@ -2739,14 +2557,14 @@
 	            "en": "The Battle of Christophsis"
 	        },
 	        "back": {
-	            "name": "Arc Trooper",
+	            "name": "Ahsoka Tano",
 	            "printed_names": {
-	                "en": "Arc Trooper"
+	                "en": "Ahsoka Tano"
 	            },
 	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Arc Trooper.jpg"
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Ahsoka Tano.jpg"
 	            },
-	            "type": "Creature — Human Trooper "
+	            "type": "Legendary Creature — Togruta Jedi "
 	        }
 	    },
 	    {
@@ -2882,15 +2700,6 @@
 	        }
 	    },
 	    {
-	        "name": "Conscription",
-	        "rarity": "uncommon",
-	        "mana_cost": "{2}{U}{U}",
-	        "type": "Sorcery",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Conscription.jpg"
-	        }
-	    },
-	    {
 	        "name": "Dengar",
 	        "rarity": "uncommon",
 	        "mana_cost": "{5}{B}",
@@ -2906,6 +2715,24 @@
 	        "type": "Legendary Land",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/The Tomb of Miktrull.jpg"
+	        }
+	    },
+	    {
+	        "name": "Darth Sidious, Sith Lord Emblem",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Emblem",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Darth Sidious, Sith Lord Emblem.jpg"
+	        }
+	    },
+	    {
+	        "name": "Arcane Construction",
+	        "rarity": "uncommon",
+	        "mana_cost": "{3}{U}",
+	        "type": "Sorcery",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Arcane Construction.jpg"
 	        }
 	    }
 	]
@@ -3003,7 +2830,7 @@
 		3 Jedi Training
 		3 Shore Trooper
 		3 Mon Calamari Cruiser
-		3 Preordain
+		3 Ponder
 		3 Sith Manipulator
 		3 Y-Wing
 		3 Black Market Dealer
@@ -3066,8 +2893,8 @@
 		3 The Battle of Coruscant
 		3 The Battle of Kamino
 		3 The Battle of Kashyyyk
-		3 Conscription
 		3 Dengar
+		3 Arcane Construction
 	[CommonSlot(8)]
 		4 Lockdown
 		4 Cantina Band
@@ -3181,19 +3008,4 @@
 		10 Mountain1
 		10 Swamp1
 		10 Forest1
-	[TokenSlot(1)]
-		4 Rebel
-		4 Trooper
-		4 Trooper1
-		4 Tusken Raider
-		4 B-Wing
-		4 TIE Fighter
-		4 Bounty Hunter
-		4 Royal Guard
-		4 Ewok Rebel
-		4 Droid
-		4 Aurra Sing, Bane of Jedi Emblem
-		4 Obi-Wan Kenobi Emblem
-		4 Yoda, Jedi Master Emblem
-		4 SWTG 2-Color Archetypes
 	
