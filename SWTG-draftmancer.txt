@@ -519,12 +519,12 @@
 	        }
 	    },
 	    {
-	        "name": "Surprise Maneuver",
+	        "name": "It's a Trap!",
 	        "rarity": "common",
 	        "mana_cost": "{U}",
 	        "type": "Instant",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Surprise Maneuver.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/It's a Trap!.jpg"
 	        }
 	    },
 	    {
@@ -2727,12 +2727,12 @@
 	        }
 	    },
 	    {
-	        "name": "Arcane Construction",
+	        "name": "Hyperspace Jump",
 	        "rarity": "uncommon",
 	        "mana_cost": "{3}{U}",
-	        "type": "Sorcery",
+	        "type": "Instant",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Arcane Construction.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Hyperspace Jump.jpg"
 	        }
 	    }
 	]
@@ -2894,7 +2894,7 @@
 		3 The Battle of Kamino
 		3 The Battle of Kashyyyk
 		3 Dengar
-		3 Arcane Construction
+		3 Hyperspace Jump
 	[CommonSlot(8)]
 		4 Lockdown
 		4 Cantina Band
@@ -2923,7 +2923,7 @@
 		4 Shadow Trooper
 		4 Sith Sorcerer
 		4 Super Battle Droid
-		4 Surprise Maneuver
+		4 It's a Trap!
 		4 Spider Droid
 		4 Vapor Snag
 		4 Acquire Target
