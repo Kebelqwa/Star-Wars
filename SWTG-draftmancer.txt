@@ -102,12 +102,12 @@
 	        }
 	    },
 	    {
-	        "name": "Force Reflex",
+	        "name": "Hello There",
 	        "rarity": "common",
 	        "mana_cost": "{1}{W}",
 	        "type": "Instant",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Force Reflex.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Hello There.jpg"
 	        }
 	    },
 	    {
@@ -2268,21 +2268,21 @@
 	        }
 	    },
 	    {
-	        "name": "Mountain",
+	        "name": "SWTG Mountain",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Mountain ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Mountain.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG Mountain.jpg"
 	        }
 	    },
 	    {
-	        "name": "Forest",
+	        "name": "SWTG Forest",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Forest ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Forest.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG Forest.jpg"
 	        }
 	    },
 	    {
@@ -2304,30 +2304,30 @@
 	        }
 	    },
 	    {
-	        "name": "Mountain1",
+	        "name": "SWTG Mountain1",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Mountain ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Mountain1.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG Mountain1.jpg"
 	        }
 	    },
 	    {
-	        "name": "Swamp1",
+	        "name": "SWTG Swamp1",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Swamp ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Swamp1.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG Swamp1.jpg"
 	        }
 	    },
 	    {
-	        "name": "Forest1",
+	        "name": "SWTG Forest1",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Forest ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Forest1.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG Forest1.jpg"
 	        }
 	    },
 	    {
@@ -2900,7 +2900,7 @@
 		4 Cantina Band
 		4 Escape Pod
 		4 Force Healing
-		4 Force Reflex
+		4 Hello There
 		4 Gifted Initiate
 		4 Gonk Droid
 		4 Jedi Battle Healer
@@ -3001,11 +3001,11 @@
 		10 Plains
 		10 Island1
 		10 Swamp
-		10 Mountain
-		10 Forest
+		10 SWTG Mountain
+		10 SWTG Forest
 		10 Plains1
 		10 Island
-		10 Mountain1
-		10 Swamp1
-		10 Forest1
+		10 SWTG Mountain1
+		10 SWTG Swamp1
+		10 SWTG Forest1
 	
