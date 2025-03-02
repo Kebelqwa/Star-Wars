@@ -686,7 +686,7 @@
 	    {
 	        "name": "Head Hunting",
 	        "rarity": "common",
-	        "mana_cost": "{1}{B}",
+	        "mana_cost": "{B}",
 	        "type": "Instant",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Head Hunting.jpg"
@@ -2727,12 +2727,12 @@
 	        }
 	    },
 	    {
-	        "name": "Hyperspace Jump",
+	        "name": "Jump to Hyperspace",
 	        "rarity": "uncommon",
-	        "mana_cost": "{3}{U}",
+	        "mana_cost": "{2}{U}",
 	        "type": "Instant",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Hyperspace Jump.jpg"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Jump to Hyperspace.jpg"
 	        }
 	    }
 	]
@@ -2894,7 +2894,7 @@
 		3 The Battle of Kamino
 		3 The Battle of Kashyyyk
 		3 Dengar
-		3 Hyperspace Jump
+		3 Jump to Hyperspace
 	[CommonSlot(8)]
 		4 Lockdown
 		4 Cantina Band

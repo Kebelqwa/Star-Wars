@@ -68,7 +68,7 @@ When The Battle of Hoth enters, create a 1/1 white Rebel creature token and a 1/
         <type>Legendary Artifact</type>
       </prop>
       <tablerow>1</tablerow>
-      <text>2W, {T}: Create a token copy of target creature token you control that didn’t enter this turn.
+      <text>2W, {T}: Create a token copy of target token creature you control that didn’t enter this turn.
 ---
 (Front): The Battle of Hoth</text>
       <related attach="transform">The Battle of Hoth</related>
@@ -440,7 +440,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever one or more Troopers you control attack, for each defending player, tap up to one target creature that player controls. (The protector of an attacked permanent is a defending player.)</text>
+      <text>Whenever one or more Troopers you control attack, for each defending player, tap up to one target creature that player controls. (The protector of an attacked permanent is also a defending player.)</text>
     </card>
     <card>
       <name>Womp Rat</name>
@@ -553,7 +553,7 @@ Creatures can’t attack you unless their controller pays {2} for each creature 
 Enchant creature or Vehicle
 When Cloaking Device enters, enchanted permanent gains hexproof until end of turn.
 Enchanted creature can’t be blocked.
-Whenever enchanted creature attacks, defending player loses 1 life. (The protector of an attacked permanent is a defending player.)</text>
+Whenever enchanted creature attacks, defending player loses 1 life. (The protector of an attacked permanent is also a defending player.)</text>
     </card>
     <card>
       <name>Force Denial</name>
@@ -913,7 +913,7 @@ Whenever one or more nontoken creatures you control leave the battlefield while 
       </prop>
       <tablerow>1</tablerow>
       <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Whenever this Vehicle deals combat damage to an opponent or a permanent an opponent protects, you may pay {1}. If you do, put a stun counter on target creature defending player controls. Tap that creature. (Players protect permanents that can be attacked. The protector of an attacked permanent is a defending player.)
+Whenever this Vehicle deals combat damage to an opponent or a permanent an opponent protects, you may pay {1}. If you do, put a stun counter on target creature defending player controls. Tap that creature. (Players protect permanents that can be attacked. The protector of an attacked permanent is also a defending player.)
 Crew 1</text>
     </card>
     <card>
@@ -941,7 +941,7 @@ Crew 1</text>
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>You may put a bounty counter on up to one target permanent. If you don’t, scry 2. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+      <text>You may put a bounty counter on up to one target permanent. If you don’t, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
 Target player draws two cards and loses 2 life.</text>
     </card>
     <card>
@@ -953,7 +953,7 @@ Target player draws two cards and loses 2 life.</text>
         <cmc>5</cmc>
         <type>Creature - Aqualish Mercenary </type>
         <maintype>Creature</maintype>
-        <pt>4/4</pt>
+        <pt>5/4</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>When this creature enters, put a bounty counter on target permanent.
@@ -1131,8 +1131,8 @@ When this creature enters, up to one target creature gets -1/-1 for each Trooper
       <set rarity="common">SWTG</set>
       <prop>
         <colors>B</colors>
-        <manacost>1B</manacost>
-        <cmc>2</cmc>
+        <manacost>B</manacost>
+        <cmc>1</cmc>
         <type>Instant</type>
         <maintype>Instant</maintype>
       </prop>
@@ -1353,7 +1353,7 @@ This creature enters with X +1/+1 counters, where X is the total amount of life 
       </prop>
       <tablerow>1</tablerow>
       <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Whenever this Vehicle deals combat damage to a player or a permanent an opponent protects, you may sacrifice this Vehicle. If you do, destroy target creature defending player controls. (Players protect permanents that can be attacked. The protector of an attacked permanent is a defending player.)
+Whenever this Vehicle deals combat damage to a player or a permanent an opponent protects, you may sacrifice this Vehicle. If you do, destroy target creature defending player controls. (Players protect permanents that can be attacked. The protector of an attacked permanent is also a defending player.)
 Crew 1</text>
     </card>
     <card>
@@ -1604,7 +1604,7 @@ At the beginning of combat on your turn, target Vehicle creature you control get
       <tablerow>2</tablerow>
       <text>Menace, haste
 Whenever Jango Fett attacks a player, put a bounty counter on up to one target creature they control.
-Whenever Jango Fett attacks, it gets +X/+0, where X is the number of creatures defending player controls with a bounty counter.</text>
+Whenever Jango Fett attacks, he gets +1/+0 until end of turn for each creature defending player controls with a bounty counter.</text>
     </card>
     <card>
       <name>Lightning Bolt</name>
@@ -1985,7 +1985,7 @@ Whenever one or more monstrous creatures you control deal combat damage to an op
       <text>Choose one or both—
 • Destroy target artifact creature or Vehicle.
 • Destroy target noncreature permanent.
-Scry 2. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</text>
+Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
     </card>
     <card>
       <name>Hungry Dragonsnake</name>
@@ -2015,7 +2015,7 @@ Whenever a creature an opponent controls enters, put a +1/+1 counter on this cre
       </prop>
       <tablerow>2</tablerow>
       <text>This creature enters with a bounty counter.
-Whenever this creature attacks, put a stun counter on it and a bounty counter on target creature defending player controls. (If a permanent with a stun counter would become untapped, remove one from it instead. The protector of an attacked permanent is a defending player.)</text>
+Whenever this creature attacks, put a stun counter on it and a bounty counter on target creature defending player controls. (If a permanent with a stun counter would become untapped, remove one from it instead. The protector of an attacked permanent is also a defending player.)</text>
     </card>
     <card>
       <name>Ithorian Initiate</name>
@@ -2352,7 +2352,7 @@ Whenever this creature attacks, each player loses 2 life.</text>
       <tablerow>2</tablerow>
       <text>Whenever another creature dies, put a +1/+1 counter on Anakin Skywalker.
 Sacrifice another creature: Target creature gets -1/-1 until end of turn. Activate only as a sorcery.
-If Anakin Skywalker would die, instead remove all damage from him, remove him from combat, tap and transform him.
+If Anakin Skywalker would die, instead remove all damage from him, remove him from combat, transform him.
 ---
 (Back): Darth Vader</text>
       <related attach="transform">Darth Vader</related>
@@ -2369,7 +2369,7 @@ If Anakin Skywalker would die, instead remove all damage from him, remove him fr
       </prop>
       <tablerow>2</tablerow>
       <text>Lifelink, menace
-Whenever Darth Vader attacks, creatures defending player controls get -1/-1 until end of turn for each +1/+1 counter on Darth Vader. (The protector of an attacked permanent is a defending player.)
+Whenever Darth Vader attacks, creatures defending player controls get -1/-1 until end of turn for each +1/+1 counter on Darth Vader. (The protector of an attacked permanent is also a defending player.)
 ---
 (Front): Anakin Skywalker</text>
       <related attach="transform">Anakin Skywalker</related>
@@ -2453,7 +2453,7 @@ Whenever you complete a bounty, you may draw two cards. If you do, discard two c
       <tablerow>2</tablerow>
       <text>Trample
 1RGW: Monstrosity 1. (If this creature isn’t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
-Whenever a creature you control becomes monstrous, it gains hexproof until end of turn.</text>
+Whenever a creature you control becomes monstrous, that creature gains hexproof until end of turn.</text>
     </card>
     <card>
       <name>C-3PO and R2D2</name>
@@ -2589,8 +2589,8 @@ As long as this creature is monstrous, it has menace.</text>
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>As an additional cost to cast Dark Decision, pay 1 life.
-Search the top ten cards of your library for a card, exile it, then shuffle. Until end of turn, you may play that card.</text>
+      <text>As an additional cost to cast this spell, pay 1 life.
+Look at the top ten cards of your library. Exile a card from among them, then shuffle. You may play that card this turn.</text>
     </card>
     <card>
       <name>Darth Maul</name>
@@ -2742,7 +2742,7 @@ When Greedo dies, you may search your library for an outlaw card, reveal it, put
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Hot Pursuit enters, put a bounty counter on up to one target permanent.
+      <text>When this enchantment enters, put a bounty counter on up to one target permanent.
 Creatures your opponents control get -1/-1 for each bounty counter on them.
 Whenever you complete a bounty, put a bounty counter on up to one target creature.</text>
     </card>
@@ -3113,7 +3113,7 @@ As long as you control four or more creatures, Senator Bail Organa gets +2/+2.</
       </prop>
       <tablerow>2</tablerow>
       <text>Lifelink
-At the beginning of your upkeep, you may return another creature you control to its owner’s hand.</text>
+Whenever Senator Padmé Amidala or another nontoken creature you control enters, you may return another creature you control to its owner’s hand. This ability triggers only once each turn.</text>
     </card>
     <card>
       <name>Hondo Ohnaka</name>
@@ -3128,7 +3128,7 @@ At the beginning of your upkeep, you may return another creature you control to 
       </prop>
       <tablerow>2</tablerow>
       <text>{1}, {T}: Put a bounty counter on target nonland permanent an opponent controls.
-Whenever you complete a bounty, exile the top card of your library. You may play that card until the end of your next turn. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
+Whenever you complete a bounty, you may exile the top card of your library. You may play that card until the end of your next turn. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
       <name>Sith Magic</name>
@@ -3141,7 +3141,7 @@ Whenever you complete a bounty, exile the top card of your library. You may play
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Hate — At the beginning of each combat, if an opponent lost life from a source other than combat damage this turn, you may return up to one target creature card from a graveyard to the battlefield under your control with a finality counter. It gains lifelink and haste. Exile it at the beginning of the next end step. (If a creature with a finality counter would die, exile it instead.)</text>
+      <text>Hate — At the beginning of each combat, if an opponent lost life from a source other than combat damage this turn, you may return up to one target creature card from a graveyard to the battlefield under your control with a finality counter. It gains lifelink and haste. Exile it at the beginning of the next end step. (If a creature with a finality counter on it would die, exile it instead.)</text>
     </card>
     <card>
       <name>Sith Mindseer</name>
@@ -3419,9 +3419,9 @@ Whenever this creature attacks, put a +1/+1 counter on target creature you contr
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}: Put a charge counter on Drone Holocron.
-{T}, Remove a charge counter from Drone Holocron: Add {W}, {U}, or {B}.
-{T}, Remove two charge counters from Drone Holocron: Add WU or UB.</text>
+      <text>{T}: Put a charge counter on this artifact.
+{T}, Remove a charge counter from this artifact: Add {W}, {U}, or {B}.
+{T}, Remove two charge counters from this artifact: Add WU or UB.</text>
     </card>
     <card>
       <name>Jedi Holocron</name>
@@ -3434,9 +3434,9 @@ Whenever this creature attacks, put a +1/+1 counter on target creature you contr
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}: Put a charge counter on Jedi Holocron.
-{T}, Remove a charge counter from Jedi Holocron: Add {G}, {W}, or {U}.
-{T}, Remove two charge counters from Jedi Holocron: Add GW or WU.</text>
+      <text>{T}: Put a charge counter on this artifact.
+{T}, Remove a charge counter from this artifact: Add {G}, {W}, or {U}.
+{T}, Remove two charge counters from this artifact: Add GW or WU.</text>
     </card>
     <card>
       <name>Lightsaber</name>
@@ -3480,9 +3480,9 @@ Equip Jedi or Sith {2}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}: Put a charge counter on Sith Holocron.
-{T}, Remove a charge counter from Sith Holocron: Add {U}, {B}, or {R}.
-{T}, Remove two charge counters from Sith Holocron: Add UB or BR.</text>
+      <text>{T}: Put a charge counter on this artifact.
+{T}, Remove a charge counter from this artifact: Add {U}, {B}, or {R}.
+{T}, Remove two charge counters from this artifact: Add UB or BR.</text>
     </card>
     <card>
       <name>Outlaw Holocron</name>
@@ -3495,9 +3495,9 @@ Equip Jedi or Sith {2}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}: Put a charge counter on Outlaw Holocron.
-{T}, Remove a charge counter from Outlaw Holocron: Add {B}, {R}, or {G}.
-{T}, Remove two charge counters from Outlaw Holocron: Add BR or RG.</text>
+      <text>{T}: Put a charge counter on this artifact.
+{T}, Remove a charge counter from this artifact: Add {B}, {R}, or {G}.
+{T}, Remove two charge counters from this artifact: Add BR or RG.</text>
     </card>
     <card>
       <name>Wild Holocron</name>
@@ -3510,9 +3510,9 @@ Equip Jedi or Sith {2}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}: Put a charge counter on Wild Holocron.
-{T}, Remove a charge counter from Wild Holocron: Add {R}, {G} or {W}.
-{T}, Remove two charge counters from Wild Holocron: Add RG or GW.</text>
+      <text>{T}: Put a charge counter on this artifact.
+{T}, Remove a charge counter from this artifact: Add {R}, {G} or {W}.
+{T}, Remove two charge counters from this artifact: Add RG or GW.</text>
     </card>
     <card>
       <name>Trooper Armor</name>
@@ -3525,8 +3525,8 @@ Equip Jedi or Sith {2}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +1/+1 and is a Trooper in addition to its other types.
-Whenever a creature you control enters, attach Trooper Armor to it.
+      <text>Whenever a creature you control enters, attach this Equipment to it.
+Equipped creature gets +1/+1 and is a Trooper in addition to its other types.
 Equip {3}</text>
     </card>
     <card>
@@ -3541,7 +3541,7 @@ Equip {3}</text>
       </prop>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{T}, Sacrifice Jedi Enclave: Search your library for a basic Forest, Plains, or Island card, put it onto the battlefield tapped, then shuffle.</text>
+{T}, Sacrifice this land: Search your library for a basic Forest, Plains, or Island card, put it onto the battlefield tapped, then shuffle.</text>
     </card>
     <card>
       <name>Droid Factory</name>
@@ -3555,7 +3555,7 @@ Equip {3}</text>
       </prop>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{T}, Sacrifice Droid Factory: Search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle.</text>
+{T}, Sacrifice this land: Search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle.</text>
     </card>
     <card>
       <name>Sith Ruins</name>
@@ -3569,7 +3569,7 @@ Equip {3}</text>
       </prop>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{T}, Sacrifice Sith Ruins: Search your library for a basic Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.</text>
+{T}, Sacrifice this land: Search your library for a basic Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.</text>
     </card>
     <card>
       <name>Underworld Slums</name>
@@ -3583,7 +3583,7 @@ Equip {3}</text>
       </prop>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{T}, Sacrifice Underworld Slums: Search your library for a basic Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle.</text>
+{T}, Sacrifice this land: Search your library for a basic Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle.</text>
     </card>
     <card>
       <name>Jungle Village</name>
@@ -3597,7 +3597,7 @@ Equip {3}</text>
       </prop>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{T}, Sacrifice Jungle Village: Search your library for a basic Mountain, Forest, or Plains card, put it onto the battlefield tapped, then shuffle.</text>
+{T}, Sacrifice this land: Search your library for a basic Mountain, Forest, or Plains card, put it onto the battlefield tapped, then shuffle.</text>
     </card>
     <card>
       <name>Jedi Temple</name>
@@ -3610,8 +3610,8 @@ Equip {3}</text>
         <maintype>Land</maintype>
       </prop>
       <tablerow>0</tablerow>
-      <text>Jedi Temple enters tapped.
-When Jedi Temple enters, add {W}.
+      <text>This land enters tapped.
+When this land enters, add {W}.
 {T}: Add {G} or {U}.</text>
     </card>
     <card>
@@ -3625,8 +3625,8 @@ When Jedi Temple enters, add {W}.
         <maintype>Land</maintype>
       </prop>
       <tablerow>0</tablerow>
-      <text>Droid Foundry enters tapped.
-When Droid Foundry enters, add {U}.
+      <text>This land enters tapped.
+When this land enters, add {U}.
 {T}: Add {W} or {B}.</text>
     </card>
     <card>
@@ -3640,8 +3640,8 @@ When Droid Foundry enters, add {U}.
         <maintype>Land</maintype>
       </prop>
       <tablerow>0</tablerow>
-      <text>Sith Citadel enters tapped.
-When Sith Citadel enters, add {B}.
+      <text>This land enters tapped.
+When this land enters, add {B}.
 {T}: Add {U} or {R}.</text>
     </card>
     <card>
@@ -3655,8 +3655,8 @@ When Sith Citadel enters, add {B}.
         <maintype>Land</maintype>
       </prop>
       <tablerow>0</tablerow>
-      <text>Hutt Palace enters tapped.
-When Hutt Palace enters, add {R}.
+      <text>This land enters tapped.
+When this land enters, add {R}.
 {T}: Add {B} or {G}.</text>
     </card>
     <card>
@@ -3670,8 +3670,8 @@ When Hutt Palace enters, add {R}.
         <maintype>Land</maintype>
       </prop>
       <tablerow>0</tablerow>
-      <text>Ewok Village enters tapped.
-When Ewok Village enters, add {G}.
+      <text>This land enters tapped.
+When this land enters, add {G}.
 {T}: Add {R} or {W}.</text>
     </card>
     <card>
@@ -3686,8 +3686,8 @@ When Ewok Village enters, add {G}.
       </prop>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{T}: Put a charge counter on Moisture Farm.
-{T}, Remove a charge counter from Moisture Farm: Add one mana of any color.</text>
+{T}: Put a charge counter on this land.
+{T}, Remove a charge counter from this land: Add one mana of any color.</text>
     </card>
     <card>
       <name>Kamino Cloning Facility</name>
@@ -4099,7 +4099,7 @@ When The Battle of Felucia enters, search your library for up to two basic land 
       </prop>
       <tablerow>1</tablerow>
       <text>Trample
-Whenever one or more +1/+1 counters are placed on another creature you control, put a +1/+1 counter on HAVw A6 Juggernaut. This ability triggers only once each turn.
+Whenever one or more +1/+1 counters are placed on another creature you control, put a +1/+1 counter on this Vehicle. This ability triggers only once each turn.
 Crew 2
 ---
 (Front): The Battle of Felucia</text>
@@ -4207,7 +4207,7 @@ When The Battle of Kashyyyk enters, draw a card. You may put a land card from yo
       </prop>
       <tablerow>1</tablerow>
       <text>Menace
-Whenever TSMEU-6 Wheel Bike attacks, defending player loses 1 life for each creature that crewed TSMEU-6 Wheel Bike this turn.
+Whenever this Vehicle attacks, defending player loses 1 life for each creature that crewed this Vehicle this turn.
 Crew 1
 ---
 (Front): The Battle of Utapau</text>
@@ -4243,12 +4243,12 @@ Whenever you complete a bounty, return up to one target creature card from your 
 {T}: Add one mana of any color an artifact you control could produce.</text>
     </card>
     <card>
-      <name>Hyperspace Jump</name>
+      <name>Jump to Hyperspace</name>
       <set rarity="uncommon">SWTG</set>
       <prop>
         <colors>U</colors>
-        <manacost>3U</manacost>
-        <cmc>4</cmc>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
         <type>Instant</type>
         <maintype>Instant</maintype>
       </prop>
