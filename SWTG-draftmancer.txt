@@ -310,14 +310,14 @@
 	            "en": "The Battle of Naboo"
 	        },
 	        "back": {
-	            "name": "Gungan Shield Array",
+	            "name": "Peace Accord",
 	            "printed_names": {
-	                "en": "Gungan Shield Array"
+	                "en": "Peace Accord"
 	            },
 	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Gungan Shield Array.jpg"
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Peace Accord.jpg"
 	            },
-	            "type": "Legendary Artifact"
+	            "type": "Enchantment"
 	        }
 	    },
 	    {
@@ -659,7 +659,7 @@
 	    {
 	        "name": "Force Drain",
 	        "rarity": "common",
-	        "mana_cost": "{2}{B}",
+	        "mana_cost": "{1}{B}",
 	        "type": "Instant",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Force Drain.jpg"
@@ -969,7 +969,7 @@
 	        "name": "Imperial Gunner",
 	        "rarity": "common",
 	        "mana_cost": "{R}",
-	        "type": "Creature — Human Trooper ",
+	        "type": "Creature — Human Soldier ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Imperial Gunner.jpg"
 	        }
@@ -2388,7 +2388,7 @@
 	        "name": "Royal Guard",
 	        "rarity": "common",
 	        "mana_cost": "",
-	        "type": "Token Creature — Trooper ",
+	        "type": "Token Creature — Soldier ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Royal Guard.jpg"
 	        }
@@ -2536,14 +2536,14 @@
 	            "en": "The Battle of Kamino"
 	        },
 	        "back": {
-	            "name": "Sink the City",
+	            "name": "Embryo Chamber",
 	            "printed_names": {
-	                "en": "Sink the City"
+	                "en": "Embryo Chamber"
 	            },
 	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Sink the City.jpg"
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Embryo Chamber.jpg"
 	            },
-	            "type": "Instant"
+	            "type": "Artifact"
 	        }
 	    },
 	    {
@@ -2578,14 +2578,14 @@
 	            "en": "The Battle of Scarif"
 	        },
 	        "back": {
-	            "name": "Citadel Landing Zone",
+	            "name": "Landing Pad",
 	            "printed_names": {
-	                "en": "Citadel Landing Zone"
+	                "en": "Landing Pad"
 	            },
 	            "image_uris": {
-	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Citadel Landing Zone.jpg"
+	                "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Landing Pad.jpg"
 	            },
-	            "type": "Legendary Artifact"
+	            "type": "Artifact"
 	        }
 	    },
 	    {
