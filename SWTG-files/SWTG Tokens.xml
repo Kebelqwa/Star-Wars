@@ -76,7 +76,7 @@ Crew 1</text>
       <set>SWTG</set>
       <prop>
         <colors>R</colors>
-        <type>Token Creature - Trooper </type>
+        <type>Token Creature - Soldier </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>

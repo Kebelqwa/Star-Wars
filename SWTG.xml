@@ -484,7 +484,7 @@ Crew 1</text>
         <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When you cast Admiral Ackbar, create two B-Wings, they’re kindred 2/3 blue Rebel Vehicle artifact tokens with spaceflight and crew 1.
+      <text>When you cast Admiral Ackbar, create two B-Wings, they’re kindred 2/2 blue Rebel Vehicle artifact tokens with spaceflight and crew 1.
 At the beginning of each upkeep, untap each Vehicle you control.
 Whenever two or more Vehicles you control attack, draw a card.</text>
       <related count="2">B-Wing SWTG</related>
@@ -519,17 +519,17 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
       <text>(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, exile it, then cast it transformed.)
 When The Battle of Naboo enters, return up to X target creatures to their owners’ hands. Draw twice X cards.
 ---
-(Back): Gungan Shield Array</text>
-      <related attach="transform">Gungan Shield Array</related>
+(Back): Peace Accord</text>
+      <related attach="transform">Peace Accord</related>
     </card>
     <card>
-      <name>Gungan Shield Array</name>
-      <set rarity="mythic" splitterPath="/Gungan Shield Array.jpg" >SWTG</set>
+      <name>Peace Accord</name>
+      <set rarity="mythic" splitterPath="/Peace Accord.jpg" >SWTG</set>
       <prop>
         <colors>U</colors>
         <manacost></manacost>
         <cmc>2</cmc>
-        <type>Legendary Artifact</type>
+        <type>Enchantment</type>
       </prop>
       <tablerow>1</tablerow>
       <text>Creatures you control have ward {2}.
@@ -1018,7 +1018,7 @@ When Bib Fortuna dies, shuffle your library.</text>
         <pt>3/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever this creature or another outlaw creature you control dies, put a bounty counter on target permanent. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)
+      <text>Whenever an outlaw creature you control dies, put a bounty counter on target permanent. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)
 Whenever you complete a bounty, you lose 1 life and draw a card. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
     <card>
@@ -1087,15 +1087,14 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
       <set rarity="common">SWTG</set>
       <prop>
         <colors>B</colors>
-        <manacost>2B</manacost>
-        <cmc>3</cmc>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
         <type>Instant</type>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Force Drain deals 2 damage to any target.
-Hate — Then if an opponent lost life from a source other than combat damage this turn, you gain 2 life.
-Scry 1.</text>
+      <text>Force Drain deals 2 damage to any nonplayer  target. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Hate — Then if an opponent lost life from a source other than combat damage this turn, you gain 2 life.</text>
     </card>
     <card>
       <name>Grand Moff Tarkin</name>
@@ -1209,7 +1208,7 @@ Repair 3</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Open Season enters, put a bounty counter on target permanent.
+      <text>When this enchantment enters, put a bounty counter on target permanent.
 Activated abilities of nonland permanents your opponents control with a bounty counter can’t be activated.
 Whenever you complete a bounty, each opponent loses 2 life. You gain 2 life. (You complete a bounty when a permanent you don’t control with a bounty counter is put into a graveyard from the battlefield.)</text>
     </card>
@@ -1224,7 +1223,7 @@ Whenever you complete a bounty, each opponent loses 2 life. You gain 2 life. (Yo
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Order 66 costs {1} less to cast for each creature with a bounty counter your opponents control.
+      <text>This spell costs {1} less to cast for each creature with a bounty counter your opponents control.
 Put a bounty counter on each creature you don’t control, then destroy all creatures you don’t control.</text>
     </card>
     <card>
@@ -1583,12 +1582,13 @@ At the beginning of combat on your turn, target Vehicle creature you control get
         <colors>R</colors>
         <manacost>R</manacost>
         <cmc>1</cmc>
-        <type>Creature - Human Trooper </type>
+        <type>Creature - Human Soldier </type>
         <maintype>Creature</maintype>
         <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>{1}, {T}: This creature deals 1 damage to any noncreature target.</text>
+      <text>{1}, {T}: This creature deals 1 damage to any noncreature target.
+Whenever a Vehicle you control is put into a graveyard from the battlefield, untap this creature.</text>
     </card>
     <card>
       <name>Jango Fett</name>
@@ -1856,7 +1856,7 @@ Crew 2</text>
       </prop>
       <tablerow>1</tablerow>
       <text>(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, exile it, then cast it transformed.)
-When The Battle of Endor enters, create X 1/1 green Ewok Rebel creature tokens. Put X +1/+1 counters on each creature you control. They gain trample and haste until end of turn.
+When The Battle of Endor enters, create X 1/1 green Ewok Rebel creature tokens. Then put X +1/+1 counters on each creature you control. They gain trample and haste until end of turn.
 ---
 (Back): Planetary Shield-Generator</text>
       <related attach="transform">Planetary Shield-Generator</related>
@@ -1872,8 +1872,7 @@ When The Battle of Endor enters, create X 1/1 green Ewok Rebel creature tokens. 
         <type>Legendary Artifact</type>
       </prop>
       <tablerow>1</tablerow>
-      <text>Lands you control have indestructible.
-You may play an additional land on each of your turns.
+      <text>1G, {T}: Put two +1/+1 counters on target creature or Vehicle you control. Activate only as a sorcery.
 ---
 (Front): The Battle of Endor</text>
       <related attach="transform">The Battle of Endor</related>
@@ -2784,7 +2783,7 @@ Hunt to Extinction deals X damage to target opponent and each creature they cont
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Hate — At the beginning of each end step, if an opponent lost life from a source other than combat damage this turn, you gain 2 life and create a 2/2 red Trooper creature token with first strike named Royal Guard.</text>
+      <text>Hate — At the beginning of each end step, if an opponent lost life from a source other than combat damage this turn, you may pay {1}. If you do, you gain 2 life and create a 2/2 red Soldier creature token with first strike named Royal Guard.</text>
       <related>Royal Guard SWTG</related>
       <related>Grixis</related>
       <related>Trooper</related>
@@ -3541,7 +3540,8 @@ Equip {3}</text>
       </prop>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{T}, Sacrifice this land: Search your library for a basic Forest, Plains, or Island card, put it onto the battlefield tapped, then shuffle.</text>
+{T}, Sacrifice this land: Search your library for a basic Forest, Plains, or Island card, put it onto the battlefield tapped, then shuffle.
+Cycling GWU (GWU, Discard this card: Draw a card.)</text>
     </card>
     <card>
       <name>Droid Factory</name>
@@ -3555,7 +3555,8 @@ Equip {3}</text>
       </prop>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{T}, Sacrifice this land: Search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle.</text>
+{T}, Sacrifice this land: Search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle.
+Cycling WUB (WUB, Discard this card: Draw a card.)</text>
     </card>
     <card>
       <name>Sith Ruins</name>
@@ -3569,7 +3570,8 @@ Equip {3}</text>
       </prop>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{T}, Sacrifice this land: Search your library for a basic Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.</text>
+{T}, Sacrifice this land: Search your library for a basic Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.
+Cycling UBR (UBR, Discard this card: Draw a card.)</text>
     </card>
     <card>
       <name>Underworld Slums</name>
@@ -3583,7 +3585,8 @@ Equip {3}</text>
       </prop>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{T}, Sacrifice this land: Search your library for a basic Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle.</text>
+{T}, Sacrifice this land: Search your library for a basic Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle.
+Cycling BRG (BRG, Discard this card: Draw a card.)</text>
     </card>
     <card>
       <name>Jungle Village</name>
@@ -3597,7 +3600,8 @@ Equip {3}</text>
       </prop>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{T}, Sacrifice this land: Search your library for a basic Mountain, Forest, or Plains card, put it onto the battlefield tapped, then shuffle.</text>
+{T}, Sacrifice this land: Search your library for a basic Mountain, Forest, or Plains card, put it onto the battlefield tapped, then shuffle.
+Cycling RGW (RGW, Discard this card: Draw a card.)</text>
     </card>
     <card>
       <name>Jedi Temple</name>
@@ -3880,8 +3884,8 @@ Crew 2</text>
       </prop>
       <tablerow>1</tablerow>
       <text>(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, exile it, then cast it transformed.)
-When The Battle of Coruscant enters, you may discard a card or sacrifice a land. When you do, draw two cards.
-Creatures with spaceflight that are attacking The Battle of Coruscant can’t be blocked.
+When The Battle of Coruscant enters, you may discard a card of sacrifice a land. If you do, draw two cards.
+Creatures you control with spaceflight attacking this battle can’t be blocked.
 ---
 (Back): Do It!</text>
       <related attach="transform">Do It!</related>
@@ -3947,23 +3951,23 @@ When The Battle of Heroes enters, you may have target creature you control deal 
       <text>(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, exile it, then cast it transformed.)
 When The Battle of Kamino enters, return target artifact or creature to its owner’s hand.
 ---
-(Back): Sink the City</text>
-      <related attach="transform">Sink the City</related>
+(Back): Embryo Chamber</text>
+      <related attach="transform">Embryo Chamber</related>
       <related>Trooper SWTG</related>
       <related>lore innacurate</related>
       <related>rework</related>
     </card>
     <card>
-      <name>Sink the City</name>
-      <set rarity="uncommon" splitterPath="/Sink the City.jpg" >SWTG</set>
+      <name>Embryo Chamber</name>
+      <set rarity="uncommon" splitterPath="/Embryo Chamber.jpg" >SWTG</set>
       <prop>
         <colors>U</colors>
         <manacost></manacost>
         <cmc>2</cmc>
-        <type>Instant</type>
+        <type>Artifact</type>
       </prop>
-      <tablerow>3</tablerow>
-      <text>Exile target artifact or creature. Its controller creates a 1/1 white Trooper creature token.
+      <tablerow>1</tablerow>
+      <text>{3}, {T}, Sacrifice this artifact: Copy target creature spell you control.
 ---
 (Front): The Battle of Kamino</text>
       <related attach="transform">The Battle of Kamino</related>
@@ -4020,20 +4024,20 @@ Meditate—1U, Pay 3 life (1U, Pay 3 life: Return this permanent to its owner’
       <text>(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, exile it, then cast it transformed.)
 When The Battle of Scarif enters, look at the top four cards of your library. You may reveal a creature, land, or Vehicle card from among them, put it into your hand, then shuffle.
 ---
-(Back): Citadel Landing Zone</text>
-      <related attach="transform">Citadel Landing Zone</related>
+(Back): Landing Pad</text>
+      <related attach="transform">Landing Pad</related>
     </card>
     <card>
-      <name>Citadel Landing Zone</name>
-      <set rarity="rare" splitterPath="/Citadel Landing Zone.jpg" >SWTG</set>
+      <name>Landing Pad</name>
+      <set rarity="rare" splitterPath="/Landing Pad.jpg" >SWTG</set>
       <prop>
         <colors>W</colors>
         <manacost></manacost>
         <cmc>2</cmc>
-        <type>Legendary Artifact</type>
+        <type>Artifact</type>
       </prop>
       <tablerow>1</tablerow>
-      <text>Citadel Landing Zone enters tapped.
+      <text>This artifact enters tapped.
 {2}, {T}: Put a +1/+1 counter on target creature.
 ---
 (Front): The Battle of Scarif</text>
@@ -4207,7 +4211,7 @@ When The Battle of Kashyyyk enters, draw a card. You may put a land card from yo
       </prop>
       <tablerow>1</tablerow>
       <text>Menace
-Whenever this Vehicle attacks, defending player loses 1 life for each creature that crewed this Vehicle this turn.
+Whenever this Vehicle attacks, defending player loses 2 life for each creature that crewed this Vehicle this turn.
 Crew 1
 ---
 (Front): The Battle of Utapau</text>
