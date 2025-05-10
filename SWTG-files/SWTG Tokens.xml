@@ -3,7 +3,7 @@
   <cards>
 
     <card>
-      <name>SWTG 3+Color Archetypes SWTG</name>
+      <name>SWTG 3+Color Archetypes</name>
       <set>SWTG</set>
       <prop>
         <colors></colors>
@@ -20,7 +20,7 @@ WUBRG KINDRED TROOPER Go big with trooper creature and vehicle cards.</text>
       <token>1</token>
     </card>
     <card>
-      <name>Tusken Raider SWTG</name>
+      <name>Tusken Raider</name>
       <set>SWTG</set>
       <prop>
         <colors>W</colors>
@@ -33,7 +33,7 @@ WUBRG KINDRED TROOPER Go big with trooper creature and vehicle cards.</text>
       <token>1</token>
     </card>
     <card>
-      <name>TIE Fighter SWTG</name>
+      <name>TIE Fighter</name>
       <set>SWTG</set>
       <prop>
         <colors>B</colors>
@@ -46,7 +46,7 @@ Crew 1</text>
       <token>1</token>
     </card>
     <card>
-      <name>Droid SWTG</name>
+      <name>Droid</name>
       <set>SWTG</set>
       <prop>
         <colors></colors>
@@ -59,7 +59,7 @@ Crew 1</text>
       <token>1</token>
     </card>
     <card>
-      <name>Trooper SWTG</name>
+      <name>Trooper</name>
       <set>SWTG</set>
       <prop>
         <colors>W</colors>
@@ -72,7 +72,7 @@ Crew 1</text>
       <token>1</token>
     </card>
     <card>
-      <name>Royal Guard SWTG</name>
+      <name>Royal Guard</name>
       <set>SWTG</set>
       <prop>
         <colors>R</colors>
@@ -85,7 +85,7 @@ Crew 1</text>
       <token>1</token>
     </card>
     <card>
-      <name>Rebel SWTG</name>
+      <name>Rebel</name>
       <set>SWTG</set>
       <prop>
         <colors>W</colors>
@@ -98,7 +98,7 @@ Crew 1</text>
       <token>1</token>
     </card>
     <card>
-      <name>B-Wing SWTG</name>
+      <name>B-Wing</name>
       <set>SWTG</set>
       <prop>
         <colors>U</colors>
@@ -111,7 +111,7 @@ Crew 1</text>
       <token>1</token>
     </card>
     <card>
-      <name>Ewok Rebel SWTG</name>
+      <name>Ewok Rebel</name>
       <set>SWTG</set>
       <prop>
         <colors>G</colors>
@@ -124,7 +124,7 @@ Crew 1</text>
       <token>1</token>
     </card>
     <card>
-      <name>Bounty Hunter SWTG</name>
+      <name>Bounty Hunter</name>
       <set>SWTG</set>
       <prop>
         <colors>R</colors>
@@ -137,7 +137,7 @@ Crew 1</text>
       <token>1</token>
     </card>
     <card>
-      <name>SWTG 2-Color Archetypes SWTG</name>
+      <name>SWTG 2-Color Archetypes</name>
       <set>SWTG</set>
       <prop>
         <colors></colors>
@@ -158,7 +158,7 @@ RW THE WILDS Wookiees, Ewoks, and large beasts use the Monstrosity mechanic to g
       <token>1</token>
     </card>
     <card>
-      <name>Trooper1 SWTG</name>
+      <name>Trooper1</name>
       <set>SWTG</set>
       <prop>
         <colors>W</colors>
@@ -171,7 +171,7 @@ RW THE WILDS Wookiees, Ewoks, and large beasts use the Monstrosity mechanic to g
       <token>1</token>
     </card>
     <card>
-      <name>Obi-Wan Kenobi Emblem SWTG</name>
+      <name>Obi-Wan Kenobi Emblem</name>
       <set>SWTG</set>
       <prop>
         <colors></colors>
@@ -183,7 +183,7 @@ RW THE WILDS Wookiees, Ewoks, and large beasts use the Monstrosity mechanic to g
       <token>1</token>
     </card>
     <card>
-      <name>Yoda, Jedi Master Emblem SWTG</name>
+      <name>Yoda, Jedi Master Emblem</name>
       <set>SWTG</set>
       <prop>
         <colors></colors>
@@ -195,7 +195,7 @@ RW THE WILDS Wookiees, Ewoks, and large beasts use the Monstrosity mechanic to g
       <token>1</token>
     </card>
     <card>
-      <name>Aurra Sing, Bane of Jedi Emblem SWTG</name>
+      <name>Aurra Sing, Bane of Jedi Emblem</name>
       <set>SWTG</set>
       <prop>
         <colors></colors>
@@ -207,7 +207,7 @@ RW THE WILDS Wookiees, Ewoks, and large beasts use the Monstrosity mechanic to g
       <token>1</token>
     </card>
     <card>
-      <name>Darth Sidious, Sith Lord Emblem SWTG</name>
+      <name>Darth Sidious, Sith Lord Emblem</name>
       <set>SWTG</set>
       <prop>
         <colors></colors>

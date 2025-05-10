@@ -41,7 +41,7 @@ When this creature becomes monstrous, create twice X 1/1 white Tusken creature t
     </card>
     <card>
       <name>The Battle of Hoth</name>
-      <set rarity="uncommon" splitterPath="/The Battle of Hoth.jpg" >SWTG</set>
+      <set rarity="uncommon" splitterPath="/The Battle of Hoth.png" >SWTG</set>
       <prop>
         <colors>W</colors>
         <manacost>2W</manacost>
@@ -60,7 +60,7 @@ When The Battle of Hoth enters, create a 1/1 white Rebel creature token and a 1/
     </card>
     <card>
       <name>Echo Base</name>
-      <set rarity="uncommon" splitterPath="/Echo Base.jpg" >SWTG</set>
+      <set rarity="uncommon" splitterPath="/Echo Base.png" >SWTG</set>
       <prop>
         <colors>W</colors>
         <manacost></manacost>
@@ -169,7 +169,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Choose a color. You and up to one target creature you control gain hexproof from that color until end of turn. Scry 1.</text>
+      <text>Choose a color. You and up to one target creature you control each gain hexproof from that color until end of turn. Scry 1.</text>
     </card>
     <card>
       <name>Hello There</name>
@@ -182,7 +182,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Untap target creature you control. Choose one—
+      <text>Untap target creature you control. Choose one —
 • That creature gets +2/+0 and gains first strike until end of turn.
 • When that creature leaves the battlefield this turn, you gain 5 life.
 • Draw a card.</text>
@@ -260,8 +260,9 @@ Meditate 1W (1W: Return this creature to its owner’s hand. Meditate only as a 
       </prop>
       <tablerow>1</tablerow>
       <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Whenever a creature that crewed this Vehicle this turn leaves the battlefield, this Vehicle gets +1/+1 until end of turn.
-Crew 1</text>
+When this Vehicle enters, you may return another permanent you control to its owner’s hand.
+Crew 1
+Meditate 1W (1W: Return this creature to its owner’s hand. Meditate only as a sorcery.)</text>
     </card>
     <card>
       <name>LAAT Gunship</name>
@@ -274,7 +275,7 @@ Crew 1</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever this Vehicle attacks, choose one—
+      <text>Whenever this Vehicle attacks, choose one —
 • Create a 1/1 white Trooper creature token.
 • This Vehicle gains spaceflight until end of turn.  (This creature can only block or be blocked by creatures with spaceflight.)
 Crew 1</text>
@@ -507,7 +508,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
     </card>
     <card>
       <name>The Battle of Naboo</name>
-      <set rarity="mythic" splitterPath="/The Battle of Naboo.jpg" >SWTG</set>
+      <set rarity="mythic" splitterPath="/The Battle of Naboo.png" >SWTG</set>
       <prop>
         <colors>U</colors>
         <manacost>XXUU</manacost>
@@ -524,7 +525,7 @@ When The Battle of Naboo enters, return up to X target creatures to their owners
     </card>
     <card>
       <name>Peace Accord</name>
-      <set rarity="mythic" splitterPath="/Peace Accord.jpg" >SWTG</set>
+      <set rarity="mythic" splitterPath="/Peace Accord.png" >SWTG</set>
       <prop>
         <colors>U</colors>
         <manacost></manacost>
@@ -551,7 +552,7 @@ Creatures can’t attack you unless their controller pays {2} for each creature 
       <tablerow>1</tablerow>
       <text>Flash
 Enchant creature or Vehicle
-When Cloaking Device enters, enchanted permanent gains hexproof until end of turn.
+When this Aura enters, enchanted permanent gains hexproof until end of turn.
 Enchanted creature can’t be blocked.
 Whenever enchanted creature attacks, defending player loses 1 life. (The protector of an attacked permanent is also a defending player.)</text>
     </card>
@@ -784,8 +785,8 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
-Whenever a Trooper creature you control enters, untap this Vehicle.
+      <text>Vigilance
+Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
 Crew 1</text>
     </card>
     <card>
@@ -961,7 +962,7 @@ Whenever you complete a bounty, target player discards a card. (You complete a b
     </card>
     <card>
       <name>The Battle of Yavin</name>
-      <set rarity="mythic" splitterPath="/The Battle of Yavin.jpg" >SWTG</set>
+      <set rarity="mythic" splitterPath="/The Battle of Yavin.png" >SWTG</set>
       <prop>
         <colors>B</colors>
         <manacost>XBB</manacost>
@@ -978,7 +979,7 @@ When The Battle of Yavin enters, for each nonland permanent you don’t control,
     </card>
     <card>
       <name>Trench Run</name>
-      <set rarity="mythic" splitterPath="/Trench Run.jpg" >SWTG</set>
+      <set rarity="mythic" splitterPath="/Trench Run.png" >SWTG</set>
       <prop>
         <colors>B</colors>
         <manacost></manacost>
@@ -1404,7 +1405,7 @@ Crew 1</text>
     </card>
     <card>
       <name>The Battle of Geonosis</name>
-      <set rarity="mythic" splitterPath="/The Battle of Geonosis.jpg" >SWTG</set>
+      <set rarity="mythic" splitterPath="/The Battle of Geonosis.png" >SWTG</set>
       <prop>
         <colors>R</colors>
         <manacost>XXRR</manacost>
@@ -1421,7 +1422,7 @@ When The Battle of Geonosis enters, it deals X damage to each opponent and each 
     </card>
     <card>
       <name>Core Ship Obliteration</name>
-      <set rarity="mythic" splitterPath="/Core Ship Obliteration.jpg" >SWTG</set>
+      <set rarity="mythic" splitterPath="/Core Ship Obliteration.png" >SWTG</set>
       <prop>
         <colors>R</colors>
         <manacost></manacost>
@@ -1460,7 +1461,7 @@ Whenever you complete a bounty, untap this creature. (You complete a bounty when
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. At the beginning of the next upkeep, if that creature has a bounty counter, its controller sacrifices it.</text>
+      <text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. At the beginning of the next upkeep, if that creature has a bounty counter, its controller sacrifices it. Otherwise, put a bounty counter on it.</text>
     </card>
     <card>
       <name>Crossfire</name>
@@ -1537,7 +1538,7 @@ Whenever you complete a bounty, untap this creature. (You complete a bounty when
         <colors>R</colors>
         <manacost>R</manacost>
         <cmc>1</cmc>
-        <type>Creature - Gamorrean Warrior </type>
+        <type>Creature - Gamorrean Mercenary </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>
@@ -1846,7 +1847,7 @@ Crew 2</text>
     </card>
     <card>
       <name>The Battle of Endor</name>
-      <set rarity="mythic" splitterPath="/The Battle of Endor.jpg" >SWTG</set>
+      <set rarity="mythic" splitterPath="/The Battle of Endor.png" >SWTG</set>
       <prop>
         <colors>G</colors>
         <manacost>XX2GG</manacost>
@@ -1864,7 +1865,7 @@ When The Battle of Endor enters, create X 1/1 green Ewok Rebel creature tokens. 
     </card>
     <card>
       <name>Planetary Shield-Generator</name>
-      <set rarity="mythic" splitterPath="/Planetary Shield-Generator.jpg" >SWTG</set>
+      <set rarity="mythic" splitterPath="/Planetary Shield-Generator.png" >SWTG</set>
       <prop>
         <colors>G</colors>
         <manacost></manacost>
@@ -2276,7 +2277,7 @@ Whenever this creature dies, you may put any of its counters on target creature 
       </prop>
       <tablerow>2</tablerow>
       <text>Trample
-Whenever one or more Trooper creatures you control attack, put a +1/+1 counter on this creature.</text>
+Whenever one or more Troopers you control attack, put a +1/+1 counter on this creature.</text>
     </card>
     <card>
       <name>Wookiee Bounty Hunter</name>
@@ -2339,7 +2340,7 @@ Whenever this creature attacks, each player loses 2 life.</text>
     </card>
     <card>
       <name>Anakin Skywalker</name>
-      <set rarity="mythic" splitterPath="/Anakin Skywalker.jpg" >SWTG</set>
+      <set rarity="mythic" splitterPath="/Anakin Skywalker.png" >SWTG</set>
       <prop>
         <colors>UBR</colors>
         <manacost>3UBR</manacost>
@@ -2358,7 +2359,7 @@ If Anakin Skywalker would die, instead remove all damage from him, remove him fr
     </card>
     <card>
       <name>Darth Vader</name>
-      <set rarity="mythic" splitterPath="/Darth Vader.jpg" >SWTG</set>
+      <set rarity="mythic" splitterPath="/Darth Vader.png" >SWTG</set>
       <prop>
         <colors>B</colors>
         <manacost></manacost>
@@ -2864,7 +2865,7 @@ Meditate {2}</text>
         <pt>1/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Droid spells you cast cost {1} less to cast.
+      <text>Vehicle and Droid spells you cast cost {1} less to cast.
 {1}, {T}: Remove a time counter from a card you own in exile.
 Repair 4 (When this creature dies, you may exile it with four time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)</text>
     </card>
@@ -3005,7 +3006,7 @@ Other Rebel creatures you control get +1/+1.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>Vigilance, lifelink
-Whenever you attack, if Qui-Gon Jinn entered this turn, untap up to one target attacking creature. It gains lifelink until end of turn.
+Whenever you attack, if a Jedi you control entered this turn, untap up to one target attacking creature. It gains lifelink until end of turn.
 Meditate 1W</text>
     </card>
     <card>
@@ -3240,7 +3241,7 @@ Crew 3</text>
       <tablerow>3</tablerow>
       <text>Choose one —
 • Prevent all damage that would be dealt to target artifact creature this turn.
-• Look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.
+• Look at the top four cards of your library. Put two of them into your hand and the rest into your graveyard.
 • Destroy target nonartifact creature.</text>
     </card>
     <card>
@@ -3303,7 +3304,7 @@ Crew 3</text>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy target creature with a bounty counter. Put a +1/+1 counter on up to one target outlaw creature you control. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</text>
+      <text>Destroy up to one target creature with a bounty counter. Put a +1/+1 counter on up to one target outlaw creature you control. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</text>
     </card>
     <card>
       <name>N-1 Starfighter</name>
@@ -3874,7 +3875,7 @@ Crew 2</text>
     </card>
     <card>
       <name>The Battle of Coruscant</name>
-      <set rarity="uncommon" splitterPath="/The Battle of Coruscant.jpg" >SWTG</set>
+      <set rarity="uncommon" splitterPath="/The Battle of Coruscant.png" >SWTG</set>
       <prop>
         <colors>R</colors>
         <manacost>1R</manacost>
@@ -3884,7 +3885,7 @@ Crew 2</text>
       </prop>
       <tablerow>1</tablerow>
       <text>(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, exile it, then cast it transformed.)
-When The Battle of Coruscant enters, you may discard a card of sacrifice a land. If you do, draw two cards.
+When The Battle of Coruscant enters, you may discard a card or sacrifice a land. If you do, draw two cards.
 Creatures you control with spaceflight attacking this battle can’t be blocked.
 ---
 (Back): Do It!</text>
@@ -3892,7 +3893,7 @@ Creatures you control with spaceflight attacking this battle can’t be blocked.
     </card>
     <card>
       <name>Do It!</name>
-      <set rarity="uncommon" splitterPath="/Do It!.jpg" >SWTG</set>
+      <set rarity="uncommon" splitterPath="/Do It!.png" >SWTG</set>
       <prop>
         <colors>R</colors>
         <manacost></manacost>
@@ -3907,7 +3908,7 @@ Creatures you control with spaceflight attacking this battle can’t be blocked.
     </card>
     <card>
       <name>The Battle of Heroes</name>
-      <set rarity="rare" splitterPath="/The Battle of Heroes.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/The Battle of Heroes.png" >SWTG</set>
       <prop>
         <colors>R</colors>
         <manacost>1R</manacost>
@@ -3924,22 +3925,23 @@ When The Battle of Heroes enters, you may have target creature you control deal 
     </card>
     <card>
       <name>Banks of Mustafar</name>
-      <set rarity="rare" splitterPath="/Banks of Mustafar.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/Banks of Mustafar.png" >SWTG</set>
       <prop>
         <colors>R</colors>
         <manacost></manacost>
         <cmc>2</cmc>
-        <type>Legendary Artifact</type>
+        <type>Artifact</type>
       </prop>
       <tablerow>1</tablerow>
-      <text>1RR, {T}, Sacrifice a land: Banks of Mustafar deals 2 damage to target opponent.
+      <text>{T}: Add {R}.
+1RR, {T}, Sacrifice a land: Banks of Mustafar deals 2 damage to target opponent.
 ---
 (Front): The Battle of Heroes</text>
       <related attach="transform">The Battle of Heroes</related>
     </card>
     <card>
       <name>The Battle of Kamino</name>
-      <set rarity="uncommon" splitterPath="/The Battle of Kamino.jpg" >SWTG</set>
+      <set rarity="uncommon" splitterPath="/The Battle of Kamino.png" >SWTG</set>
       <prop>
         <colors>U</colors>
         <manacost>1U</manacost>
@@ -3959,7 +3961,7 @@ When The Battle of Kamino enters, return target artifact or creature to its owne
     </card>
     <card>
       <name>Embryo Chamber</name>
-      <set rarity="uncommon" splitterPath="/Embryo Chamber.jpg" >SWTG</set>
+      <set rarity="uncommon" splitterPath="/Embryo Chamber.png" >SWTG</set>
       <prop>
         <colors>U</colors>
         <manacost></manacost>
@@ -3977,7 +3979,7 @@ When The Battle of Kamino enters, return target artifact or creature to its owne
     </card>
     <card>
       <name>The Battle of Christophsis</name>
-      <set rarity="rare" splitterPath="/The Battle of Christophsis.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/The Battle of Christophsis.png" >SWTG</set>
       <prop>
         <colors>U</colors>
         <manacost>3U</manacost>
@@ -3995,7 +3997,7 @@ When The Battle of Christophsis enters, reveal the top five cards of your librar
     </card>
     <card>
       <name>Ahsoka Tano</name>
-      <set rarity="rare" splitterPath="/Ahsoka Tano.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/Ahsoka Tano.png" >SWTG</set>
       <prop>
         <colors>U</colors>
         <manacost></manacost>
@@ -4012,7 +4014,7 @@ Meditate—1U, Pay 3 life (1U, Pay 3 life: Return this permanent to its owner’
     </card>
     <card>
       <name>The Battle of Scarif</name>
-      <set rarity="rare" splitterPath="/The Battle of Scarif.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/The Battle of Scarif.png" >SWTG</set>
       <prop>
         <colors>W</colors>
         <manacost>1W</manacost>
@@ -4029,7 +4031,7 @@ When The Battle of Scarif enters, look at the top four cards of your library. Yo
     </card>
     <card>
       <name>Landing Pad</name>
-      <set rarity="rare" splitterPath="/Landing Pad.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/Landing Pad.png" >SWTG</set>
       <prop>
         <colors>W</colors>
         <manacost></manacost>
@@ -4045,7 +4047,7 @@ When The Battle of Scarif enters, look at the top four cards of your library. Yo
     </card>
     <card>
       <name>Duel of the Fates</name>
-      <set rarity="rare" splitterPath="/Duel of the Fates.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/Duel of the Fates.png" >SWTG</set>
       <prop>
         <colors>R</colors>
         <manacost>3R</manacost>
@@ -4062,7 +4064,7 @@ Whenever one or more creatures you control deal combat damage to a player, exile
     </card>
     <card>
       <name>The Sith Revealed</name>
-      <set rarity="rare" splitterPath="/The Sith Revealed.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/The Sith Revealed.png" >SWTG</set>
       <prop>
         <colors>R</colors>
         <manacost></manacost>
@@ -4077,7 +4079,7 @@ Whenever one or more creatures you control deal combat damage to a player, exile
     </card>
     <card>
       <name>The Battle of Felucia</name>
-      <set rarity="rare" splitterPath="/The Battle of Felucia.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/The Battle of Felucia.png" >SWTG</set>
       <prop>
         <colors>G</colors>
         <manacost>3G</manacost>
@@ -4094,7 +4096,7 @@ When The Battle of Felucia enters, search your library for up to two basic land 
     </card>
     <card>
       <name>HAVw A6 Juggernaut</name>
-      <set rarity="rare" splitterPath="/HAVw A6 Juggernaut.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/HAVw A6 Juggernaut.png" >SWTG</set>
       <prop>
         <colors>G</colors>
         <manacost></manacost>
@@ -4144,7 +4146,7 @@ At the beginning of your end step, if you’ve gained 5 or more life this turn, 
         <colors>WUG</colors>
         <manacost>1GWU</manacost>
         <cmc>4</cmc>
-        <type>Legendary Creature - Human Jedi </type>
+        <type>Legendary Creature - Nautolan Jedi </type>
         <maintype>Creature</maintype>
         <pt>4/4</pt>
       </prop>
@@ -4154,7 +4156,7 @@ Meditate 1U (1U: Return this creature to its owner’s hand. Meditate only as a 
     </card>
     <card>
       <name>The Battle of Kashyyyk</name>
-      <set rarity="uncommon" splitterPath="/The Battle of Kashyyyk.jpg" >SWTG</set>
+      <set rarity="uncommon" splitterPath="/The Battle of Kashyyyk.png" >SWTG</set>
       <prop>
         <colors>G</colors>
         <manacost>1G</manacost>
@@ -4171,7 +4173,7 @@ When The Battle of Kashyyyk enters, draw a card. You may put a land card from yo
     </card>
     <card>
       <name>Orders Received</name>
-      <set rarity="uncommon" splitterPath="/Orders Received.jpg" >SWTG</set>
+      <set rarity="uncommon" splitterPath="/Orders Received.png" >SWTG</set>
       <prop>
         <colors>G</colors>
         <manacost></manacost>
@@ -4186,7 +4188,7 @@ When The Battle of Kashyyyk enters, draw a card. You may put a land card from yo
     </card>
     <card>
       <name>The Battle of Utapau</name>
-      <set rarity="rare" splitterPath="/The Battle of Utapau.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/The Battle of Utapau.png" >SWTG</set>
       <prop>
         <colors>B</colors>
         <manacost>1B</manacost>
@@ -4202,7 +4204,7 @@ When The Battle of Kashyyyk enters, draw a card. You may put a land card from yo
     </card>
     <card>
       <name>TSMEU-6 Wheel Bike</name>
-      <set rarity="rare" splitterPath="/TSMEU-6 Wheel Bike.jpg" >SWTG</set>
+      <set rarity="rare" splitterPath="/TSMEU-6 Wheel Bike.png" >SWTG</set>
       <prop>
         <colors>B</colors>
         <manacost></manacost>
