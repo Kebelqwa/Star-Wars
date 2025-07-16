@@ -37,7 +37,8 @@ Enchanted permanent can’t attack or block and its activated abilities can’t 
       <tablerow>2</tablerow>
       <text>XXW: Monstrosity X. (If this creature isn’t monstrous, put X +1/+1 counters on it and it becomes monstrous.)
 When this creature becomes monstrous, create twice X 1/1 white Tusken creature tokens named Tusken Raider.</text>
-      <related count="2">Tusken Raider SWTG</related>
+      <related count="2">Tusken Raider</related>
+      <related>remove</related>
     </card>
     <card>
       <name>The Battle of Hoth</name>
@@ -55,8 +56,8 @@ When The Battle of Hoth enters, create a 1/1 white Rebel creature token and a 1/
 ---
 (Back): Echo Base</text>
       <related attach="transform">Echo Base</related>
-      <related>Rebel SWTG</related>
-      <related> Trooper SWTG</related>
+      <related>Rebel</related>
+      <related> Trooper</related>
     </card>
     <card>
       <name>Echo Base</name>
@@ -72,8 +73,8 @@ When The Battle of Hoth enters, create a 1/1 white Rebel creature token and a 1/
 ---
 (Front): The Battle of Hoth</text>
       <related attach="transform">The Battle of Hoth</related>
-      <related>Rebel SWTG</related>
-      <related> Trooper SWTG</related>
+      <related>Rebel</related>
+      <related> Trooper</related>
     </card>
     <card>
       <name>Battle Tactics</name>
@@ -127,7 +128,7 @@ When The Battle of Hoth enters, create a 1/1 white Rebel creature token and a 1/
       </prop>
       <tablerow>3</tablerow>
       <text>Create three 1/1 white Trooper creature tokens.</text>
-      <related count="3">Trooper1 SWTG</related>
+      <related count="3">Trooper1</related>
       <related>Trooper</related>
     </card>
     <card>
@@ -277,9 +278,9 @@ Meditate 1W (1W: Return this creature to its owner’s hand. Meditate only as a 
       <tablerow>1</tablerow>
       <text>Whenever this Vehicle attacks, choose one —
 • Create a 1/1 white Trooper creature token.
-• This Vehicle gains spaceflight until end of turn.  (This creature can only block or be blocked by creatures with spaceflight.)
+• This Vehicle gains spaceflight until end of turn. (This creature can only block or be blocked by creatures with spaceflight.)
 Crew 1</text>
-      <related>Trooper SWTG</related>
+      <related>Trooper</related>
       <related>Trooper</related>
     </card>
     <card>
@@ -289,7 +290,7 @@ Crew 1</text>
         <colors>W</colors>
         <manacost>3W</manacost>
         <cmc>4</cmc>
-        <type>Legendary Creature - Human Rogue </type>
+        <type>Legendary Creature - Human Rebel Rogue </type>
         <maintype>Creature</maintype>
         <pt>4/3</pt>
       </prop>
@@ -427,7 +428,7 @@ Whenever one or more Troopers you control attack, scry 1.</text>
       <tablerow>2</tablerow>
       <text>When this creature enters, create a 1/1 colorless Droid artifact creature token.
 Repair 3 (When this creature dies, you may exile it with three time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)</text>
-      <related>Droid SWTG</related>
+      <related>Droid</related>
     </card>
     <card>
       <name>Snow Trooper</name>
@@ -488,7 +489,7 @@ Crew 1</text>
       <text>When you cast Admiral Ackbar, create two B-Wings, they’re kindred 2/2 blue Rebel Vehicle artifact tokens with spaceflight and crew 1.
 At the beginning of each upkeep, untap each Vehicle you control.
 Whenever two or more Vehicles you control attack, draw a card.</text>
-      <related count="2">B-Wing SWTG</related>
+      <related count="2">B-Wing</related>
     </card>
     <card>
       <name>Armed Protocol Droid</name>
@@ -592,7 +593,7 @@ Scry 1.</text>
         <cmc>2</cmc>
         <type>Creature - Gungan Warrior </type>
         <maintype>Creature</maintype>
-        <pt>1/3</pt>
+        <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Vigilance
@@ -1338,8 +1339,8 @@ This creature enters with X +1/+1 counters, where X is the total amount of life 
       </prop>
       <tablerow>3</tablerow>
       <text>Create a 1/1 white Trooper creature token and a 2/1 black Vehicle artifact token with spaceflight and crew 1 named TIE Fighter.</text>
-      <related>Trooper SWTG</related>
-      <related> TIE Fighter SWTG</related>
+      <related>Trooper</related>
+      <related> TIE Fighter</related>
     </card>
     <card>
       <name>TIE Bomber</name>
@@ -1568,7 +1569,7 @@ When this creature becomes monstrous, it gains menace until end of turn.</text>
         <colors>R</colors>
         <manacost>3R</manacost>
         <cmc>4</cmc>
-        <type>Legendary Creature - Human Rogue </type>
+        <type>Legendary Creature - Human Rogue Rebel </type>
         <maintype>Creature</maintype>
         <pt>4/3</pt>
       </prop>
@@ -1861,7 +1862,7 @@ When The Battle of Endor enters, create X 1/1 green Ewok Rebel creature tokens. 
 ---
 (Back): Planetary Shield-Generator</text>
       <related attach="transform">Planetary Shield-Generator</related>
-      <related>Ewok Rebel SWTG</related>
+      <related>Ewok Rebel</related>
     </card>
     <card>
       <name>Planetary Shield-Generator</name>
@@ -1877,7 +1878,7 @@ When The Battle of Endor enters, create X 1/1 green Ewok Rebel creature tokens. 
 ---
 (Front): The Battle of Endor</text>
       <related attach="transform">The Battle of Endor</related>
-      <related>Ewok Rebel SWTG</related>
+      <related>Ewok Rebel</related>
     </card>
     <card>
       <name>Bossk</name>
@@ -1937,7 +1938,7 @@ Crew 2</text>
       </prop>
       <tablerow>3</tablerow>
       <text>Create two 1/1 green Ewok Rebel creature tokens.</text>
-      <related count="2">Ewok Rebel SWTG</related>
+      <related count="2">Ewok Rebel</related>
     </card>
     <card>
       <name>Ewok Firedancers</name>
@@ -2328,8 +2329,8 @@ Whenever a creature you control becomes monstrous, that creature fights target c
       <set rarity="common">SWTG</set>
       <prop>
         <colors>UBR</colors>
-        <manacost>UBR</manacost>
-        <cmc>3</cmc>
+        <manacost>2/U2/B2/R</manacost>
+        <cmc>6</cmc>
         <type>Creature - Nautolan Sith </type>
         <maintype>Creature</maintype>
         <pt>3/3</pt>
@@ -2405,7 +2406,7 @@ Hate — Whenever Asajj Ventress attacks, if an opponent lost life from a source
       <text>[+1]: Put a bounty counter on target creature, battle, or planeswalker. Aurra Sing, Bane of Jedi deals 2 damage to that permanent and 1 damage to you.
 [-X]: Return target creature card with mana value X or less from your graveyard to the battlefield. It gains haste until end of turn.
 [-5]: Target opponent gets an emblem with “Whenever a nontoken creature you control leaves the battlefield, discard a card.”</text>
-      <related>Aurra Sing, Bane of Jedi Emblem SWTG</related>
+      <related>Aurra Sing, Bane of Jedi Emblem</related>
       <related>Rakdos</related>
       <related>lame</related>
     </card>
@@ -2491,7 +2492,7 @@ You control enchanted creature. It can’t attack or block, its activated abilit
         <colors>WRG</colors>
         <manacost>2RGW</manacost>
         <cmc>5</cmc>
-        <type>Legendary Creature - Wookiee Warrior </type>
+        <type>Legendary Creature - Wookiee Rebel Warrior </type>
         <maintype>Creature</maintype>
         <pt>4/5</pt>
       </prop>
@@ -2515,8 +2516,8 @@ Whenever Chewbacca or another creature you control becomes monstrous, that creat
       <text>2RGW: Monstrosity 2.
 Whenever a green creature you control dies, you may put a +1/+1 counter on another target Ewok Rebel creature you control.
 When one or more +1/+1 counters are placed on Chief Chirpa, create that many 1/1 green Ewok Rebel creature tokens.</text>
-      <related count="3">Ewok Rebel SWTG</related>
-      <related>Naya</related>
+      <related count="3">Ewok Rebel</related>
+      <related>remove</related>
     </card>
     <card>
       <name>Commander Cody</name>
@@ -2531,7 +2532,7 @@ When one or more +1/+1 counters are placed on Chief Chirpa, create that many 1/1
       </prop>
       <tablerow>2</tablerow>
       <text>Whenever one or more nontoken Troopers you control attack, create that many 1/1 white Trooper creature tokens that are tapped and attacking.</text>
-      <related>Trooper SWTG</related>
+      <related>Trooper</related>
       <related>WUBRG Trooper</related>
     </card>
     <card>
@@ -2568,8 +2569,8 @@ When one or more +1/+1 counters are placed on Chief Chirpa, create that many 1/1
       <set rarity="common">SWTG</set>
       <prop>
         <colors>WRG</colors>
-        <manacost>RGW</manacost>
-        <cmc>3</cmc>
+        <manacost>2/R2/G2/W</manacost>
+        <cmc>6</cmc>
         <type>Creature - Slug </type>
         <maintype>Creature</maintype>
         <pt>3/3</pt>
@@ -2622,7 +2623,7 @@ Hate — Whenever Darth Maul attacks, if an opponent lost life from a source oth
       <text>[+2]: Darth Sidious, Sith Lord deals 3 damage to any target.
 [-3]: Gain control of target creature.
 [-9]: You get an emblem with “If a source you control would deal noncombat damage, it deals that much damage plus 3 instead.”</text>
-      <related>Darth Sidious, Sith Lord Emblem SWTG</related>
+      <related>Darth Sidious, Sith Lord Emblem</related>
       <related>Grixis</related>
       <related>Nicol Bolas, Planeswalker Reprint</related>
       <related>rework</related>
@@ -2785,7 +2786,7 @@ Hunt to Extinction deals X damage to target opponent and each creature they cont
       </prop>
       <tablerow>1</tablerow>
       <text>Hate — At the beginning of each end step, if an opponent lost life from a source other than combat damage this turn, you may pay {1}. If you do, you gain 2 life and create a 2/2 red Soldier creature token with first strike named Royal Guard.</text>
-      <related>Royal Guard SWTG</related>
+      <related>Royal Guard</related>
       <related>Grixis</related>
       <related>Trooper</related>
     </card>
@@ -2804,7 +2805,7 @@ Hunt to Extinction deals X damage to target opponent and each creature they cont
       <text>Defender
 {T}: Put a bounty counter on target permanent.
 2R, {T}: Create a tapped 4/4 red Mercenary creature token named Bounty Hunter. It fights target creature an opponent controls with a bounty counter. Activate only as a sorcery.</text>
-      <related>Bounty Hunter SWTG</related>
+      <related>Bounty Hunter</related>
       <related>Jund</related>
     </card>
     <card>
@@ -2827,8 +2828,8 @@ Meditate 1U (1U: Return this creature to its owner’s hand. Meditate only as a 
       <set rarity="common">SWTG</set>
       <prop>
         <colors>WUG</colors>
-        <manacost>GWU</manacost>
-        <cmc>3</cmc>
+        <manacost>2/G2/W2/U</manacost>
+        <cmc>6</cmc>
         <type>Creature - Twi’lek Jedi </type>
         <maintype>Creature</maintype>
         <pt>2/4</pt>
@@ -2841,10 +2842,10 @@ When this creature enters, you may return another target creature you control an
       <name>Luke Skywalker</name>
       <set rarity="mythic">SWTG</set>
       <prop>
-        <colors>WUG</colors>
-        <manacost>GWU</manacost>
+        <colors>WG</colors>
+        <manacost>1GW</manacost>
         <cmc>3</cmc>
-        <type>Legendary Creature - Human Jedi </type>
+        <type>Legendary Creature - Human Jedi Rebel </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>
@@ -2881,7 +2882,7 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
       </prop>
       <tablerow>3</tablerow>
       <text>Remove all time counters from cards you own in exile. Put each card that had a counter removed this way from exile onto the battlefield. Then create a 1/1 colorless Droid artifact creature token for each Droid you control.</text>
-      <related>Droid SWTG</related>
+      <related>Droid</related>
       <related>Esper</related>
     </card>
     <card>
@@ -2914,7 +2915,7 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
       <tablerow>2</tablerow>
       <text>Whenever an artifact you control enters, you may pay {1}. If you do, draw a card. Do this only once each turn.
 {1}, {T}, Sacrifice a nontoken artifact: Create a 1/1 colorless Droid artifact creature token.</text>
-      <related>Droid SWTG</related>
+      <related>Droid</related>
       <related>Esper</related>
     </card>
     <card>
@@ -2932,7 +2933,7 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
       <text>[+1]: Until your next turn, up to one target creature you control gains vigilance and protection from the color of your choice.
 [-1]: Tap up to three target creatures.
 [-7]: You get an emblem with “Creatures you control get +1/+1 and have vigilance, first strike, and lifelink.”</text>
-      <related>Obi-Wan Kenobi Emblem SWTG</related>
+      <related>Obi-Wan Kenobi Emblem</related>
       <related>Azorius</related>
     </card>
     <card>
@@ -2940,8 +2941,8 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
       <set rarity="common">SWTG</set>
       <prop>
         <colors>BRG</colors>
-        <manacost>BRG</manacost>
-        <cmc>3</cmc>
+        <manacost>2/B2/R2/G</manacost>
+        <cmc>6</cmc>
         <type>Creature - Trandoshan Rogue </type>
         <maintype>Creature</maintype>
         <pt>3/3</pt>
@@ -2990,8 +2991,9 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
       <text>When Princess Leia enters, create two 1/1 white Rebel creature tokens.
 Princess Leia gets +1/+1 for each other Rebel creature you control.
 Other Rebel creatures you control get +1/+1.</text>
-      <related count="3">Rebel SWTG</related>
+      <related count="3">Rebel</related>
       <related>Bant</related>
+      <related>replace</related>
     </card>
     <card>
       <name>Qui-Gon Jinn</name>
@@ -3029,8 +3031,8 @@ Whenever you complete a bounty, distribute two bounty counters among up to two t
       <set rarity="common">SWTG</set>
       <prop>
         <colors>WUB</colors>
-        <manacost>WUB</manacost>
-        <cmc>3</cmc>
+        <manacost>2/W2/U2/B</manacost>
+        <cmc>6</cmc>
         <type>Creature - Jawa Artificer </type>
         <maintype>Creature</maintype>
         <pt>3/2</pt>
@@ -3092,7 +3094,7 @@ As long as you control four or more creatures, Senator Bail Organa gets +2/+2.</
         <colors>RG</colors>
         <manacost>RG</manacost>
         <cmc>2</cmc>
-        <type>Legendary Creature - Wookiee Warrior </type>
+        <type>Legendary Creature - Wookiee Rebel Warrior </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>
@@ -3188,8 +3190,8 @@ Crew 2</text>
 3B: Create a TIE Fighter, a 2/1 black Vehicle artifact token with spaceflight and crew 1. Then create a 1/1 white Trooper creature token.
 3R: This Vehicle deals 2 damage to any target without spaceflight.
 Crew 3</text>
-      <related>TIE Fighter SWTG</related>
-      <related> Trooper SWTG</related>
+      <related>TIE Fighter</related>
+      <related> Trooper</related>
       <related>Grixis</related>
       <related>Trooper</related>
     </card>
@@ -3207,7 +3209,7 @@ Crew 3</text>
       <tablerow>2</tablerow>
       <text>Whenever this creature enters, attacks, blocks, or dies, create a 1/1 colorless Droid artifact creature token.
 Repair 3 (When this creature dies, you may exile it with three time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)</text>
-      <related>Droid SWTG</related>
+      <related>Droid</related>
       <related>Esper</related>
     </card>
     <card>
@@ -3225,7 +3227,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
 Other Droid creatures you control get +1/+1
 {3}, {T}: Create two 1/1 colorless Droid artifact creature tokens.
 Crew 3</text>
-      <related count="2">Droid SWTG</related>
+      <related count="2">Droid</related>
       <related>Esper</related>
     </card>
     <card>
@@ -3289,7 +3291,7 @@ Crew 3</text>
       <text>[+1]: Look at the top two cards of your library. Put one on the bottom of your library.
 [0]: Exile another target permanent you own. Return that card to the battlefield under your control at the beginning of your next end step.
 [-5]: You get an emblem with “Hexproof, you and your creatures have.”</text>
-      <related>Yoda, Jedi Master Emblem SWTG</related>
+      <related>Yoda, Jedi Master Emblem</related>
       <related>Jedi</related>
       <related>Simic</related>
     </card>
@@ -3372,7 +3374,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
         <colors>RG</colors>
         <manacost>2R/GR/G</manacost>
         <cmc>4</cmc>
-        <type>Creature - Wookiee Warrior </type>
+        <type>Creature - Wookiee Rebel Warrior </type>
         <maintype>Creature</maintype>
         <pt>3/4</pt>
       </prop>
@@ -3708,11 +3710,11 @@ When this land enters, add {G}.
       <text>{T}: Add {C}.
 {T}: Add one mana of any color. Spend this mana only to cast a Trooper spell.
 {4}, {T}: Create a 1/1 white Trooper creature token.</text>
-      <related>Trooper SWTG</related>
+      <related>Trooper</related>
       <related>Trooper</related>
     </card>
     <card>
-      <name>Plains</name>
+      <name>SWTG Plains</name>
       <set rarity="">SWTG</set>
       <prop>
         <colors></colors>
@@ -3725,7 +3727,7 @@ When this land enters, add {G}.
       <text></text>
     </card>
     <card>
-      <name>Island1</name>
+      <name>SWTG Island1</name>
       <set rarity="">SWTG</set>
       <prop>
         <colors></colors>
@@ -3738,7 +3740,7 @@ When this land enters, add {G}.
       <text></text>
     </card>
     <card>
-      <name>Swamp</name>
+      <name>SWTG Swamp</name>
       <set rarity="">SWTG</set>
       <prop>
         <colors></colors>
@@ -3777,7 +3779,7 @@ When this land enters, add {G}.
       <text></text>
     </card>
     <card>
-      <name>Plains1</name>
+      <name>SWTG Plains1</name>
       <set rarity="">SWTG</set>
       <prop>
         <colors></colors>
@@ -3790,7 +3792,7 @@ When this land enters, add {G}.
       <text></text>
     </card>
     <card>
-      <name>Island</name>
+      <name>SWTG Island</name>
       <set rarity="">SWTG</set>
       <prop>
         <colors></colors>
@@ -3853,7 +3855,7 @@ When this land enters, add {G}.
         <pt>3/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature enters, exile up to one target battle or enchantment.
+      <text>When this creature enters, exile up to one target battle, enchantment, or card in a graveyard.
 Meditate 2W (2W: Return this creature to its owner’s hand. Meditate only as a sorcery.)</text>
     </card>
     <card>
@@ -3871,7 +3873,7 @@ Meditate 2W (2W: Return this creature to its owner’s hand. Meditate only as a 
 When this Vehicle enters, create two 1/1 white Trooper creature tokens.
 During your turn, your opponents can’t cast spells.
 Crew 2</text>
-      <related count="2">Trooper1 SWTG</related>
+      <related count="2">Trooper1</related>
     </card>
     <card>
       <name>The Battle of Coruscant</name>
@@ -3934,7 +3936,7 @@ When The Battle of Heroes enters, you may have target creature you control deal 
       </prop>
       <tablerow>1</tablerow>
       <text>{T}: Add {R}.
-1RR, {T}, Sacrifice a land: Banks of Mustafar deals 2 damage to target opponent.
+1RR, {T}, Sacrifice a land: This artifact deals 2 damage to target opponent.
 ---
 (Front): The Battle of Heroes</text>
       <related attach="transform">The Battle of Heroes</related>
@@ -3955,9 +3957,6 @@ When The Battle of Kamino enters, return target artifact or creature to its owne
 ---
 (Back): Embryo Chamber</text>
       <related attach="transform">Embryo Chamber</related>
-      <related>Trooper SWTG</related>
-      <related>lore innacurate</related>
-      <related>rework</related>
     </card>
     <card>
       <name>Embryo Chamber</name>
@@ -3973,9 +3972,6 @@ When The Battle of Kamino enters, return target artifact or creature to its owne
 ---
 (Front): The Battle of Kamino</text>
       <related attach="transform">The Battle of Kamino</related>
-      <related>Trooper SWTG</related>
-      <related>lore innacurate</related>
-      <related>rework</related>
     </card>
     <card>
       <name>The Battle of Christophsis</name>
@@ -4263,3 +4259,225 @@ Whenever you complete a bounty, return up to one target creature card from your 
 • Attacking creatures you don’t control get -1/-0 for each Vehicle you control until end of turn.
 • Return up to one target artifact card from your graveyard to your hand.</text>
     </card>
+
+    <!-->Tokens</-->
+
+    <card>
+      <name>SWTG 3+Color Archetypes</name>
+      <set>SWTG</set>
+      <prop>
+        <colors></colors>
+        <type></type>
+        <maintype></maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>GWU JEDI ORDER Jedi have abilities that trigger when they enter or leave the battlefield. They recur these with the Meditate mechanic returning them to your hand.
+WUB SEPARATISTS The Separatist Droid army uses the Repair mechanic to recast your Droids from exile.
+UBR SITH EMPIRE Sith get stronger with the Hate mechanic, granting stronger effects or new abilities if an opponent has lost life from anything but combat damage.
+BRG BOUNTY HUNTERS Criminals and bounty hunters place bounty counters on opposing creatures and reward you when those creatures die.
+RGW THE WILDS Wookiees, Ewoks, and large beasts use the Monstrosity mechanic to get larger and have abilities that care about being monstrous.
+WUBRG KINDRED TROOPER Go big with trooper creature and vehicle cards.</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Tusken Raider</name>
+      <set>SWTG</set>
+      <prop>
+        <colors>W</colors>
+        <type>Token Creature - Tusken </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>TIE Fighter</name>
+      <set>SWTG</set>
+      <prop>
+        <colors>B</colors>
+        <type>Token Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
+Crew 1</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Droid</name>
+      <set>SWTG</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact Creature - Droid </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Trooper</name>
+      <set>SWTG</set>
+      <prop>
+        <colors>W</colors>
+        <type>Token Creature - Trooper </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Royal Guard</name>
+      <set>SWTG</set>
+      <prop>
+        <colors>R</colors>
+        <type>Token Creature - Soldier </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>First strike</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Rebel</name>
+      <set>SWTG</set>
+      <prop>
+        <colors>W</colors>
+        <type>Token Creature - Rebel </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>B-Wing</name>
+      <set>SWTG</set>
+      <prop>
+        <colors>U</colors>
+        <type>Token Kindred Artifact - Rebel Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
+Crew 1</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Ewok Rebel</name>
+      <set>SWTG</set>
+      <prop>
+        <colors>G</colors>
+        <type>Token Creature - Ewok Rebel </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Bounty Hunter</name>
+      <set>SWTG</set>
+      <prop>
+        <colors>R</colors>
+        <type>Token Creature - Mercenary </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>SWTG 2-Color Archetypes</name>
+      <set>SWTG</set>
+      <prop>
+        <colors></colors>
+        <type></type>
+        <maintype></maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>GW REBEL ALLIANCE Play Rebels and their Ewok allies from the original trilogy.
+WU JEDI AND DROID ENTERS Play creatures with abilities that trigger when they enter. Use meditate and repair to do it again.
+UB DARK SIDE Dark side themed instant and sorcery cards power this control archetype.
+BR HATEFUL BOUNTY Complete bounties that deal damage to use your hatred and punish all who stand in your way.
+RG MONSTERS AND HUNTERS Use counters to amp up your threats and put bounties on your opponents threats,
+GU JEDI ORDER Jedi have abilities that trigger when they enter or leave the battlefield. They recur these with the Meditate mechanic returning them to your hand.
+WB SEPARATISTS The Separatist Droid army uses the Repair mechanic to allow you to eventually recast your Droids.
+UR SITH EMPIRE Sith get stronger with the Hate mechanic, granting stronger effects or new abilities if an opponent has lost life from anything but combat damage.
+BG BOUNTY HUNTERS Criminals and bounty hunters place bounty counters on opposing creatures and reward you when those creatures die.
+RW THE WILDS Wookiees, Ewoks, and large beasts use the Monstrosity mechanic to get larger and have abilities that care about being monstrous.</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Trooper1</name>
+      <set>SWTG</set>
+      <prop>
+        <colors>W</colors>
+        <type>Token Creature - Trooper </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Obi-Wan Kenobi Emblem</name>
+      <set>SWTG</set>
+      <prop>
+        <colors></colors>
+        <type>Emblem</type>
+        <maintype>Emblem</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Creatures you control get +1/+1 and have vigilance, first strike, and lifelink.</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Yoda, Jedi Master Emblem</name>
+      <set>SWTG</set>
+      <prop>
+        <colors></colors>
+        <type>Emblem</type>
+        <maintype>Emblem</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Hexproof, you and your creatures have.</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Aurra Sing, Bane of Jedi Emblem</name>
+      <set>SWTG</set>
+      <prop>
+        <colors></colors>
+        <type>Emblem</type>
+        <maintype>Emblem</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Whenever a nontoken creature you control leaves the battlefield, discard a card.</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Darth Sidious, Sith Lord Emblem</name>
+      <set>SWTG</set>
+      <prop>
+        <colors></colors>
+        <type>Emblem</type>
+        <maintype>Emblem</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>If a source you control would deal noncombat damage, it deals that much damage plus 3 instead.</text>
+      <token>1</token>
+    </card>
+
+  </cards>
+</cockatrice_carddatabase>

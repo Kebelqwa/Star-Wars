@@ -168,7 +168,7 @@
 	        "name": "Lando Calrissian",
 	        "rarity": "rare",
 	        "mana_cost": "{3}{W}",
-	        "type": "Legendary Creature — Human Rogue ",
+	        "type": "Legendary Creature — Human Rebel Rogue ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Lando Calrissian.png"
 	        }
@@ -960,7 +960,7 @@
 	        "name": "Han Solo",
 	        "rarity": "rare",
 	        "mana_cost": "{3}{R}",
-	        "type": "Legendary Creature — Human Rogue ",
+	        "type": "Legendary Creature — Human Rogue Rebel ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Han Solo.png"
 	        }
@@ -1430,7 +1430,7 @@
 	    {
 	        "name": "Adroit Hateflayer",
 	        "rarity": "common",
-	        "mana_cost": "{U}{B}{R}",
+	        "mana_cost": "{2/U}{2/B}{2/R}",
 	        "type": "Creature — Nautolan Sith ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Adroit Hateflayer.png"
@@ -1524,7 +1524,7 @@
 	        "name": "Chewbacca",
 	        "rarity": "rare",
 	        "mana_cost": "{2}{R}{G}{W}",
-	        "type": "Legendary Creature — Wookiee Warrior ",
+	        "type": "Legendary Creature — Wookiee Rebel Warrior ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Chewbacca.png"
 	        }
@@ -1568,7 +1568,7 @@
 	    {
 	        "name": "Dagobah Maw Slug",
 	        "rarity": "common",
-	        "mana_cost": "{R}{G}{W}",
+	        "mana_cost": "{2/R}{2/G}{2/W}",
 	        "type": "Creature — Slug ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Dagobah Maw Slug.png"
@@ -1721,7 +1721,7 @@
 	    {
 	        "name": "Jedi Sentinel",
 	        "rarity": "common",
-	        "mana_cost": "{G}{W}{U}",
+	        "mana_cost": "{2/G}{2/W}{2/U}",
 	        "type": "Creature — Twi’lek Jedi ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Jedi Sentinel.png"
@@ -1730,8 +1730,8 @@
 	    {
 	        "name": "Luke Skywalker",
 	        "rarity": "mythic",
-	        "mana_cost": "{G}{W}{U}",
-	        "type": "Legendary Creature — Human Jedi ",
+	        "mana_cost": "{1}{G}{W}",
+	        "type": "Legendary Creature — Human Jedi Rebel ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Luke Skywalker.png"
 	        }
@@ -1784,7 +1784,7 @@
 	    {
 	        "name": "Outer Rim Slaver",
 	        "rarity": "common",
-	        "mana_cost": "{B}{R}{G}",
+	        "mana_cost": "{2/B}{2/R}{2/G}",
 	        "type": "Creature — Trandoshan Rogue ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Outer Rim Slaver.png"
@@ -1838,7 +1838,7 @@
 	    {
 	        "name": "Salvage Squad",
 	        "rarity": "common",
-	        "mana_cost": "{W}{U}{B}",
+	        "mana_cost": "{2/W}{2/U}{2/B}",
 	        "type": "Creature — Jawa Artificer ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Salvage Squad.png"
@@ -1875,7 +1875,7 @@
 	        "name": "Tarfful, Wookiee General",
 	        "rarity": "uncommon",
 	        "mana_cost": "{R}{G}",
-	        "type": "Legendary Creature — Wookiee Warrior ",
+	        "type": "Legendary Creature — Wookiee Rebel Warrior ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Tarfful, Wookiee General.png"
 	        }
@@ -2037,7 +2037,7 @@
 	        "name": "Wookiee Raidleader",
 	        "rarity": "common",
 	        "mana_cost": "{2}{R/G}{R/G}",
-	        "type": "Creature — Wookiee Warrior ",
+	        "type": "Creature — Wookiee Rebel Warrior ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Wookiee Raidleader.png"
 	        }
@@ -2241,30 +2241,30 @@
 	        }
 	    },
 	    {
-	        "name": "Plains",
+	        "name": "SWTG Plains;",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Plains ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Plains.png"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG Plains;.png"
 	        }
 	    },
 	    {
-	        "name": "Island1",
+	        "name": "SWTG Island1",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Island ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Island1.png"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG Island1.png"
 	        }
 	    },
 	    {
-	        "name": "Swamp",
+	        "name": "SWTG Swamp;",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Swamp ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Swamp.png"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG Swamp;.png"
 	        }
 	    },
 	    {
@@ -2286,21 +2286,21 @@
 	        }
 	    },
 	    {
-	        "name": "Plains1",
+	        "name": "SWTG Plains1",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Plains ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Plains1.png"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG Plains1.png"
 	        }
 	    },
 	    {
-	        "name": "Island",
+	        "name": "SWTG Island;",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Basic Land — Island ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Island.png"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/SWTG Island;.png"
 	        }
 	    },
 	    {
@@ -2439,12 +2439,12 @@
 	        }
 	    },
 	    {
-	        "name": "Trooper1",
+	        "name": "Trooper1;",
 	        "rarity": "common",
 	        "mana_cost": "",
 	        "type": "Token Creature — Trooper ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Trooper1.png"
+	            "en": "https://raw.githubusercontent.com/Kebelqwa/Star-Wars/main/SWTG-files/Trooper1;.png"
 	        }
 	    },
 	    {
@@ -2998,13 +2998,13 @@
 		6 Jungle Village
 		6 Bludgeoning Pain
 	[BasicSlot(1)]
-		300 Plains
-		300 Island1
-		300 Swamp
+		300 SWTG Plains;
+		300 SWTG Island1
+		300 SWTG Swamp;
 		300 SWTG Mountain
 		300 SWTG Forest
-		300 Plains1
-		300 Island
+		300 SWTG Plains1
+		300 SWTG Island;
 		300 SWTG Mountain1
 		300 SWTG Swamp1
 		300 SWTG Forest1
