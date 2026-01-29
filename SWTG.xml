@@ -2192,8 +2192,9 @@ XXG: This creature gets +X/+X until end of turn. Activate only if this creature 
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchanted creature gets +2/+0 and has trample.
-When Rancor is put into a graveyard from the battlefield, return Rancor to its owner’s hand.</text>
+      <text>Enchant creature
+Enchanted creature gets +2/+0 and has trample.
+When this Aura is put into a graveyard from the battlefield, return it to its owner’s hand.</text>
     </card>
     <card>
       <name>Regression</name>
@@ -2625,8 +2626,6 @@ Hate — Whenever Darth Maul attacks, if an opponent lost life from a source oth
 [-9]: You get an emblem with “If a source you control would deal noncombat damage, it deals that much damage plus 3 instead.”</text>
       <related>Darth Sidious, Sith Lord Emblem</related>
       <related>Grixis</related>
-      <related>Nicol Bolas, Planeswalker Reprint</related>
-      <related>rework</related>
     </card>
     <card>
       <name>Darth Tyranus, Count Dooku</name>
@@ -2693,13 +2692,14 @@ Hate — Whenever Darth Maul attacks, if an opponent lost life from a source oth
         <colors>WUB</colors>
         <manacost>WUB</manacost>
         <cmc>3</cmc>
-        <type>Legendary Artifact Creature - Kaleesh </type>
+        <type>Legendary Artifact Creature - Kaleesh Warrior </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Double strike
-Sacrifice an artifact creature: Put a +1/+1 counter on General Grievous.</text>
+Whenever a Droid you control dies, you may remove a time counter from a card you own in exile with repair.
+Sacrifice another artifact: Put a +1/+1 counter on General Grievous.</text>
     </card>
     <card>
       <name>Greater Krayt Dragon</name>
@@ -2836,7 +2836,8 @@ Meditate 1U (1U: Return this creature to its owner’s hand. Meditate only as a 
       </prop>
       <tablerow>2</tablerow>
       <text>Flash
-When this creature enters, you may return another target creature you control and target creature you don’t control each to their owners’ hands.</text>
+When this creature enters, you may return another target creature you control and target creature you don’t control each to their owners’ hands.
+Meditate {5} ({5}: Return this creature to its owner’s hand. Meditate only as a sorcery.)</text>
     </card>
     <card>
       <name>Luke Skywalker</name>
@@ -4139,8 +4140,8 @@ At the beginning of your end step, if you’ve gained 5 or more life this turn, 
       <name>Kit Fisto</name>
       <set rarity="rare">SWTG</set>
       <prop>
-        <colors>WUG</colors>
-        <manacost>1GWU</manacost>
+        <colors>UG</colors>
+        <manacost>2GU</manacost>
         <cmc>4</cmc>
         <type>Legendary Creature - Nautolan Jedi </type>
         <maintype>Creature</maintype>
